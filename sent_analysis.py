@@ -46,57 +46,24 @@ def sentences_with_range(df: pd.DataFrame, index: int) -> list:
     sent_positions = []
     doc = df['currentDoc'][index]
     sentences = sent_tokenize(doc)
+    last_end = 0  # To keep track of the last found index
     for i in range(len(sentences)):
-        sent_positions.append((sentences[i], doc.index(sentences[i]),
-                               doc.index(sentences[i]) + len(sentences[i]), i))
+        last_end = 0  # To keep track of the last found index
+        for i in range(len(sentences)):
+            start = doc.index(sentences[i], last_end)
+            end = start + len(sentences[i])
+            sent_positions.append((sentences[i], start, end, i))
+            last_end = end  # Update the last_end for the next search
     return sent_positions  # [(sentence1, start, end, index of doc)...]
 
 
-# def get_init_sent(df: pd.DataFrame) -> list:
-#     # tokenizer = AutoTokenizer.from_pretrained("textattack/roberta-base-CoLA")
-#     # model = AutoModelForSequenceClassification.from_pretrained("textattack/roberta-base-CoLA")
-#     # nlp = pipeline("text-classification", model=model, tokenizer=tokenizer)
-#
-#     endingmark = ('.', '!', '?')
-#     prompt = df['currentDoc'][0]
-#     init_sent_author = []
-#     init_sentences = sent_tokenize(prompt)
-#     for i in range(len(init_sentences)):
-#         init_sent_author.append([init_sentences[i], 'prompt', prompt.index(init_sentences[i]),
-#                                  prompt.index(init_sentences[i]) + len(init_sentences[i])])
-#
-#     for index in range(1, len(df)):
-#         # print(index)
-#         # new_sentences = sent_tokenize(df['currentDoc'][index])
-#         last_sentence = sentences_with_range(df, index)[-1]
-#         # model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-#         # embeddings = model.encode([init_sentences[-1],last_sentence])
-#         # print(last_sentence)
-#         # if df['textDelta'].isnull()[index]:
-#         #     continue
-#         # case 1, add the initial state of each last sentence TODO final condition to set up.
-#         if last_sentence[0].endswith(endingmark) \
-#                 and (last_sentence[0] not in init_sent_author[-1]) \
-#                 and revise(df, index) == False \
-#                 and df['eventName'][index] != 'cursor-backward' \
-#                 and df['eventName'][index] != 'cursor-forward' \
-#                 and df['currentCursor'][index] <= last_sentence[2] + 1:  # TODO make it more specific
-#             if df['eventSource'][index] == 'api':
-#                 init_sent_author.append([last_sentence[0], 'api', last_sentence[1], last_sentence[2]])
-#             else:
-#                 init_sent_author.append([last_sentence[0], 'user', last_sentence[1], last_sentence[2]])
-#         else:
-#             continue
-#         # # case 2, insert the new sentence, add it to the initial list as well.
-#         # if revise(df, index):
-#         #
-#
-#     return init_sent_author
-
 def is_valid_sentence(last_sentence, init_sent_author, df, index):
-    endingmark = ('.', '!', '?')
+    # tokenizer = AutoTokenizer.from_pretrained("textattack/roberta-base-CoLA")
+    # model = AutoModelForSequenceClassification.from_pretrained("textattack/roberta-base-CoLA")
+    # nlp = pipeline("text-classification", model=model, tokenizer=tokenizer)
+    delimiters = ('.', '!', '?')
     # Check if the last sentence ends with an ending mark
-    valid_ending = last_sentence[0].endswith(endingmark)
+    valid_ending = last_sentence[0].endswith(delimiters)
 
     # Check if the last sentence is not the same as the last sentence from the prompt
     not_in_prompt = last_sentence[0] not in init_sent_author[-1]
@@ -127,103 +94,6 @@ def get_init_sent(df: pd.DataFrame) -> list:
     return init_sent_author
 
 
-# def sent_update(df: pd.DataFrame, index: int, sent_list: list) -> list:
-#     """
-#     Gather the all updated list after each event of revision in gpt cursor range.
-#
-#     """
-#     if revise(df, index):
-#         model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-#         last_sent_range = sentences_with_range(df, index - 1)
-#         current_sent_range = sentences_with_range(df, index)
-#         sent_from_last = [element[0] for element in last_sent_range]
-#         sent_current = [element[0] for element in current_sent_range]
-#         last_current = list(set(sent_from_last) - set(sent_current))
-#         current_last = list(set(sent_current) - set(sent_from_last))
-#         symmetric_difference = list(set(sent_current).symmetric_difference(set(sent_from_last)))
-#         # case 1 merge/remove the sentence
-#         if len(symmetric_difference) != 2:
-#
-#
-#             # 1.1 remove
-#             if last_current != [] and current_last == []:
-#                 # print(index)
-#                 # print(last_current)
-#                 # print(sent_from_last)
-#                 for element in last_current:
-#                     for i in range(len(sent_list)):
-#                         if element in sent_list[i]:
-#                             sent_list[i][0] = 'None'
-#                             sent_list[i][2] = -1
-#                             sent_list[i][3] = -1
-#                             return sent_list
-#
-#             # 1.2 merge
-#             ranking = []
-#             seq = []
-#             for i in range(len(current_last)):
-#                 for j in range(len(last_current)):
-#                     embedding = model.encode([current_last[i], last_current[j]])
-#                     ranking.append([cosine_similarity(embedding)[0][1]])
-#                     seq.append([i, j])
-#
-#             if len(last_current) > len(current_last) and ranking!=[]:
-#                 indexes = seq[ranking.index(max(ranking))]
-#                 for i in range(len(last_current)):
-#                     for j in range(len(sent_list)):
-#                         if last_current[i] in sent_list[j] and i == indexes[1]:
-#                             sent_list[j][0] = current_last[indexes[0]]
-#                             for element in current_sent_range:
-#                                 if current_last[indexes[0]] in element:
-#                                     sent_list[j][2] = element[1]
-#                                     sent_list[j][3] = element[2]
-#                         if last_current[i] in sent_list[j] and i != indexes[1]:
-#                             sent_list[j][0] = 'None'
-#                             sent_list[j][2] = -1
-#                             sent_list[j][3] = -1
-#
-#                 return sent_list
-#             #
-#             # if len(current_last) > len(last_current):
-#             #     return sent_list
-#
-#         # NOTE case 2 (add a sentence before a sentence) has merged to the initial sentence list in "get_init_sent"
-#         # case 3 revise
-#         # if len(symmetric_difference) == 2:
-#         #     # print(symmetric_difference)
-#         #     for i in range(len(sent_list)):
-#         #         if symmetric_difference[0] in sent_list[i]:
-#         #             sent_list[i][0] = symmetric_difference[1]
-#         #             for element in current_sent_range:
-#         #                 if symmetric_difference[1] in element:
-#         #                     sent_list[i][2] = element[1]
-#         #                     sent_list[i][3] = element[2]
-#         #             return sent_list
-#         #         if symmetric_difference[1] in sent_list[i]:
-#         #             sent_list[i][0] = symmetric_difference[0]
-#         #             for element in current_sent_range:
-#         #                 if symmetric_difference[0] in element:
-#         #                     sent_list[i][2] = element[1]
-#         #                     sent_list[i][3] = element[2]
-#         #             # print(sent_list)
-#         #             return sent_list
-#         if len(symmetric_difference) == 2:
-#             for i, sent in enumerate(sent_list):
-#                 if symmetric_difference[0] in sent:
-#                     target, replace = symmetric_difference
-#                 elif symmetric_difference[1] in sent:
-#                     replace, target = symmetric_difference
-#                 else:
-#                     continue  # skip to the next iteration if neither element is in the sentence
-#
-#                 sent_list[i][0] = replace
-#                 for element in current_sent_range:
-#                     if target in element:
-#                         sent_list[i][2] = element[1]
-#                         sent_list[i][3] = element[2]
-#                 return sent_list
-#     return sent_list
-
 def compute_similarity(sentences):
     """
     Compute pairwise cosine similarity using TF-IDF.
@@ -243,12 +113,12 @@ def most_similar_pair(sent_a, sent_b):
     """
     Return the indices of the most similar pair of sentences.
     """
-    print(sent_a)
-    print(sent_b)
+    # print(sent_a)
+    # print(sent_b)
     combined_sentences = sent_a + sent_b
-    print(combined_sentences)
+    # print(combined_sentences)
     similarity_matrix = compute_similarity(combined_sentences)
-    print(similarity_matrix)
+    # print(similarity_matrix)
     max_similarity = -1
     pair = (-1, -1)
     for i in range(len(sent_a)):
@@ -288,34 +158,6 @@ def sent_update(df: pd.DataFrame, index: int, sent_list: list) -> list:
                             return sent_list
 
             # 1.2 merge
-            #             ranking = []
-            #             seq = []
-            #             for i in range(len(current_last)):
-            #                 for j in range(len(last_current)):
-            #                     embedding = model.encode([current_last[i], last_current[j]])
-            #                     ranking.append([cosine_similarity(embedding)[0][1]])
-            #                     seq.append([i, j])
-            #
-            #             if len(last_current) > len(current_last) and ranking!=[]:
-            #                 indexes = seq[ranking.index(max(ranking))]
-            #                 for i in range(len(last_current)):
-            #                     for j in range(len(sent_list)):
-            #                         if last_current[i] in sent_list[j] and i == indexes[1]:
-            #                             sent_list[j][0] = current_last[indexes[0]]
-            #                             for element in current_sent_range:
-            #                                 if current_last[indexes[0]] in element:
-            #                                     sent_list[j][2] = element[1]
-            #                                     sent_list[j][3] = element[2]
-            #                         if last_current[i] in sent_list[j] and i != indexes[1]:
-            #                             sent_list[j][0] = 'None'
-            #                             sent_list[j][2] = -1
-            #                             sent_list[j][3] = -1
-            #
-            #                 return sent_list
-
-
-
-            # 1.2 merge
             if last_diff and current_diff:
                 i, j = most_similar_pair(current_diff, last_diff)
                 for k, sent_element in enumerate(sent_list):
@@ -325,30 +167,37 @@ def sent_update(df: pd.DataFrame, index: int, sent_list: list) -> list:
                             if current_diff[i] in element:
                                 sent_list[k][2] = element[1]
                                 sent_list[k][3] = element[2]
-                            else:
+                # Set unmatched sentences from last_diff to 'None'
+                for l in range(len(last_diff)):
+                    if l != j:
+                        for k, sent_element in enumerate(sent_list):
+                            if last_diff[l] in sent_element:
                                 sent_list[k][0] = 'None'
                                 sent_list[k][2] = -1
                                 sent_list[k][3] = -1
-                        return sent_list
+                return sent_list
 
         # case 2 is already handled in the get_init_sent function
 
         # case 3 revise
         if len(symmetric_difference) == 2:
-            for i, sent in enumerate(sent_list):
-                if symmetric_difference[0] in sent:
-                    target, replace = symmetric_difference
-                elif symmetric_difference[1] in sent:
-                    replace, target = symmetric_difference
-                else:
-                    continue  # skip to the next iteration if neither element is in the sentence
-
-                sent_list[i][0] = replace
-                for element in current_sent_range:
-                    if target in element:
-                        sent_list[i][2] = element[1]
-                        sent_list[i][3] = element[2]
-                return sent_list
+            # print(symmetric_difference)
+            for i in range(len(sent_list)):
+                if symmetric_difference[0] in sent_list[i]:
+                    sent_list[i][0] = symmetric_difference[1]
+                    for element in current_sent_range:
+                        if symmetric_difference[1] in element:
+                            sent_list[i][2] = element[1]
+                            sent_list[i][3] = element[2]
+                    return sent_list
+                if symmetric_difference[1] in sent_list[i]:
+                    sent_list[i][0] = symmetric_difference[0]
+                    for element in current_sent_range:
+                        if symmetric_difference[0] in element:
+                            sent_list[i][2] = element[1]
+                            sent_list[i][3] = element[2]
+                    # print(sent_list)
+                    return sent_list
     return sent_list
 
 
@@ -382,15 +231,20 @@ def original_final_revise_sent_identifier(df: pd.DataFrame, index: int, original
                 return [original_list[i][0], final_list[i][0], original_list[i][1], similarity[i]]
 
 
+def get_index(df: pd.DataFrame, index: int) -> int:
+    sent_with_index = sentences_with_range(df, index)
+    # print(sent_with_index)
+    # print(df['currentCursor'][index])
+    for i in range(len(sent_with_index)):
+        # if df['textDelta'].isnull()[index]:
+        if sent_with_index[i][1] <= df['currentCursor'][index] <= sent_with_index[i][2]:
+            return sent_with_index[i][3]
+
+
 def relocate(df: pd.DataFrame, index: int, sent_pair: list) -> bool:
     # case 1: remove a sentence
     if sent_pair[1] == 'None':
         return True
-    # case 2: add a new sentence
-    # if revise(df, index):
-    #     if len(sent_tokenize(df['currentDoc'])[index]) > len(sent_tokenize(df['currentDoc'])[index - 1]):
-    #         return True
-    # case 3: move a sentence
 
 
 def compose(df: pd.DataFrame, index: int) -> bool:
@@ -401,16 +255,14 @@ def compose(df: pd.DataFrame, index: int) -> bool:
 
 def modify_low(df: pd.DataFrame, index: int, sent_pair: list) -> bool:
     if revise(df, index):
-        if sent_pair[2] =='api':
-            print('lowmodify:', sent_pair)
-            return sent_pair[3] >= 0.8
+        if sent_pair[2] == 'api' and sent_pair[3] >= 0.8:
+            return True
 
 
-def modify_high(df: pd.DataFrame, index: int,sent_pair: list) -> bool:
+def modify_high(df: pd.DataFrame, index: int, sent_pair: list) -> bool:
     if revise(df, index):
-        if sent_pair[2] == 'api':
-            print('highmodify', sent_pair)
-            return sent_pair[3] < 0.8
+        if sent_pair[2] == 'api' and sent_pair[3] < 0.8:
+            return True
 
 
 def pair_similarity(original_list: list, final_list: list) -> list:
@@ -482,18 +334,21 @@ def behavioural_code_identifier(df: pd.DataFrame, index: int, original_list: lis
 def execute(file_name: str, genre: str):
     data = pd.read_csv(file_name)
     original = get_init_sent(data)
-    # print("original: ", original)
+    error_doc = []
     original1 = copy.deepcopy(original)
     final = get_revised_sent(data, original1)
     similarity_list = pair_similarity(original_list=original, final_list=final)
-    print('similarity: ', similarity_list)
-    print('original: ', original)
-    print('final: ', final)
-    print(len(original))
-    print(len(final))
+    # print('similarity: ', similarity_list)
+    # print('original: ', original)
+    # print('final: ', final)
+    # for i in range(len(original)):
+    #     if original[i][1]=='api'and similarity_list[i]>=0.8:
+    #         print([original[i],final[i],similarity_list[i]])
+
     cols = ["eventName",
             "currentDoc",
             "eventSource",
+            "sentIndex",
             "compose",
             "insert",
             "delete",
@@ -511,7 +366,11 @@ def execute(file_name: str, genre: str):
     ops = ['text-insert', 'text-delete', 'suggestion-get']
     for i in range(len(data)):
         # print(i)
-        if data['eventName'][i] == 'text-insert' and len(eval(data['textDelta'][i])['ops']) == 2 and 'insert' in eval(data['textDelta'][i])['ops'][1]:
+        if data['currentDoc'].isnull()[i]:
+            error_doc.append(file_name[11:43])
+            continue
+        if data['eventName'][i] == 'text-insert' and len(eval(data['textDelta'][i])['ops']) == 2 and 'insert' in \
+                eval(data['textDelta'][i])['ops'][1]:
             if eval(data['textDelta'][i])['ops'][1]['insert'] == '\n':
                 continue
 
@@ -523,10 +382,12 @@ def execute(file_name: str, genre: str):
             code_list = behavioural_code_identifier(data, i, original, final, similarity=similarity_list) + [
                 ('lowTemp' if data['currentTemperature'][i] < 0.5 else 'highTemp')]
             # Columns to fill with the same content from the existing dataset (data)
-            given_list_2 = ['eventName', 'currentDoc', 'eventSource']
+            given_list_2 = ['eventName', 'currentDoc', 'eventSource', 'sentIndex']
             # Accessing the values from the last row of the existing dataset (data) for the specified columns
-            values_to_copy = data[given_list_2].iloc[i].to_dict()
+            values_to_copy = data[given_list_2[:3]].iloc[i].to_dict()
             values_to_copy['currentDoc'] = values_to_copy['currentDoc']  # [len(data['currentDoc'][0]):]
+            values_to_copy['sentIndex'] = get_index(data, i)
+            # print(get_index(data, i))
             # Creating the new row with the specified values and 1 in the given columns
             new_row = {col: values_to_copy[col] if col in given_list_2 else (1 if col in code_list else 0) for col in
                        df2.columns}
@@ -536,19 +397,20 @@ def execute(file_name: str, genre: str):
             # print(i)
     df2.fillna(0, inplace=True)
     df2.to_csv('./{}/{}.csv'.format(genre, file_name[11:43]))  # [11:43]
+    print(error_doc)
 
 
 def main():
-    # directory = './creative/'
-    # files = os.listdir(directory)
-    # files_mapping = os.listdir('./creativeMapping/')
-    # for file in files:
-    #     if file not in files_mapping:
-    #         print('file: ', file)
-    #         start_time = time.time()
-    #         execute(file_name=directory + file, genre='creativeMapping')
-    #         print("--- %s seconds ---" % (time.time() - start_time))
-    execute('a068c.csv', genre='creativeMapping')
+    directory = './creative/'
+    files = os.listdir(directory)
+    files_mapping = os.listdir('./creativeMapping/')
+    for file in files:
+        if file not in files_mapping:
+            print('file: ', file)
+            start_time = time.time()
+            execute(file_name=directory + file, genre='creativeMapping')
+            print("--- %s seconds ---" % (time.time() - start_time))
+    # execute('a068c.csv', genre='creativeMapping')
 
 
 if __name__ == '__main__':
