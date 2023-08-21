@@ -302,7 +302,6 @@ def behavioural_code_identifier(df: pd.DataFrame, index: int, original_list: lis
         behaviour_seq.append('seekSugg')
         return behaviour_seq
     # 7.Dismiss Suggestion
-    # TODO: implement from other samples
     if df['eventName'][index] == 'suggestion-close' and df['eventSource'][index] == 'user':
         behaviour_seq.append('dismissSugg')
 

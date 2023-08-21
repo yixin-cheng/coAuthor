@@ -79,13 +79,13 @@ def sentences_with_range(df: pd.DataFrame, index: int) -> list:
 #         # print(last_sentence)
 #         # if df['textDelta'].isnull()[index]:
 #         #     continue
-#         # case 1, add the initial state of each last sentence TODO final condition to set up.
+#         # case 1, add the initial state of each last sentence Note final condition to set up.
 #         if last_sentence[0].endswith(endingmark) \
 #                 and (last_sentence[0] not in init_sent_author[-1]) \
 #                 and revise(df, index) == False \
 #                 and df['eventName'][index] != 'cursor-backward' \
 #                 and df['eventName'][index] != 'cursor-forward' \
-#                 and df['currentCursor'][index] <= last_sentence[2] + 1:  # TODO make it more specific
+#                 and df['currentCursor'][index] <= last_sentence[2] + 1:  # Note make it more specific
 #             if df['eventSource'][index] == 'api':
 #                 init_sent_author.append([last_sentence[0], 'api', last_sentence[1], last_sentence[2]])
 #             else:
@@ -449,7 +449,7 @@ def behavioural_code_identifier(df: pd.DataFrame, index: int, original_list: lis
         behaviour_seq.append('seekSugg')
         return behaviour_seq
     # 7.Dismiss Suggestion
-    # TODO: implement from other samples
+    # Note: implement from other samples
     if df['eventName'][index] == 'suggestion-close' and df['eventSource'][index] == 'user':
         behaviour_seq.append('dismissSugg')
 

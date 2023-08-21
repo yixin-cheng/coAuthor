@@ -1,0 +1,2957 @@
+,eventName,eventSource,eventTimestamp,textDelta,cursorRange,currentDoc,currentCursor,currentSuggestions,currentSuggestionIndex,currentHoverIndex,currentN,currentMaxToken,currentTemperature,currentTopP,currentPresencePenalty,currentFrequencyPenalty,eventNum
+0,system-initialize,api,1630035416013,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion,",275,[],0,,5,30,0.9,1,0,0.5,0
+1,text-insert,user,1630035423089,"{'ops': [{'retain': 275}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, ",276,[],0,,5,30,0.9,1,0,0.5,1
+2,text-insert,user,1630035423377,"{'ops': [{'retain': 276}, {'insert': 'l'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, l",277,[],0,,5,30,0.9,1,0,0.5,2
+3,text-insert,user,1630035423601,"{'ops': [{'retain': 277}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, li",278,[],0,,5,30,0.9,1,0,0.5,3
+4,text-insert,user,1630035423787,"{'ops': [{'retain': 278}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, lis",279,[],0,,5,30,0.9,1,0,0.5,4
+5,text-insert,user,1630035424055,"{'ops': [{'retain': 279}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, list",280,[],0,,5,30,0.9,1,0,0.5,5
+6,text-delete,user,1630035424771,"{'ops': [{'retain': 279}, {'delete': 1}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, lis",279,[],0,,5,30,0.9,1,0,0.5,6
+7,text-delete,user,1630035424995,"{'ops': [{'retain': 278}, {'delete': 1}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, li",278,[],0,,5,30,0.9,1,0,0.5,7
+8,text-delete,user,1630035425217,"{'ops': [{'retain': 277}, {'delete': 1}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, l",277,[],0,,5,30,0.9,1,0,0.5,8
+9,text-delete,user,1630035425625,"{'ops': [{'retain': 276}, {'delete': 1}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, ",276,[],0,,5,30,0.9,1,0,0.5,9
+10,text-insert,user,1630035426077,"{'ops': [{'retain': 276}, {'insert': 'l'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, l",277,[],0,,5,30,0.9,1,0,0.5,10
+11,text-insert,user,1630035426272,"{'ops': [{'retain': 277}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, li",278,[],0,,5,30,0.9,1,0,0.5,11
+12,text-insert,user,1630035426541,"{'ops': [{'retain': 278}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, lis",279,[],0,,5,30,0.9,1,0,0.5,12
+13,text-insert,user,1630035426908,"{'ops': [{'retain': 279}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, list",280,[],0,,5,30,0.9,1,0,0.5,13
+14,text-insert,user,1630035427053,"{'ops': [{'retain': 280}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, liste",281,[],0,,5,30,0.9,1,0,0.5,14
+15,text-insert,user,1630035427265,"{'ops': [{'retain': 281}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listen",282,[],0,,5,30,0.9,1,0,0.5,15
+16,text-insert,user,1630035427504,"{'ops': [{'retain': 282}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listeni",283,[],0,,5,30,0.9,1,0,0.5,16
+17,text-insert,user,1630035427703,"{'ops': [{'retain': 283}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listenin",284,[],0,,5,30,0.9,1,0,0.5,17
+18,text-insert,user,1630035427804,"{'ops': [{'retain': 284}, {'insert': 'g'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening",285,[],0,,5,30,0.9,1,0,0.5,18
+19,text-insert,user,1630035427944,"{'ops': [{'retain': 285}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening ",286,[],0,,5,30,0.9,1,0,0.5,19
+20,text-insert,user,1630035428107,"{'ops': [{'retain': 286}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening t",287,[],0,,5,30,0.9,1,0,0.5,20
+21,text-insert,user,1630035428188,"{'ops': [{'retain': 287}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to",288,[],0,,5,30,0.9,1,0,0.5,21
+22,text-insert,user,1630035428241,"{'ops': [{'retain': 288}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to ",289,[],0,,5,30,0.9,1,0,0.5,22
+23,text-insert,user,1630035428515,"{'ops': [{'retain': 289}, {'insert': 'a'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to a",290,[],0,,5,30,0.9,1,0,0.5,23
+24,text-insert,user,1630035428694,"{'ops': [{'retain': 290}, {'insert': 'u'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to au",291,[],0,,5,30,0.9,1,0,0.5,24
+25,text-insert,user,1630035428852,"{'ops': [{'retain': 291}, {'insert': 'd'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to aud",292,[],0,,5,30,0.9,1,0,0.5,25
+26,text-insert,user,1630035429050,"{'ops': [{'retain': 292}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audi",293,[],0,,5,30,0.9,1,0,0.5,26
+27,text-insert,user,1630035429213,"{'ops': [{'retain': 293}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audio",294,[],0,,5,30,0.9,1,0,0.5,27
+28,text-insert,user,1630035429461,"{'ops': [{'retain': 294}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audio ",295,[],0,,5,30,0.9,1,0,0.5,28
+29,text-delete,user,1630035430138,"{'ops': [{'retain': 294}, {'delete': 1}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audio",294,[],0,,5,30,0.9,1,0,0.5,29
+30,text-insert,user,1630035430307,"{'ops': [{'retain': 294}, {'insert': 'b'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiob",295,[],0,,5,30,0.9,1,0,0.5,30
+31,text-insert,user,1630035430468,"{'ops': [{'retain': 295}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobo",296,[],0,,5,30,0.9,1,0,0.5,31
+32,text-insert,user,1630035430679,"{'ops': [{'retain': 296}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audioboo",297,[],0,,5,30,0.9,1,0,0.5,32
+33,text-insert,user,1630035430914,"{'ops': [{'retain': 297}, {'insert': 'k'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobook",298,[],0,,5,30,0.9,1,0,0.5,33
+34,text-insert,user,1630035431559,"{'ops': [{'retain': 298}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks",299,[],0,,5,30,0.9,1,0,0.5,34
+35,text-insert,user,1630035431716,"{'ops': [{'retain': 299}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks ",300,[],0,,5,30,0.9,1,0,0.5,35
+36,text-insert,user,1630035431830,"{'ops': [{'retain': 300}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks i",301,[],0,,5,30,0.9,1,0,0.5,36
+37,text-insert,user,1630035431973,"{'ops': [{'retain': 301}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is",302,[],0,,5,30,0.9,1,0,0.5,37
+38,text-insert,user,1630035434616,"{'ops': [{'retain': 302}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is ",303,[],0,,5,30,0.9,1,0,0.5,38
+39,suggestion-get,user,1630035434767,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is ",303,[],0,,5,30,0.9,1,0,0.5,39
+40,suggestion-open,api,1630035436801,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is ",303,"[{'index': 0, 'original': 'better than reading books, and there is a study to back this up (1).', 'trimmed': 'better than reading books, and there is a study to back this up (1).', 'probability': 4.587189269432863e-21}, {'index': 1, 'original': ""just as good as reading the written word, but doesn't provide exactly the same experience as reading."", 'trimmed': ""just as good as reading the written word, but doesn't provide exactly the same experience as reading."", 'probability': 5.535273407747794e-21}, {'index': 2, 'original': 'just as good as reading them.', 'trimmed': 'just as good as reading them.', 'probability': 6.150284807255553e-20}, {'index': 3, 'original': 'different from reading print books:', 'trimmed': 'different from reading print books:', 'probability': 4.024076601761314e-25}, {'index': 4, 'original': 'almost as good as reading them.', 'trimmed': 'almost as good as reading them.', 'probability': 4.8858299214637195e-20}]",0,,5,30,0.9,1,0,0.5,40
+41,suggestion-hover,user,1630035436811,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is ",303,[],0,3,5,30,0.9,1,0,0.5,41
+42,suggestion-hover,user,1630035437608,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is ",303,[],0,2,5,30,0.9,1,0,0.5,42
+43,suggestion-hover,user,1630035439036,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is ",303,[],0,3,5,30,0.9,1,0,0.5,43
+44,suggestion-select,user,1630035439346,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is ",303,[],3,3,5,30,0.9,1,0,0.5,44
+45,suggestion-close,api,1630035439348,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is ",303,[],3,3,5,30,0.9,1,0,0.5,45
+46,text-insert,api,1630035439366,"{'ops': [{'retain': 303}, {'insert': 'different from reading print books:'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books:",338,[],3,3,5,30,0.9,1,0,0.5,46
+47,text-insert,user,1630035441716,"{'ops': [{'retain': 338}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: ",339,[],3,3,5,30,0.9,1,0,0.5,47
+48,text-insert,user,1630035441931,"{'ops': [{'retain': 339}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: t",340,[],3,3,5,30,0.9,1,0,0.5,48
+49,text-insert,user,1630035442018,"{'ops': [{'retain': 340}, {'insert': 'h'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: th",341,[],3,3,5,30,0.9,1,0,0.5,49
+50,text-insert,user,1630035442195,"{'ops': [{'retain': 341}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: thi",342,[],3,3,5,30,0.9,1,0,0.5,50
+51,text-insert,user,1630035442295,"{'ops': [{'retain': 342}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this",343,[],3,3,5,30,0.9,1,0,0.5,51
+52,text-insert,user,1630035442460,"{'ops': [{'retain': 343}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this ",344,[],3,3,5,30,0.9,1,0,0.5,52
+53,text-insert,user,1630035442615,"{'ops': [{'retain': 344}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this i",345,[],3,3,5,30,0.9,1,0,0.5,53
+54,text-insert,user,1630035442798,"{'ops': [{'retain': 345}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is",346,[],3,3,5,30,0.9,1,0,0.5,54
+55,text-insert,user,1630035442948,"{'ops': [{'retain': 346}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is ",347,[],3,3,5,30,0.9,1,0,0.5,55
+56,text-insert,user,1630035443164,"{'ops': [{'retain': 347}, {'insert': 'b'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is b",348,[],3,3,5,30,0.9,1,0,0.5,56
+57,text-insert,user,1630035443398,"{'ops': [{'retain': 348}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is be",349,[],3,3,5,30,0.9,1,0,0.5,57
+58,text-insert,user,1630035443608,"{'ops': [{'retain': 349}, {'insert': 'c'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is bec",350,[],3,3,5,30,0.9,1,0,0.5,58
+59,text-insert,user,1630035443793,"{'ops': [{'retain': 350}, {'insert': 'a'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is beca",351,[],3,3,5,30,0.9,1,0,0.5,59
+60,text-insert,user,1630035443896,"{'ops': [{'retain': 351}, {'insert': 'u'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is becau",352,[],3,3,5,30,0.9,1,0,0.5,60
+61,text-insert,user,1630035444043,"{'ops': [{'retain': 352}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is becaus",353,[],3,3,5,30,0.9,1,0,0.5,61
+62,text-insert,user,1630035444140,"{'ops': [{'retain': 353}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because",354,[],3,3,5,30,0.9,1,0,0.5,62
+63,text-insert,user,1630035444279,"{'ops': [{'retain': 354}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because ",355,[],3,3,5,30,0.9,1,0,0.5,63
+64,text-insert,user,1630035444422,"{'ops': [{'retain': 355}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because i",356,[],3,3,5,30,0.9,1,0,0.5,64
+65,text-insert,user,1630035444784,"{'ops': [{'retain': 356}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it",357,[],3,3,5,30,0.9,1,0,0.5,65
+66,text-insert,user,1630035444942,"{'ops': [{'retain': 357}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it ",358,[],3,3,5,30,0.9,1,0,0.5,66
+67,text-insert,user,1630035445155,"{'ops': [{'retain': 358}, {'insert': 'c'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it c",359,[],3,3,5,30,0.9,1,0,0.5,67
+68,text-insert,user,1630035445350,"{'ops': [{'retain': 359}, {'insert': 'a'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it ca",360,[],3,3,5,30,0.9,1,0,0.5,68
+69,text-insert,user,1630035445496,"{'ops': [{'retain': 360}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can",361,[],3,3,5,30,0.9,1,0,0.5,69
+70,text-insert,user,1630035445645,"{'ops': [{'retain': 361}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can ",362,[],3,3,5,30,0.9,1,0,0.5,70
+71,text-insert,user,1630035446062,"{'ops': [{'retain': 362}, {'insert': 'g'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can g",363,[],3,3,5,30,0.9,1,0,0.5,71
+72,text-insert,user,1630035446287,"{'ops': [{'retain': 363}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can ge",364,[],3,3,5,30,0.9,1,0,0.5,72
+73,text-insert,user,1630035446392,"{'ops': [{'retain': 364}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get",365,[],3,3,5,30,0.9,1,0,0.5,73
+74,text-insert,user,1630035446556,"{'ops': [{'retain': 365}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get ",366,[],3,3,5,30,0.9,1,0,0.5,74
+75,text-insert,user,1630035446752,"{'ops': [{'retain': 366}, {'insert': 'r'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get r",367,[],3,3,5,30,0.9,1,0,0.5,75
+76,text-insert,user,1630035446880,"{'ops': [{'retain': 367}, {'insert': 'a'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get ra",368,[],3,3,5,30,0.9,1,0,0.5,76
+77,text-insert,user,1630035447066,"{'ops': [{'retain': 368}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rat",369,[],3,3,5,30,0.9,1,0,0.5,77
+78,text-insert,user,1630035447228,"{'ops': [{'retain': 369}, {'insert': 'h'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rath",370,[],3,3,5,30,0.9,1,0,0.5,78
+79,text-insert,user,1630035447356,"{'ops': [{'retain': 370}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rathe",371,[],3,3,5,30,0.9,1,0,0.5,79
+80,text-insert,user,1630035447426,"{'ops': [{'retain': 371}, {'insert': 'r'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather",372,[],3,3,5,30,0.9,1,0,0.5,80
+81,text-insert,user,1630035448302,"{'ops': [{'retain': 372}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather ",373,[],3,3,5,30,0.9,1,0,0.5,81
+82,suggestion-get,user,1630035449100,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather ",373,[],3,3,5,30,0.9,1,0,0.5,82
+83,suggestion-open,api,1630035451033,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather ",373,"[{'index': 0, 'original': 'tiring to constantly shift your eyes across a page, and because you can more easily multitask and pay attention to other things while the book is playing', 'trimmed': 'tiring to constantly shift your eyes across a page, and because you can more easily multitask and pay attention to other things while the book is playing', 'probability': 2.2014073081358766e-20}, {'index': 1, 'original': 'confusing to follow lingual mimicry.', 'trimmed': 'confusing to follow lingual mimicry.', 'probability': 3.491081912649181e-32}, {'index': 2, 'original': 'tedious to continually find out what is happening in a book by listening to someone narrate it.', 'trimmed': 'tedious to continually find out what is happening in a book by listening to someone narrate it.', 'probability': 7.69758031816935e-18}, {'index': 3, 'original': 'awkward to hold a book while performing particular activities.', 'trimmed': 'awkward to hold a book while performing particular activities.', 'probability': 2.5883262415396615e-28}, {'index': 4, 'original': 'boring, doing the same thing over and over again.', 'trimmed': 'boring, doing the same thing over and over again.', 'probability': 2.0674062166419363e-26}]",0,3,5,30,0.9,1,0,0.5,83
+84,suggestion-hover,user,1630035458464,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather ",373,[],0,4,5,30,0.9,1,0,0.5,84
+85,suggestion-hover,user,1630035458528,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather ",373,[],0,3,5,30,0.9,1,0,0.5,85
+86,suggestion-hover,user,1630035458578,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather ",373,[],0,2,5,30,0.9,1,0,0.5,86
+87,suggestion-select,user,1630035459239,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather ",373,[],2,2,5,30,0.9,1,0,0.5,87
+88,suggestion-close,api,1630035459241,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather ",373,[],2,2,5,30,0.9,1,0,0.5,88
+89,text-insert,api,1630035459254,"{'ops': [{'retain': 373}, {'insert': 'tedious to continually find out what is happening in a book by listening to someone narrate it.'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.",468,[],2,2,5,30,0.9,1,0,0.5,89
+90,text-insert,user,1630035460758,"{'ops': [{'retain': 468}, {'insert': '\n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+",468,[],2,2,5,30,0.9,1,0,0.5,90
+91,text-insert,user,1630035461244,"{'ops': [{'retain': 469}, {'insert': '\n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+",469,[],2,2,5,30,0.9,1,0,0.5,91
+92,text-insert,user,1630035462401,"{'ops': [{'retain': 470}, {'insert': 'B'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+B",471,[],2,2,5,30,0.9,1,0,0.5,92
+93,text-insert,user,1630035462588,"{'ops': [{'retain': 471}, {'insert': 'u'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+Bu",472,[],2,2,5,30,0.9,1,0,0.5,93
+94,text-insert,user,1630035462834,"{'ops': [{'retain': 472}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But",473,[],2,2,5,30,0.9,1,0,0.5,94
+95,text-insert,user,1630035462991,"{'ops': [{'retain': 473}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But ",474,[],2,2,5,30,0.9,1,0,0.5,95
+96,text-insert,user,1630035463180,"{'ops': [{'retain': 474}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But i",475,[],2,2,5,30,0.9,1,0,0.5,96
+97,text-insert,user,1630035463269,"{'ops': [{'retain': 475}, {'insert': 'f'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if",476,[],2,2,5,30,0.9,1,0,0.5,97
+98,text-insert,user,1630035463437,"{'ops': [{'retain': 476}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if ",477,[],2,2,5,30,0.9,1,0,0.5,98
+99,text-insert,user,1630035463687,"{'ops': [{'retain': 477}, {'insert': 'y'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if y",478,[],2,2,5,30,0.9,1,0,0.5,99
+100,text-insert,user,1630035463824,"{'ops': [{'retain': 478}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if yo",479,[],2,2,5,30,0.9,1,0,0.5,100
+101,text-insert,user,1630035463968,"{'ops': [{'retain': 479}, {'insert': 'u'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you",480,[],2,2,5,30,0.9,1,0,0.5,101
+102,text-insert,user,1630035464035,"{'ops': [{'retain': 480}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you ",481,[],2,2,5,30,0.9,1,0,0.5,102
+103,text-insert,user,1630035464241,"{'ops': [{'retain': 481}, {'insert': 'h'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you h",482,[],2,2,5,30,0.9,1,0,0.5,103
+104,text-insert,user,1630035464413,"{'ops': [{'retain': 482}, {'insert': 'a'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you ha",483,[],2,2,5,30,0.9,1,0,0.5,104
+105,text-insert,user,1630035464579,"{'ops': [{'retain': 483}, {'insert': 'v'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you hav",484,[],2,2,5,30,0.9,1,0,0.5,105
+106,text-insert,user,1630035464795,"{'ops': [{'retain': 484}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have",485,[],2,2,5,30,0.9,1,0,0.5,106
+107,text-insert,user,1630035464919,"{'ops': [{'retain': 485}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have ",486,[],2,2,5,30,0.9,1,0,0.5,107
+108,text-insert,user,1630035465082,"{'ops': [{'retain': 486}, {'insert': 'f'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have f",487,[],2,2,5,30,0.9,1,0,0.5,108
+109,text-insert,user,1630035465258,"{'ops': [{'retain': 487}, {'insert': 'u'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fu",488,[],2,2,5,30,0.9,1,0,0.5,109
+110,text-insert,user,1630035465558,"{'ops': [{'retain': 488}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun",489,[],2,2,5,30,0.9,1,0,0.5,110
+111,text-insert,user,1630035465671,"{'ops': [{'retain': 489}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun ",490,[],2,2,5,30,0.9,1,0,0.5,111
+112,text-insert,user,1630035465827,"{'ops': [{'retain': 490}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun t",491,[],2,2,5,30,0.9,1,0,0.5,112
+113,text-insert,user,1630035465911,"{'ops': [{'retain': 491}, {'insert': 'h'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun th",492,[],2,2,5,30,0.9,1,0,0.5,113
+114,text-insert,user,1630035466143,"{'ops': [{'retain': 492}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun the",493,[],2,2,5,30,0.9,1,0,0.5,114
+115,text-insert,user,1630035466318,"{'ops': [{'retain': 493}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then",494,[],2,2,5,30,0.9,1,0,0.5,115
+116,text-insert,user,1630035466528,"{'ops': [{'retain': 494}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then ",495,[],2,2,5,30,0.9,1,0,0.5,116
+117,text-insert,user,1630035466649,"{'ops': [{'retain': 495}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then t",496,[],2,2,5,30,0.9,1,0,0.5,117
+118,text-insert,user,1630035466750,"{'ops': [{'retain': 496}, {'insert': 'h'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then th",497,[],2,2,5,30,0.9,1,0,0.5,118
+119,text-insert,user,1630035466940,"{'ops': [{'retain': 497}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the",498,[],2,2,5,30,0.9,1,0,0.5,119
+120,text-insert,user,1630035467012,"{'ops': [{'retain': 498}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the ",499,[],2,2,5,30,0.9,1,0,0.5,120
+121,text-insert,user,1630035467189,"{'ops': [{'retain': 499}, {'insert': 'f'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the f",500,[],2,2,5,30,0.9,1,0,0.5,121
+122,text-insert,user,1630035467327,"{'ops': [{'retain': 500}, {'insert': 'u'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fu",501,[],2,2,5,30,0.9,1,0,0.5,122
+123,text-insert,user,1630035467603,"{'ops': [{'retain': 501}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun",502,[],2,2,5,30,0.9,1,0,0.5,123
+124,text-insert,user,1630035467704,"{'ops': [{'retain': 502}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun ",503,[],2,2,5,30,0.9,1,0,0.5,124
+125,text-insert,user,1630035467893,"{'ops': [{'retain': 503}, {'insert': 'w'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun w",504,[],2,2,5,30,0.9,1,0,0.5,125
+126,text-insert,user,1630035468001,"{'ops': [{'retain': 504}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun wi",505,[],2,2,5,30,0.9,1,0,0.5,126
+127,text-insert,user,1630035468238,"{'ops': [{'retain': 505}, {'insert': 'l'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun wil",506,[],2,2,5,30,0.9,1,0,0.5,127
+128,text-insert,user,1630035468434,"{'ops': [{'retain': 506}, {'insert': 'l'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will",507,[],2,2,5,30,0.9,1,0,0.5,128
+129,text-insert,user,1630035469129,"{'ops': [{'retain': 507}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will ",508,[],2,2,5,30,0.9,1,0,0.5,129
+130,text-insert,user,1630035469271,"{'ops': [{'retain': 508}, {'insert': 'f'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will f",509,[],2,2,5,30,0.9,1,0,0.5,130
+131,text-insert,user,1630035469679,"{'ops': [{'retain': 509}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will fo",510,[],2,2,5,30,0.9,1,0,0.5,131
+132,text-insert,user,1630035469942,"{'ops': [{'retain': 510}, {'insert': 'l'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will fol",511,[],2,2,5,30,0.9,1,0,0.5,132
+133,text-insert,user,1630035470154,"{'ops': [{'retain': 511}, {'insert': 'l'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will foll",512,[],2,2,5,30,0.9,1,0,0.5,133
+134,text-insert,user,1630035470392,"{'ops': [{'retain': 512}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follo",513,[],2,2,5,30,0.9,1,0,0.5,134
+135,text-insert,user,1630035470548,"{'ops': [{'retain': 513}, {'insert': 'w'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow",514,[],2,2,5,30,0.9,1,0,0.5,135
+136,text-insert,user,1630035470898,"{'ops': [{'retain': 514}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow ",515,[],2,2,5,30,0.9,1,0,0.5,136
+137,suggestion-get,user,1630035471811,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow ",515,[],2,2,5,30,0.9,1,0,0.5,137
+138,suggestion-open,api,1630035473775,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow ",515,"[{'index': 0, 'original': 'you.', 'trimmed': 'you.', 'probability': 9.266504513937806e-30}, {'index': 1, 'original': 'and as long as you keep focusing on the book and are somewhat used to listening you will not be bored.', 'trimmed': 'and as long as you keep focusing on the book and are somewhat used to listening you will not be bored.', 'probability': 1.4107927704017129e-30}, {'index': 2, 'original': 'you around for the rest of your life.', 'trimmed': 'you around for the rest of your life.', 'probability': 4.287812716748618e-26}, {'index': 3, 'original': 'you on a long road.', 'trimmed': 'you on a long road.', 'probability': 9.237246642212851e-31}]",0,2,5,30,0.9,1,0,0.5,138
+139,suggestion-hover,user,1630035474636,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow ",515,[],0,3,5,30,0.9,1,0,0.5,139
+140,suggestion-select,user,1630035475215,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow ",515,[],3,3,5,30,0.9,1,0,0.5,140
+141,suggestion-close,api,1630035475217,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow ",515,[],3,3,5,30,0.9,1,0,0.5,141
+142,text-insert,api,1630035475229,"{'ops': [{'retain': 515}, {'insert': 'you on a long road.'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road.",534,[],3,3,5,30,0.9,1,0,0.5,142
+143,text-insert,user,1630035476832,"{'ops': [{'retain': 534}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. ",535,[],3,3,5,30,0.9,1,0,0.5,143
+144,text-insert,user,1630035477173,"{'ops': [{'retain': 535}, {'insert': 'O'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. O",536,[],3,3,5,30,0.9,1,0,0.5,144
+145,text-insert,user,1630035477370,"{'ops': [{'retain': 536}, {'insert': 'r'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or",537,[],3,3,5,30,0.9,1,0,0.5,145
+146,text-insert,user,1630035477476,"{'ops': [{'retain': 537}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or ",538,[],3,3,5,30,0.9,1,0,0.5,146
+147,text-insert,user,1630035477896,"{'ops': [{'retain': 538}, {'insert': 'm'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or m",539,[],3,3,5,30,0.9,1,0,0.5,147
+148,text-insert,user,1630035478392,"{'ops': [{'retain': 539}, {'insert': 'a'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or ma",540,[],3,3,5,30,0.9,1,0,0.5,148
+149,text-insert,user,1630035478589,"{'ops': [{'retain': 540}, {'insert': 'y'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or may",541,[],3,3,5,30,0.9,1,0,0.5,149
+150,text-insert,user,1630035478764,"{'ops': [{'retain': 541}, {'insert': 'b'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or mayb",542,[],3,3,5,30,0.9,1,0,0.5,150
+151,text-insert,user,1630035478969,"{'ops': [{'retain': 542}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe",543,[],3,3,5,30,0.9,1,0,0.5,151
+152,text-insert,user,1630035479100,"{'ops': [{'retain': 543}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe ",544,[],3,3,5,30,0.9,1,0,0.5,152
+153,text-insert,user,1630035479239,"{'ops': [{'retain': 544}, {'insert': 'a'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a",545,[],3,3,5,30,0.9,1,0,0.5,153
+154,text-insert,user,1630035479364,"{'ops': [{'retain': 545}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a ",546,[],3,3,5,30,0.9,1,0,0.5,154
+155,text-insert,user,1630035479559,"{'ops': [{'retain': 546}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a s",547,[],3,3,5,30,0.9,1,0,0.5,155
+156,text-insert,user,1630035479657,"{'ops': [{'retain': 547}, {'insert': 'h'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a sh",548,[],3,3,5,30,0.9,1,0,0.5,156
+157,text-insert,user,1630035479809,"{'ops': [{'retain': 548}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a sho",549,[],3,3,5,30,0.9,1,0,0.5,157
+158,text-insert,user,1630035480038,"{'ops': [{'retain': 549}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a shot",550,[],3,3,5,30,0.9,1,0,0.5,158
+159,text-delete,user,1630035480547,"{'ops': [{'retain': 549}, {'delete': 1}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a sho",549,[],3,3,5,30,0.9,1,0,0.5,159
+160,text-insert,user,1630035480681,"{'ops': [{'retain': 549}, {'insert': 'r'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a shor",550,[],3,3,5,30,0.9,1,0,0.5,160
+161,text-insert,user,1630035480882,"{'ops': [{'retain': 550}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short",551,[],3,3,5,30,0.9,1,0,0.5,161
+162,text-insert,user,1630035481027,"{'ops': [{'retain': 551}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short ",552,[],3,3,5,30,0.9,1,0,0.5,162
+163,text-insert,user,1630035481576,"{'ops': [{'retain': 552}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short o",553,[],3,3,5,30,0.9,1,0,0.5,163
+164,text-insert,user,1630035481757,"{'ops': [{'retain': 553}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short on",554,[],3,3,5,30,0.9,1,0,0.5,164
+165,text-insert,user,1630035481922,"{'ops': [{'retain': 554}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one",555,[],3,3,5,30,0.9,1,0,0.5,165
+166,text-insert,user,1630035482033,"{'ops': [{'retain': 555}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one ",556,[],3,3,5,30,0.9,1,0,0.5,166
+167,text-insert,user,1630035482217,"{'ops': [{'retain': 556}, {'insert': 'd'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one d",557,[],3,3,5,30,0.9,1,0,0.5,167
+168,text-insert,user,1630035482461,"{'ops': [{'retain': 557}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one de",558,[],3,3,5,30,0.9,1,0,0.5,168
+169,text-insert,user,1630035482586,"{'ops': [{'retain': 558}, {'insert': 'p'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one dep",559,[],3,3,5,30,0.9,1,0,0.5,169
+170,text-insert,user,1630035482878,"{'ops': [{'retain': 559}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depe",560,[],3,3,5,30,0.9,1,0,0.5,170
+171,text-insert,user,1630035483054,"{'ops': [{'retain': 560}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depen",561,[],3,3,5,30,0.9,1,0,0.5,171
+172,text-insert,user,1630035483223,"{'ops': [{'retain': 561}, {'insert': 'd'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depend",562,[],3,3,5,30,0.9,1,0,0.5,172
+173,text-insert,user,1630035483378,"{'ops': [{'retain': 562}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one dependi",563,[],3,3,5,30,0.9,1,0,0.5,173
+174,text-insert,user,1630035483574,"{'ops': [{'retain': 563}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one dependin",564,[],3,3,5,30,0.9,1,0,0.5,174
+175,text-insert,user,1630035483738,"{'ops': [{'retain': 564}, {'insert': 'g'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending",565,[],3,3,5,30,0.9,1,0,0.5,175
+176,text-insert,user,1630035483883,"{'ops': [{'retain': 565}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending ",566,[],3,3,5,30,0.9,1,0,0.5,176
+177,text-insert,user,1630035484021,"{'ops': [{'retain': 566}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending o",567,[],3,3,5,30,0.9,1,0,0.5,177
+178,text-insert,user,1630035484198,"{'ops': [{'retain': 567}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on",568,[],3,3,5,30,0.9,1,0,0.5,178
+179,text-insert,user,1630035484304,"{'ops': [{'retain': 568}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on ",569,[],3,3,5,30,0.9,1,0,0.5,179
+180,text-insert,user,1630035484477,"{'ops': [{'retain': 569}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on t",570,[],3,3,5,30,0.9,1,0,0.5,180
+181,text-insert,user,1630035484577,"{'ops': [{'retain': 570}, {'insert': 'h'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on th",571,[],3,3,5,30,0.9,1,0,0.5,181
+182,text-insert,user,1630035484782,"{'ops': [{'retain': 571}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the",572,[],3,3,5,30,0.9,1,0,0.5,182
+183,text-insert,user,1630035484814,"{'ops': [{'retain': 572}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the ",573,[],3,3,5,30,0.9,1,0,0.5,183
+184,text-insert,user,1630035485091,"{'ops': [{'retain': 573}, {'insert': 'b'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the b",574,[],3,3,5,30,0.9,1,0,0.5,184
+185,text-insert,user,1630035485199,"{'ops': [{'retain': 574}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the bo",575,[],3,3,5,30,0.9,1,0,0.5,185
+186,text-insert,user,1630035485407,"{'ops': [{'retain': 575}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the boo",576,[],3,3,5,30,0.9,1,0,0.5,186
+187,text-insert,user,1630035485639,"{'ops': [{'retain': 576}, {'insert': 'k'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book",577,[],3,3,5,30,0.9,1,0,0.5,187
+188,text-insert,user,1630035486011,"{'ops': [{'retain': 577}, {'insert': '.'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.",578,[],3,3,5,30,0.9,1,0,0.5,188
+189,text-insert,user,1630035497872,"{'ops': [{'retain': 578}, {'insert': '\n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+",578,[],3,3,5,30,0.9,1,0,0.5,189
+190,text-insert,user,1630035498297,"{'ops': [{'retain': 579}, {'insert': '\n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+",579,[],3,3,5,30,0.9,1,0,0.5,190
+191,text-insert,user,1630035500780,"{'ops': [{'retain': 580}, {'insert': 'L'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+L",581,[],3,3,5,30,0.9,1,0,0.5,191
+192,text-insert,user,1630035500981,"{'ops': [{'retain': 581}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Li",582,[],3,3,5,30,0.9,1,0,0.5,192
+193,text-insert,user,1630035501253,"{'ops': [{'retain': 582}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Lis",583,[],3,3,5,30,0.9,1,0,0.5,193
+194,text-insert,user,1630035501663,"{'ops': [{'retain': 583}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+List",584,[],3,3,5,30,0.9,1,0,0.5,194
+195,text-insert,user,1630035501897,"{'ops': [{'retain': 584}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Liste",585,[],3,3,5,30,0.9,1,0,0.5,195
+196,text-insert,user,1630035502034,"{'ops': [{'retain': 585}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listen",586,[],3,3,5,30,0.9,1,0,0.5,196
+197,text-insert,user,1630035502256,"{'ops': [{'retain': 586}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listeni",587,[],3,3,5,30,0.9,1,0,0.5,197
+198,text-insert,user,1630035502462,"{'ops': [{'retain': 587}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listenin",588,[],3,3,5,30,0.9,1,0,0.5,198
+199,text-insert,user,1630035502619,"{'ops': [{'retain': 588}, {'insert': 'g'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening",589,[],3,3,5,30,0.9,1,0,0.5,199
+200,text-insert,user,1630035502771,"{'ops': [{'retain': 589}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening ",590,[],3,3,5,30,0.9,1,0,0.5,200
+201,text-insert,user,1630035502886,"{'ops': [{'retain': 590}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening t",591,[],3,3,5,30,0.9,1,0,0.5,201
+202,text-insert,user,1630035502995,"{'ops': [{'retain': 591}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to",592,[],3,3,5,30,0.9,1,0,0.5,202
+203,text-insert,user,1630035503076,"{'ops': [{'retain': 592}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to ",593,[],3,3,5,30,0.9,1,0,0.5,203
+204,text-insert,user,1630035503331,"{'ops': [{'retain': 593}, {'insert': 'b'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to b",594,[],3,3,5,30,0.9,1,0,0.5,204
+205,text-insert,user,1630035503529,"{'ops': [{'retain': 594}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to bo",595,[],3,3,5,30,0.9,1,0,0.5,205
+206,text-insert,user,1630035503734,"{'ops': [{'retain': 595}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to boo",596,[],3,3,5,30,0.9,1,0,0.5,206
+207,text-insert,user,1630035504011,"{'ops': [{'retain': 596}, {'insert': 'k'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to book",597,[],3,3,5,30,0.9,1,0,0.5,207
+208,text-insert,user,1630035504233,"{'ops': [{'retain': 597}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books",598,[],3,3,5,30,0.9,1,0,0.5,208
+209,text-insert,user,1630035504441,"{'ops': [{'retain': 598}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books ",599,[],3,3,5,30,0.9,1,0,0.5,209
+210,text-insert,user,1630035504839,"{'ops': [{'retain': 599}, {'insert': 'i'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books i",600,[],3,3,5,30,0.9,1,0,0.5,210
+211,text-insert,user,1630035504967,"{'ops': [{'retain': 600}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books is",601,[],3,3,5,30,0.9,1,0,0.5,211
+212,text-insert,user,1630035505124,"{'ops': [{'retain': 601}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn",602,[],3,3,5,30,0.9,1,0,0.5,212
+213,text-insert,user,1630035505272,"{'ops': [{'retain': 602}, {'insert': ""'""}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn'",603,[],3,3,5,30,0.9,1,0,0.5,213
+214,text-insert,user,1630035505409,"{'ops': [{'retain': 603}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't",604,[],3,3,5,30,0.9,1,0,0.5,214
+215,text-insert,user,1630035505535,"{'ops': [{'retain': 604}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't ",605,[],3,3,5,30,0.9,1,0,0.5,215
+216,text-insert,user,1630035505862,"{'ops': [{'retain': 605}, {'insert': 'b'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't b",606,[],3,3,5,30,0.9,1,0,0.5,216
+217,text-insert,user,1630035506037,"{'ops': [{'retain': 606}, {'insert': 'a'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't ba",607,[],3,3,5,30,0.9,1,0,0.5,217
+218,text-insert,user,1630035506325,"{'ops': [{'retain': 607}, {'insert': 'd'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad",608,[],3,3,5,30,0.9,1,0,0.5,218
+219,text-insert,user,1630035506603,"{'ops': [{'retain': 608}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad ",609,[],3,3,5,30,0.9,1,0,0.5,219
+220,text-insert,user,1630035507012,"{'ops': [{'retain': 609}, {'insert': 'b'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad b",610,[],3,3,5,30,0.9,1,0,0.5,220
+221,text-insert,user,1630035507126,"{'ops': [{'retain': 610}, {'insert': 'u'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad bu",611,[],3,3,5,30,0.9,1,0,0.5,221
+222,text-insert,user,1630035507569,"{'ops': [{'retain': 611}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but",612,[],3,3,5,30,0.9,1,0,0.5,222
+223,text-insert,user,1630035508628,"{'ops': [{'retain': 612}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but ",613,[],3,3,5,30,0.9,1,0,0.5,223
+224,suggestion-get,user,1630035509846,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but ",613,[],3,3,5,30,0.9,1,0,0.5,224
+225,suggestion-open,api,1630035511888,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but ",613,"[{'index': 0, 'original': 'listening to them can get a little dreary.', 'trimmed': 'listening to them can get a little dreary.', 'probability': 8.666675466333302e-20}, {'index': 1, 'original': 'I prefer reading.', 'trimmed': 'I prefer reading.', 'probability': 2.8140305028817706e-28}, {'index': 2, 'original': 'it might lack some aspects in which the readers imagination plays a great part.', 'trimmed': 'it might lack some aspects in which the readers imagination plays a great part.', 'probability': 2.340401596830951e-30}, {'index': 3, 'original': ""reading one is better for me because there's a personal connection."", 'trimmed': ""reading one is better for me because there's a personal connection."", 'probability': 1.0683640132397409e-26}]",0,3,5,30,0.9,1,0,0.5,225
+226,suggestion-hover,user,1630035512668,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but ",613,[],0,3,5,30,0.9,1,0,0.5,226
+227,suggestion-hover,user,1630035512707,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but ",613,[],0,2,5,30,0.9,1,0,0.5,227
+228,suggestion-hover,user,1630035512868,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but ",613,[],0,3,5,30,0.9,1,0,0.5,228
+229,suggestion-hover,user,1630035512934,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but ",613,[],0,2,5,30,0.9,1,0,0.5,229
+230,suggestion-hover,user,1630035513034,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but ",613,[],0,1,5,30,0.9,1,0,0.5,230
+231,suggestion-hover,user,1630035513426,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but ",613,[],0,2,5,30,0.9,1,0,0.5,231
+232,suggestion-select,user,1630035514599,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but ",613,[],2,2,5,30,0.9,1,0,0.5,232
+233,suggestion-close,api,1630035514601,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but ",613,[],2,2,5,30,0.9,1,0,0.5,233
+234,text-insert,api,1630035514611,"{'ops': [{'retain': 613}, {'insert': 'it might lack some aspects in which the readers imagination plays a great part.'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.",692,[],2,2,5,30,0.9,1,0,0.5,234
+235,text-insert,user,1630035516026,"{'ops': [{'retain': 692}, {'insert': '\n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+",692,[],2,2,5,30,0.9,1,0,0.5,235
+236,text-insert,user,1630035516460,"{'ops': [{'retain': 693}, {'insert': '\n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+",693,[],2,2,5,30,0.9,1,0,0.5,236
+237,text-insert,user,1630035517694,"{'ops': [{'retain': 694}, {'insert': 'I'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+I",695,[],2,2,5,30,0.9,1,0,0.5,237
+238,text-insert,user,1630035517870,"{'ops': [{'retain': 695}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It",696,[],2,2,5,30,0.9,1,0,0.5,238
+239,text-insert,user,1630035518019,"{'ops': [{'retain': 696}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It ",697,[],2,2,5,30,0.9,1,0,0.5,239
+240,text-insert,user,1630035518216,"{'ops': [{'retain': 697}, {'insert': 'a'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It a",698,[],2,2,5,30,0.9,1,0,0.5,240
+241,text-insert,user,1630035518400,"{'ops': [{'retain': 698}, {'insert': 'l'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It al",699,[],2,2,5,30,0.9,1,0,0.5,241
+242,text-insert,user,1630035518582,"{'ops': [{'retain': 699}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It als",700,[],2,2,5,30,0.9,1,0,0.5,242
+243,text-insert,user,1630035518683,"{'ops': [{'retain': 700}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also",701,[],2,2,5,30,0.9,1,0,0.5,243
+244,text-insert,user,1630035518814,"{'ops': [{'retain': 701}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also ",702,[],2,2,5,30,0.9,1,0,0.5,244
+245,text-insert,user,1630035519347,"{'ops': [{'retain': 702}, {'insert': 'c'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also c",703,[],2,2,5,30,0.9,1,0,0.5,245
+246,text-insert,user,1630035519520,"{'ops': [{'retain': 703}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also co",704,[],2,2,5,30,0.9,1,0,0.5,246
+247,text-insert,user,1630035519526,"{'ops': [{'retain': 704}, {'insert': 'u'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also cou",705,[],2,2,5,30,0.9,1,0,0.5,247
+248,text-insert,user,1630035520058,"{'ops': [{'retain': 705}, {'insert': 'l'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also coul",706,[],2,2,5,30,0.9,1,0,0.5,248
+249,text-insert,user,1630035520215,"{'ops': [{'retain': 706}, {'insert': 'd'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could",707,[],2,2,5,30,0.9,1,0,0.5,249
+250,text-insert,user,1630035520327,"{'ops': [{'retain': 707}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could ",708,[],2,2,5,30,0.9,1,0,0.5,250
+251,text-insert,user,1630035520533,"{'ops': [{'retain': 708}, {'insert': 'b'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could b",709,[],2,2,5,30,0.9,1,0,0.5,251
+252,text-insert,user,1630035520736,"{'ops': [{'retain': 709}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be",710,[],2,2,5,30,0.9,1,0,0.5,252
+253,text-insert,user,1630035520881,"{'ops': [{'retain': 710}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be ",711,[],2,2,5,30,0.9,1,0,0.5,253
+254,text-insert,user,1630035521048,"{'ops': [{'retain': 711}, {'insert': 'r'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be r",712,[],2,2,5,30,0.9,1,0,0.5,254
+255,text-insert,user,1630035521170,"{'ops': [{'retain': 712}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be re",713,[],2,2,5,30,0.9,1,0,0.5,255
+256,text-insert,user,1630035521302,"{'ops': [{'retain': 713}, {'insert': 'a'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be rea",714,[],2,2,5,30,0.9,1,0,0.5,256
+257,text-insert,user,1630035521427,"{'ops': [{'retain': 714}, {'insert': 'l'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be real",715,[],2,2,5,30,0.9,1,0,0.5,257
+258,text-insert,user,1630035521606,"{'ops': [{'retain': 715}, {'insert': 'l'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be reall",716,[],2,2,5,30,0.9,1,0,0.5,258
+259,text-insert,user,1630035521797,"{'ops': [{'retain': 716}, {'insert': 'y'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really",717,[],2,2,5,30,0.9,1,0,0.5,259
+260,text-insert,user,1630035522069,"{'ops': [{'retain': 717}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really ",718,[],2,2,5,30,0.9,1,0,0.5,260
+261,suggestion-get,user,1630035522586,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really ",718,[],2,2,5,30,0.9,1,0,0.5,261
+262,suggestion-open,api,1630035524597,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really ",718,"[{'index': 0, 'original': 'hard to imagine the characters in your head while listening to an audiobook.', 'trimmed': 'hard to imagine the characters in your head while listening to an audiobook.', 'probability': 3.827033560628388e-26}, {'index': 1, 'original': 'interesting by listening to more than one book in a certain period.', 'trimmed': 'interesting by listening to more than one book in a certain period.', 'probability': 9.999850770940398e-25}, {'index': 2, 'original': 'tiring to have to listen to someone talk about a situation over and over again.', 'trimmed': 'tiring to have to listen to someone talk about a situation over and over again.', 'probability': 1.3918547234265816e-27}, {'index': 3, 'original': 'awesome.', 'trimmed': 'awesome.', 'probability': 1.0392861778971472e-36}, {'index': 4, 'original': ""boring and 'boring' just isn't fun at all."", 'trimmed': ""boring and 'boring' just isn't fun at all."", 'probability': 1.363524857591917e-23}]",0,2,5,30,0.9,1,0,0.5,262
+263,suggestion-hover,user,1630035526113,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really ",718,[],0,2,5,30,0.9,1,0,0.5,263
+264,suggestion-hover,user,1630035526128,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really ",718,[],0,1,5,30,0.9,1,0,0.5,264
+265,suggestion-hover,user,1630035526465,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really ",718,[],0,3,5,30,0.9,1,0,0.5,265
+266,suggestion-hover,user,1630035526528,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really ",718,[],0,4,5,30,0.9,1,0,0.5,266
+267,suggestion-hover,user,1630035526689,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really ",718,[],0,3,5,30,0.9,1,0,0.5,267
+268,suggestion-select,user,1630035527069,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really ",718,[],3,3,5,30,0.9,1,0,0.5,268
+269,suggestion-close,api,1630035527071,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really ",718,[],3,3,5,30,0.9,1,0,0.5,269
+270,text-insert,api,1630035527082,"{'ops': [{'retain': 718}, {'insert': 'awesome.'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.",726,[],3,3,5,30,0.9,1,0,0.5,270
+271,text-insert,user,1630035528098,"{'ops': [{'retain': 726}, {'insert': '\n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+",726,[],3,3,5,30,0.9,1,0,0.5,271
+272,text-insert,user,1630035528351,"{'ops': [{'retain': 727}, {'insert': '\n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+",727,[],3,3,5,30,0.9,1,0,0.5,272
+273,text-insert,user,1630035528860,"{'ops': [{'retain': 728}, {'insert': 'I'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+I",729,[],3,3,5,30,0.9,1,0,0.5,273
+274,text-insert,user,1630035529040,"{'ops': [{'retain': 729}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It",730,[],3,3,5,30,0.9,1,0,0.5,274
+275,text-insert,user,1630035529218,"{'ops': [{'retain': 730}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It ",731,[],3,3,5,30,0.9,1,0,0.5,275
+276,text-insert,user,1630035529427,"{'ops': [{'retain': 731}, {'insert': 'a'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It a",732,[],3,3,5,30,0.9,1,0,0.5,276
+277,text-insert,user,1630035529586,"{'ops': [{'retain': 732}, {'insert': 'l'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It al",733,[],3,3,5,30,0.9,1,0,0.5,277
+278,text-insert,user,1630035529773,"{'ops': [{'retain': 733}, {'insert': 'l'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all",734,[],3,3,5,30,0.9,1,0,0.5,278
+279,text-insert,user,1630035529922,"{'ops': [{'retain': 734}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all ",735,[],3,3,5,30,0.9,1,0,0.5,279
+280,text-insert,user,1630035530175,"{'ops': [{'retain': 735}, {'insert': 'j'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all j",736,[],3,3,5,30,0.9,1,0,0.5,280
+281,text-insert,user,1630035530393,"{'ops': [{'retain': 736}, {'insert': 'u'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all ju",737,[],3,3,5,30,0.9,1,0,0.5,281
+282,text-insert,user,1630035530459,"{'ops': [{'retain': 737}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all jus",738,[],3,3,5,30,0.9,1,0,0.5,282
+283,text-insert,user,1630035530652,"{'ops': [{'retain': 738}, {'insert': 't'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just",739,[],3,3,5,30,0.9,1,0,0.5,283
+284,text-insert,user,1630035530685,"{'ops': [{'retain': 739}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just ",740,[],3,3,5,30,0.9,1,0,0.5,284
+285,text-insert,user,1630035530901,"{'ops': [{'retain': 740}, {'insert': 'd'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just d",741,[],3,3,5,30,0.9,1,0,0.5,285
+286,text-insert,user,1630035531144,"{'ops': [{'retain': 741}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just de",742,[],3,3,5,30,0.9,1,0,0.5,286
+287,text-insert,user,1630035531315,"{'ops': [{'retain': 742}, {'insert': 'p'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just dep",743,[],3,3,5,30,0.9,1,0,0.5,287
+288,text-insert,user,1630035531549,"{'ops': [{'retain': 743}, {'insert': 'e'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depe",744,[],3,3,5,30,0.9,1,0,0.5,288
+289,text-insert,user,1630035531742,"{'ops': [{'retain': 744}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depen",745,[],3,3,5,30,0.9,1,0,0.5,289
+290,text-insert,user,1630035531950,"{'ops': [{'retain': 745}, {'insert': 'd'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depend",746,[],3,3,5,30,0.9,1,0,0.5,290
+291,text-insert,user,1630035532206,"{'ops': [{'retain': 746}, {'insert': 's'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depends",747,[],3,3,5,30,0.9,1,0,0.5,291
+292,text-insert,user,1630035532388,"{'ops': [{'retain': 747}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depends ",748,[],3,3,5,30,0.9,1,0,0.5,292
+293,text-insert,user,1630035532543,"{'ops': [{'retain': 748}, {'insert': 'o'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depends o",749,[],3,3,5,30,0.9,1,0,0.5,293
+294,text-insert,user,1630035532699,"{'ops': [{'retain': 749}, {'insert': 'n'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depends on",750,[],3,3,5,30,0.9,1,0,0.5,294
+295,text-insert,user,1630035532859,"{'ops': [{'retain': 750}, {'insert': ' '}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depends on ",751,[],3,3,5,30,0.9,1,0,0.5,295
+296,suggestion-get,user,1630035535060,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depends on ",751,[],3,3,5,30,0.9,1,0,0.5,296
+297,suggestion-open,api,1630035536998,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depends on ",751,"[{'index': 0, 'original': ""one's reading speed, preferences and the book."", 'trimmed': ""one's reading speed, preferences and the book."", 'probability': 1.891500307918564e-33}, {'index': 1, 'original': 'what the narrator is doing and if they are good at it.', 'trimmed': 'what the narrator is doing and if they are good at it.', 'probability': 2.5535248933784703e-12}, {'index': 2, 'original': 'the person.', 'trimmed': 'the person.', 'probability': 3.137047542378713e-13}, {'index': 3, 'original': 'your perspective.', 'trimmed': 'your perspective.', 'probability': 6.912194965962232e-21}, {'index': 4, 'original': 'the book of course.', 'trimmed': 'the book of course.', 'probability': 1.1621439710055016e-22}]",0,3,5,30,0.9,1,0,0.5,297
+298,suggestion-hover,user,1630035537004,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depends on ",751,[],0,3,5,30,0.9,1,0,0.5,298
+299,suggestion-select,user,1630035538059,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depends on ",751,[],3,3,5,30,0.9,1,0,0.5,299
+300,suggestion-close,api,1630035538060,,,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depends on ",751,[],3,3,5,30,0.9,1,0,0.5,300
+301,text-insert,api,1630035538071,"{'ops': [{'retain': 751}, {'insert': 'your perspective.'}]}",,"Is Listening to a Book Just as Good as Reading It?
+
+Do you listen to audiobooks? What are the benefits, in your opinion, of listening instead of reading? Are there advantages to reading that cannot be gained by listening? Which method do you prefer? Why?
+
+---
+
+In my opinion, listening to audiobooks is different from reading print books: this is because it can get rather tedious to continually find out what is happening in a book by listening to someone narrate it.
+
+But if you have fun then the fun will follow you on a long road. Or maybe a short one depending on the book.
+
+Listening to books isn't bad but it might lack some aspects in which the readers imagination plays a great part.
+
+It also could be really awesome.
+
+It all just depends on your perspective.",768,[],3,3,5,30,0.9,1,0,0.5,301
