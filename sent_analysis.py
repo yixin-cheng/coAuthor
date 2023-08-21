@@ -365,9 +365,6 @@ def execute(file_name: str, genre: str):
     ops = ['text-insert', 'text-delete', 'suggestion-get']
     for i in range(len(data)):
         # print(i)
-        if data['currentDoc'].isnull()[i]:
-            error_doc.append(file_name[11:43])
-            continue
         if data['eventName'][i] == 'text-insert' and len(eval(data['textDelta'][i])['ops']) == 2 and 'insert' in \
                 eval(data['textDelta'][i])['ops'][1]:
             if eval(data['textDelta'][i])['ops'][1]['insert'] == '\n':
@@ -395,19 +392,19 @@ def execute(file_name: str, genre: str):
             df2 = df2.append(new_row, ignore_index=True)
             # print(i)
     df2.fillna(0, inplace=True)
-    df2.to_csv('./{}/{}.csv'.format(genre, file_name[11:43]))  # [11:43]
+    df2.to_csv('./{}/{}.csv'.format(genre, file_name[16:48]))  # [11:43] [16:48]
     print(error_doc)
 
 
 def main():
-    directory = './creative/'
+    directory = './argumentative/'
     files = os.listdir(directory)
-    files_mapping = os.listdir('./creativeMapping/')
+    files_mapping = os.listdir('./argumentativeMapping/')
     for file in files:
         if file not in files_mapping:
             print('file: ', file)
             start_time = time.time()
-            execute(file_name=directory + file, genre='creativeMapping')
+            execute(file_name=directory + file, genre='argumentativeMapping')
             print("--- %s seconds ---" % (time.time() - start_time))
     # execute('a068c.csv', genre='creativeMapping')
 
