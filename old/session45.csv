@@ -1,0 +1,933 @@
+eventName,eventSource,eventTimestamp,textDelta,cursorRange,currentDoc,currentCursor,currentSuggestions,currentSuggestionIndex,currentHoverIndex,currentN,currentMaxToken,currentTemperature,currentTopP,currentPresencePenalty,currentFrequencyPenalty,eventNum
+system-initialize,api,1630332951475,,,"You're Barack Obama. 4 years into your retirement, you awake to find a letter with no return address on your bedside table. It reads ""I hope you've had a chance to relax Barack...but pack your bags and call the number below. It's time to start the real job."" Signed simply, ""JFK.""
+",280,[],0,,5,30,0.75,1,0,1,0
+text-insert,user,1630332969810,"{'ops': [{'retain': 280}, {'insert': ' '}]}",,,281,[],0,,5,30,0.75,1,0,1,1
+suggestion-get,user,1630332970669,,,,281,[],0,,5,30,0.75,1,0,1,2
+suggestion-open,api,1630332972610,,,,281,"[{'index': 0, 'original': 'Puzzled, you call the number.', 'trimmed': 'Puzzled, you call the number.', 'probability': 1.109704632312933e-15}, {'index': 1, 'original': ""You call the number...it's a private line."", 'trimmed': ""You call the number...it's a private line."", 'probability': 4.172135064262382e-15}, {'index': 2, 'original': 'You have no idea what JFK could mean in this context.', 'trimmed': 'You have no idea what JFK could mean in this context.', 'probability': 4.1514207493144376e-17}, {'index': 3, 'original': 'No cell phone.', 'trimmed': 'No cell phone.', 'probability': 2.145134127725703e-26}]",0,,5,30,0.75,1,0,1,3
+suggestion-hover,user,1630332974868,,,,281,[],0,0,5,30,0.75,1,0,1,4
+suggestion-hover,user,1630332975167,,,,281,[],0,0,5,30,0.75,1,0,1,5
+suggestion-select,user,1630332976172,,,,281,[],0,0,5,30,0.75,1,0,1,6
+suggestion-close,api,1630332976173,,,,281,[],0,0,5,30,0.75,1,0,1,7
+text-insert,api,1630332976187,"{'ops': [{'retain': 281}, {'insert': 'Puzzled, you call the number.'}]}",,,310,[],0,0,5,30,0.75,1,0,1,8
+text-insert,user,1630332977486,"{'ops': [{'retain': 310}, {'insert': ' '}]}",,,311,[],0,0,5,30,0.75,1,0,1,9
+suggestion-get,user,1630332978072,,,,311,[],0,0,5,30,0.75,1,0,1,10
+suggestion-open,api,1630332980048,,,,311,"[{'index': 0, 'original': ""It's a number in Dallas."", 'trimmed': ""It's a number in Dallas."", 'probability': 3.701207868671696e-20}, {'index': 1, 'original': '""JFK?"" the voice on the other end answers.', 'trimmed': '""JFK?"" the voice on the other end answers.', 'probability': 1.474948820029557e-14}, {'index': 2, 'original': 'The person on the other line, a man named Oswald (yes this is not a drill), tells you that in 3 days time the world will be', 'trimmed': 'The person on the other line, a man named Oswald (yes this is not a drill), tells you that in 3 days time the world will be', 'probability': 8.767391521280008e-26}, {'index': 3, 'original': 'A voice on the other end tells you to meet ""him"" in an hour at the Old Executive Office Building.', 'trimmed': 'A voice on the other end tells you to meet ""him"" in an hour at the Old Executive Office Building.', 'probability': 4.488175642934913e-18}]",0,0,5,30,0.75,1,0,1,11
+suggestion-hover,user,1630332980054,,,,311,[],0,0,5,30,0.75,1,0,1,12
+suggestion-hover,user,1630332992333,,,,311,[],0,0,5,30,0.75,1,0,1,13
+suggestion-hover,user,1630332992369,,,,311,[],0,1,5,30,0.75,1,0,1,14
+suggestion-hover,user,1630332992400,,,,311,[],0,2,5,30,0.75,1,0,1,15
+suggestion-hover,user,1630332992550,,,,311,[],0,3,5,30,0.75,1,0,1,16
+suggestion-select,user,1630332993319,,,,311,[],3,3,5,30,0.75,1,0,1,17
+suggestion-close,api,1630332993319,,,,311,[],3,3,5,30,0.75,1,0,1,18
+text-insert,api,1630332993333,"{'ops': [{'retain': 311}, {'insert': 'A voice on the other end tells you to meet ""him"" in an hour at the Old Executive Office Building.'}]}",,,408,[],3,3,5,30,0.75,1,0,1,19
+text-insert,user,1630333004420,"{'ops': [{'retain': 408}, {'insert': ' '}]}",,,409,[],3,3,5,30,0.75,1,0,1,20
+text-insert,user,1630333004548,"{'ops': [{'retain': 409}, {'insert': ' '}]}",,,410,[],3,3,5,30,0.75,1,0,1,21
+text-insert,user,1630333006638,"{'ops': [{'retain': 410}, {'insert': 'T'}]}",,,411,[],3,3,5,30,0.75,1,0,1,22
+text-insert,user,1630333006949,"{'ops': [{'retain': 411}, {'insert': 'w'}]}",,,412,[],3,3,5,30,0.75,1,0,1,23
+text-insert,user,1630333007199,"{'ops': [{'retain': 412}, {'insert': 'o'}]}",,,413,[],3,3,5,30,0.75,1,0,1,24
+text-insert,user,1630333007404,"{'ops': [{'retain': 413}, {'insert': ' '}]}",,,414,[],3,3,5,30,0.75,1,0,1,25
+text-insert,user,1630333007704,"{'ops': [{'retain': 414}, {'insert': 'h'}]}",,,415,[],3,3,5,30,0.75,1,0,1,26
+text-insert,user,1630333007829,"{'ops': [{'retain': 415}, {'insert': 'o'}]}",,,416,[],3,3,5,30,0.75,1,0,1,27
+text-insert,user,1630333007971,"{'ops': [{'retain': 416}, {'insert': 'u'}]}",,,417,[],3,3,5,30,0.75,1,0,1,28
+text-insert,user,1630333008211,"{'ops': [{'retain': 417}, {'insert': 'r'}]}",,,418,[],3,3,5,30,0.75,1,0,1,29
+text-insert,user,1630333008409,"{'ops': [{'retain': 418}, {'insert': 's'}]}",,,419,[],3,3,5,30,0.75,1,0,1,30
+text-insert,user,1630333008896,"{'ops': [{'retain': 419}, {'insert': ' '}]}",,,420,[],3,3,5,30,0.75,1,0,1,31
+text-insert,user,1630333009530,"{'ops': [{'retain': 420}, {'insert': 'l'}]}",,,421,[],3,3,5,30,0.75,1,0,1,32
+text-insert,user,1630333009691,"{'ops': [{'retain': 421}, {'insert': 'a'}]}",,,422,[],3,3,5,30,0.75,1,0,1,33
+text-insert,user,1630333009936,"{'ops': [{'retain': 422}, {'insert': 't'}]}",,,423,[],3,3,5,30,0.75,1,0,1,34
+text-insert,user,1630333010066,"{'ops': [{'retain': 423}, {'insert': 'e'}]}",,,424,[],3,3,5,30,0.75,1,0,1,35
+text-insert,user,1630333010184,"{'ops': [{'retain': 424}, {'insert': 'r'}]}",,,425,[],3,3,5,30,0.75,1,0,1,36
+text-insert,user,1630333010385,"{'ops': [{'retain': 425}, {'insert': ' '}]}",,,426,[],3,3,5,30,0.75,1,0,1,37
+text-insert,user,1630333026670,"{'ops': [{'retain': 426}, {'insert': 'I'}]}",,,427,[],3,3,5,30,0.75,1,0,1,38
+text-delete,user,1630333027337,"{'ops': [{'retain': 426}, {'delete': 1}]}",,,426,[],3,3,5,30,0.75,1,0,1,39
+text-insert,user,1630333032642,"{'ops': [{'retain': 426}, {'insert': 'O'}]}",,,427,[],3,3,5,30,0.75,1,0,1,40
+text-insert,user,1630333032981,"{'ops': [{'retain': 427}, {'insert': 'b'}]}",,,428,[],3,3,5,30,0.75,1,0,1,41
+text-insert,user,1630333034277,"{'ops': [{'retain': 428}, {'insert': 'a'}]}",,,429,[],3,3,5,30,0.75,1,0,1,42
+text-insert,user,1630333034469,"{'ops': [{'retain': 429}, {'insert': 'm'}]}",,,430,[],3,3,5,30,0.75,1,0,1,43
+text-insert,user,1630333034581,"{'ops': [{'retain': 430}, {'insert': 'a'}]}",,,431,[],3,3,5,30,0.75,1,0,1,44
+text-insert,user,1630333034709,"{'ops': [{'retain': 431}, {'insert': ' '}]}",,,432,[],3,3,5,30,0.75,1,0,1,45
+text-insert,user,1630333035244,"{'ops': [{'retain': 432}, {'insert': 'i'}]}",,,433,[],3,3,5,30,0.75,1,0,1,46
+text-insert,user,1630333035437,"{'ops': [{'retain': 433}, {'insert': 's'}]}",,,434,[],3,3,5,30,0.75,1,0,1,47
+text-insert,user,1630333035562,"{'ops': [{'retain': 434}, {'insert': ' '}]}",,,435,[],3,3,5,30,0.75,1,0,1,48
+text-insert,user,1630333036175,"{'ops': [{'retain': 435}, {'insert': 'o'}]}",,,436,[],3,3,5,30,0.75,1,0,1,49
+text-insert,user,1630333036377,"{'ops': [{'retain': 436}, {'insert': 'n'}]}",,,437,[],3,3,5,30,0.75,1,0,1,50
+text-insert,user,1630333036534,"{'ops': [{'retain': 437}, {'insert': ' '}]}",,,438,[],3,3,5,30,0.75,1,0,1,51
+text-insert,user,1630333036728,"{'ops': [{'retain': 438}, {'insert': 'a'}]}",,,439,[],3,3,5,30,0.75,1,0,1,52
+text-insert,user,1630333036818,"{'ops': [{'retain': 439}, {'insert': ' '}]}",,,440,[],3,3,5,30,0.75,1,0,1,53
+text-insert,user,1630333037545,"{'ops': [{'retain': 440}, {'insert': 'p'}]}",,,441,[],3,3,5,30,0.75,1,0,1,54
+text-insert,user,1630333037835,"{'ops': [{'retain': 441}, {'insert': 'r'}]}",,,442,[],3,3,5,30,0.75,1,0,1,55
+text-insert,user,1630333038080,"{'ops': [{'retain': 442}, {'insert': 'i'}]}",,,443,[],3,3,5,30,0.75,1,0,1,56
+text-insert,user,1630333038390,"{'ops': [{'retain': 443}, {'insert': 'v'}]}",,,444,[],3,3,5,30,0.75,1,0,1,57
+text-insert,user,1630333038464,"{'ops': [{'retain': 444}, {'insert': 'a'}]}",,,445,[],3,3,5,30,0.75,1,0,1,58
+text-insert,user,1630333038632,"{'ops': [{'retain': 445}, {'insert': 't'}]}",,,446,[],3,3,5,30,0.75,1,0,1,59
+text-insert,user,1630333038767,"{'ops': [{'retain': 446}, {'insert': 'e'}]}",,,447,[],3,3,5,30,0.75,1,0,1,60
+text-insert,user,1630333038875,"{'ops': [{'retain': 447}, {'insert': ' '}]}",,,448,[],3,3,5,30,0.75,1,0,1,61
+text-insert,user,1630333040031,"{'ops': [{'retain': 448}, {'insert': 'j'}]}",,,449,[],3,3,5,30,0.75,1,0,1,62
+text-insert,user,1630333040285,"{'ops': [{'retain': 449}, {'insert': 'e'}]}",,,450,[],3,3,5,30,0.75,1,0,1,63
+text-insert,user,1630333040710,"{'ops': [{'retain': 450}, {'insert': 't'}]}",,,451,[],3,3,5,30,0.75,1,0,1,64
+text-insert,user,1630333040894,"{'ops': [{'retain': 451}, {'insert': ' '}]}",,,452,[],3,3,5,30,0.75,1,0,1,65
+text-insert,user,1630333041279,"{'ops': [{'retain': 452}, {'insert': 't'}]}",,,453,[],3,3,5,30,0.75,1,0,1,66
+text-insert,user,1630333041432,"{'ops': [{'retain': 453}, {'insert': 'o'}]}",,,454,[],3,3,5,30,0.75,1,0,1,67
+text-insert,user,1630333041597,"{'ops': [{'retain': 454}, {'insert': ' '}]}",,,455,[],3,3,5,30,0.75,1,0,1,68
+text-insert,user,1630333042071,"{'ops': [{'retain': 455}, {'insert': 'D'}]}",,,456,[],3,3,5,30,0.75,1,0,1,69
+text-insert,user,1630333042756,"{'ops': [{'retain': 456}, {'insert': '.'}]}",,,457,[],3,3,5,30,0.75,1,0,1,70
+text-insert,user,1630333043218,"{'ops': [{'retain': 457}, {'insert': 'C'}]}",,,458,[],3,3,5,30,0.75,1,0,1,71
+text-insert,user,1630333043767,"{'ops': [{'retain': 458}, {'insert': '.'}]}",,,459,[],3,3,5,30,0.75,1,0,1,72
+text-insert,user,1630333044878,"{'ops': [{'retain': 459}, {'insert': '.'}]}",,,460,[],3,3,5,30,0.75,1,0,1,73
+text-insert,user,1630333045073,"{'ops': [{'retain': 460}, {'insert': ' '}]}",,,461,[],3,3,5,30,0.75,1,0,1,74
+text-insert,user,1630333045203,"{'ops': [{'retain': 461}, {'insert': ' '}]}",,,462,[],3,3,5,30,0.75,1,0,1,75
+text-insert,user,1630333048788,"{'ops': [{'retain': 462}, {'insert': 'Y'}]}",,,463,[],3,3,5,30,0.75,1,0,1,76
+text-insert,user,1630333049121,"{'ops': [{'retain': 463}, {'insert': 'o'}]}",,,464,[],3,3,5,30,0.75,1,0,1,77
+text-insert,user,1630333049339,"{'ops': [{'retain': 464}, {'insert': 'u'}]}",,,465,[],3,3,5,30,0.75,1,0,1,78
+text-insert,user,1630333049574,"{'ops': [{'retain': 465}, {'insert': ' '}]}",,,466,[],3,3,5,30,0.75,1,0,1,79
+text-insert,user,1630333049923,"{'ops': [{'retain': 466}, {'insert': 'w'}]}",,,467,[],3,3,5,30,0.75,1,0,1,80
+text-insert,user,1630333050044,"{'ops': [{'retain': 467}, {'insert': 'o'}]}",,,468,[],3,3,5,30,0.75,1,0,1,81
+text-insert,user,1630333050224,"{'ops': [{'retain': 468}, {'insert': 'n'}]}",,,469,[],3,3,5,30,0.75,1,0,1,82
+text-insert,user,1630333050555,"{'ops': [{'retain': 469}, {'insert': 'd'}]}",,,470,[],3,3,5,30,0.75,1,0,1,83
+text-insert,user,1630333050763,"{'ops': [{'retain': 470}, {'insert': 'e'}]}",,,471,[],3,3,5,30,0.75,1,0,1,84
+text-insert,user,1630333050840,"{'ops': [{'retain': 471}, {'insert': 'r'}]}",,,472,[],3,3,5,30,0.75,1,0,1,85
+text-insert,user,1630333051024,"{'ops': [{'retain': 472}, {'insert': ' '}]}",,,473,[],3,3,5,30,0.75,1,0,1,86
+text-insert,user,1630333052415,"{'ops': [{'retain': 473}, {'insert': 'w'}]}",,,474,[],3,3,5,30,0.75,1,0,1,87
+text-insert,user,1630333052549,"{'ops': [{'retain': 474}, {'insert': 'h'}]}",,,475,[],3,3,5,30,0.75,1,0,1,88
+text-insert,user,1630333052683,"{'ops': [{'retain': 475}, {'insert': 'a'}]}",,,476,[],3,3,5,30,0.75,1,0,1,89
+text-insert,user,1630333052815,"{'ops': [{'retain': 476}, {'insert': 't'}]}",,,477,[],3,3,5,30,0.75,1,0,1,90
+text-insert,user,1630333052977,"{'ops': [{'retain': 477}, {'insert': ' '}]}",,,478,[],3,3,5,30,0.75,1,0,1,91
+text-insert,user,1630333053120,"{'ops': [{'retain': 478}, {'insert': 't'}]}",,,479,[],3,3,5,30,0.75,1,0,1,92
+text-insert,user,1630333053298,"{'ops': [{'retain': 479}, {'insert': 'h'}]}",,,480,[],3,3,5,30,0.75,1,0,1,93
+text-insert,user,1630333053422,"{'ops': [{'retain': 480}, {'insert': 'i'}]}",,,481,[],3,3,5,30,0.75,1,0,1,94
+text-insert,user,1630333053574,"{'ops': [{'retain': 481}, {'insert': 's'}]}",,,482,[],3,3,5,30,0.75,1,0,1,95
+text-insert,user,1630333053689,"{'ops': [{'retain': 482}, {'insert': ' '}]}",,,483,[],3,3,5,30,0.75,1,0,1,96
+text-insert,user,1630333054356,"{'ops': [{'retain': 483}, {'insert': 'c'}]}",,,484,[],3,3,5,30,0.75,1,0,1,97
+text-insert,user,1630333054514,"{'ops': [{'retain': 484}, {'insert': 'o'}]}",,,485,[],3,3,5,30,0.75,1,0,1,98
+text-insert,user,1630333054613,"{'ops': [{'retain': 485}, {'insert': 'u'}]}",,,486,[],3,3,5,30,0.75,1,0,1,99
+text-insert,user,1630333054769,"{'ops': [{'retain': 486}, {'insert': 'l'}]}",,,487,[],3,3,5,30,0.75,1,0,1,100
+text-insert,user,1630333054870,"{'ops': [{'retain': 487}, {'insert': 'd'}]}",,,488,[],3,3,5,30,0.75,1,0,1,101
+text-insert,user,1630333055001,"{'ops': [{'retain': 488}, {'insert': ' '}]}",,,489,[],3,3,5,30,0.75,1,0,1,102
+text-insert,user,1630333055229,"{'ops': [{'retain': 489}, {'insert': 'b'}]}",,,490,[],3,3,5,30,0.75,1,0,1,103
+text-insert,user,1630333055302,"{'ops': [{'retain': 490}, {'insert': 'e'}]}",,,491,[],3,3,5,30,0.75,1,0,1,104
+text-insert,user,1630333055725,"{'ops': [{'retain': 491}, {'insert': ','}]}",,,492,[],3,3,5,30,0.75,1,0,1,105
+text-insert,user,1630333055860,"{'ops': [{'retain': 492}, {'insert': ' '}]}",,,493,[],3,3,5,30,0.75,1,0,1,106
+suggestion-get,user,1630333057311,,,,493,[],3,3,5,30,0.75,1,0,1,107
+suggestion-open,api,1630333059303,,,,493,"[{'index': 0, 'original': 'and who could be responsible.', 'trimmed': 'and who could be responsible.', 'probability': 5.1219055329751085e-18}, {'index': 1, 'original': 'but soon realize that you always had a calling to do something greater.', 'trimmed': 'but soon realize that you always had a calling to do something greater.', 'probability': 1.0586044222085333e-24}, {'index': 2, 'original': ""but the plane lands and you're greeted by an older black man in a grey suit."", 'trimmed': ""but the plane lands and you're greeted by an older black man in a grey suit."", 'probability': 1.6308690563835508e-21}, {'index': 3, 'original': ""but you know deep down that John F. Kennedy wouldn't ask you to come back for anything less than a momentous occasion."", 'trimmed': ""but you know deep down that John F. Kennedy wouldn't ask you to come back for anything less than a momentous occasion."", 'probability': 1.627533936827824e-14}, {'index': 4, 'original': ""you know for certain it's not a prank."", 'trimmed': ""you know for certain it's not a prank."", 'probability': 7.428817528732487e-24}]",0,3,5,30,0.75,1,0,1,108
+suggestion-select,user,1630333076580,,,,493,[],0,0,5,30,0.75,1,0,1,109
+suggestion-close,api,1630333076580,,,,493,[],0,0,5,30,0.75,1,0,1,110
+text-insert,api,1630333076589,"{'ops': [{'retain': 493}, {'insert': 'and who could be responsible.'}]}",,,522,[],0,0,5,30,0.75,1,0,1,111
+text-insert,user,1630333077686,"{'ops': [{'retain': 522}, {'insert': ' '}]}",,,523,[],0,0,5,30,0.75,1,0,1,112
+text-insert,user,1630333077820,"{'ops': [{'retain': 523}, {'insert': ' '}]}",,,524,[],0,0,5,30,0.75,1,0,1,113
+text-insert,user,1630333078782,"{'ops': [{'retain': 524}, {'insert': 'Y'}]}",,,525,[],0,0,5,30,0.75,1,0,1,114
+text-insert,user,1630333079930,"{'ops': [{'retain': 525}, {'insert': 'o'}]}",,,526,[],0,0,5,30,0.75,1,0,1,115
+text-insert,user,1630333080121,"{'ops': [{'retain': 526}, {'insert': 'u'}]}",,,527,[],0,0,5,30,0.75,1,0,1,116
+text-insert,user,1630333080702,"{'ops': [{'retain': 527}, {'insert': ""'""}]}",,,528,[],0,0,5,30,0.75,1,0,1,117
+text-insert,user,1630333081072,"{'ops': [{'retain': 528}, {'insert': 'v'}]}",,,529,[],0,0,5,30,0.75,1,0,1,118
+text-insert,user,1630333081229,"{'ops': [{'retain': 529}, {'insert': 'e'}]}",,,530,[],0,0,5,30,0.75,1,0,1,119
+text-insert,user,1630333081302,"{'ops': [{'retain': 530}, {'insert': ' '}]}",,,531,[],0,0,5,30,0.75,1,0,1,120
+text-insert,user,1630333081637,"{'ops': [{'retain': 531}, {'insert': 'h'}]}",,,532,[],0,0,5,30,0.75,1,0,1,121
+text-insert,user,1630333081794,"{'ops': [{'retain': 532}, {'insert': 'e'}]}",,,533,[],0,0,5,30,0.75,1,0,1,122
+text-insert,user,1630333082095,"{'ops': [{'retain': 533}, {'insert': 'l'}]}",,,534,[],0,0,5,30,0.75,1,0,1,123
+text-insert,user,1630333082438,"{'ops': [{'retain': 534}, {'insert': 'd'}]}",,,535,[],0,0,5,30,0.75,1,0,1,124
+text-insert,user,1630333082492,"{'ops': [{'retain': 535}, {'insert': ' '}]}",,,536,[],0,0,5,30,0.75,1,0,1,125
+text-insert,user,1630333082659,"{'ops': [{'retain': 536}, {'insert': 't'}]}",,,537,[],0,0,5,30,0.75,1,0,1,126
+text-insert,user,1630333082734,"{'ops': [{'retain': 537}, {'insert': 'h'}]}",,,538,[],0,0,5,30,0.75,1,0,1,127
+text-insert,user,1630333082801,"{'ops': [{'retain': 538}, {'insert': 'e'}]}",,,539,[],0,0,5,30,0.75,1,0,1,128
+text-insert,user,1630333082937,"{'ops': [{'retain': 539}, {'insert': ' '}]}",,,540,[],0,0,5,30,0.75,1,0,1,129
+text-insert,user,1630333083418,"{'ops': [{'retain': 540}, {'insert': 'm'}]}",,,541,[],0,0,5,30,0.75,1,0,1,130
+text-insert,user,1630333083551,"{'ops': [{'retain': 541}, {'insert': 'o'}]}",,,542,[],0,0,5,30,0.75,1,0,1,131
+text-insert,user,1630333083721,"{'ops': [{'retain': 542}, {'insert': 's'}]}",,,543,[],0,0,5,30,0.75,1,0,1,132
+text-insert,user,1630333083846,"{'ops': [{'retain': 543}, {'insert': 't'}]}",,,544,[],0,0,5,30,0.75,1,0,1,133
+text-insert,user,1630333084015,"{'ops': [{'retain': 544}, {'insert': ' '}]}",,,545,[],0,0,5,30,0.75,1,0,1,134
+text-insert,user,1630333084397,"{'ops': [{'retain': 545}, {'insert': 'i'}]}",,,546,[],0,0,5,30,0.75,1,0,1,135
+text-insert,user,1630333084602,"{'ops': [{'retain': 546}, {'insert': 'm'}]}",,,547,[],0,0,5,30,0.75,1,0,1,136
+text-insert,user,1630333084891,"{'ops': [{'retain': 547}, {'insert': 'p'}]}",,,548,[],0,0,5,30,0.75,1,0,1,137
+text-insert,user,1630333085062,"{'ops': [{'retain': 548}, {'insert': 'o'}]}",,,549,[],0,0,5,30,0.75,1,0,1,138
+text-insert,user,1630333085690,"{'ops': [{'retain': 549}, {'insert': 'r'}]}",,,550,[],0,0,5,30,0.75,1,0,1,139
+text-insert,user,1630333085832,"{'ops': [{'retain': 550}, {'insert': 't'}]}",,,551,[],0,0,5,30,0.75,1,0,1,140
+text-insert,user,1630333086003,"{'ops': [{'retain': 551}, {'insert': 'a'}]}",,,552,[],0,0,5,30,0.75,1,0,1,141
+text-insert,user,1630333086325,"{'ops': [{'retain': 552}, {'insert': 'n'}]}",,,553,[],0,0,5,30,0.75,1,0,1,142
+text-insert,user,1630333086545,"{'ops': [{'retain': 553}, {'insert': 't'}]}",,,554,[],0,0,5,30,0.75,1,0,1,143
+text-insert,user,1630333086638,"{'ops': [{'retain': 554}, {'insert': ' '}]}",,,555,[],0,0,5,30,0.75,1,0,1,144
+text-insert,user,1630333087852,"{'ops': [{'retain': 555}, {'insert': 'j'}]}",,,556,[],0,0,5,30,0.75,1,0,1,145
+text-insert,user,1630333088237,"{'ops': [{'retain': 556}, {'insert': 'o'}]}",,,557,[],0,0,5,30,0.75,1,0,1,146
+text-insert,user,1630333088474,"{'ops': [{'retain': 557}, {'insert': 'b'}]}",,,558,[],0,0,5,30,0.75,1,0,1,147
+text-insert,user,1630333088634,"{'ops': [{'retain': 558}, {'insert': ' '}]}",,,559,[],0,0,5,30,0.75,1,0,1,148
+text-insert,user,1630333088923,"{'ops': [{'retain': 559}, {'insert': 'i'}]}",,,560,[],0,0,5,30,0.75,1,0,1,149
+text-insert,user,1630333089124,"{'ops': [{'retain': 560}, {'insert': 'n'}]}",,,561,[],0,0,5,30,0.75,1,0,1,150
+text-insert,user,1630333089276,"{'ops': [{'retain': 561}, {'insert': ' '}]}",,,562,[],0,0,5,30,0.75,1,0,1,151
+text-insert,user,1630333089414,"{'ops': [{'retain': 562}, {'insert': 't'}]}",,,563,[],0,0,5,30,0.75,1,0,1,152
+text-insert,user,1630333089528,"{'ops': [{'retain': 563}, {'insert': 'h'}]}",,,564,[],0,0,5,30,0.75,1,0,1,153
+text-insert,user,1630333089598,"{'ops': [{'retain': 564}, {'insert': 'e'}]}",,,565,[],0,0,5,30,0.75,1,0,1,154
+text-insert,user,1630333089693,"{'ops': [{'retain': 565}, {'insert': ' '}]}",,,566,[],0,0,5,30,0.75,1,0,1,155
+text-insert,user,1630333090156,"{'ops': [{'retain': 566}, {'insert': 'w'}]}",,,567,[],0,0,5,30,0.75,1,0,1,156
+text-insert,user,1630333090358,"{'ops': [{'retain': 567}, {'insert': 'o'}]}",,,568,[],0,0,5,30,0.75,1,0,1,157
+text-insert,user,1630333090553,"{'ops': [{'retain': 568}, {'insert': 'r'}]}",,,569,[],0,0,5,30,0.75,1,0,1,158
+text-insert,user,1630333090678,"{'ops': [{'retain': 569}, {'insert': 'l'}]}",,,570,[],0,0,5,30,0.75,1,0,1,159
+text-insert,user,1630333090881,"{'ops': [{'retain': 570}, {'insert': 'd'}]}",,,571,[],0,0,5,30,0.75,1,0,1,160
+text-insert,user,1630333091078,"{'ops': [{'retain': 571}, {'insert': ','}]}",,,572,[],0,0,5,30,0.75,1,0,1,161
+text-insert,user,1630333091228,"{'ops': [{'retain': 572}, {'insert': ' '}]}",,,573,[],0,0,5,30,0.75,1,0,1,162
+text-insert,user,1630333091850,"{'ops': [{'retain': 573}, {'insert': 'w'}]}",,,574,[],0,0,5,30,0.75,1,0,1,163
+text-insert,user,1630333092007,"{'ops': [{'retain': 574}, {'insert': 'h'}]}",,,575,[],0,0,5,30,0.75,1,0,1,164
+text-insert,user,1630333092181,"{'ops': [{'retain': 575}, {'insert': 'a'}]}",,,576,[],0,0,5,30,0.75,1,0,1,165
+text-insert,user,1630333092263,"{'ops': [{'retain': 576}, {'insert': 't'}]}",,,577,[],0,0,5,30,0.75,1,0,1,166
+text-insert,user,1630333092417,"{'ops': [{'retain': 577}, {'insert': ' '}]}",,,578,[],0,0,5,30,0.75,1,0,1,167
+text-insert,user,1630333092903,"{'ops': [{'retain': 578}, {'insert': 'e'}]}",,,579,[],0,0,5,30,0.75,1,0,1,168
+text-insert,user,1630333093130,"{'ops': [{'retain': 579}, {'insert': 'l'}]}",,,580,[],0,0,5,30,0.75,1,0,1,169
+text-insert,user,1630333093277,"{'ops': [{'retain': 580}, {'insert': 's'}]}",,,581,[],0,0,5,30,0.75,1,0,1,170
+text-insert,user,1630333093437,"{'ops': [{'retain': 581}, {'insert': 'e'}]}",,,582,[],0,0,5,30,0.75,1,0,1,171
+text-insert,user,1630333093557,"{'ops': [{'retain': 582}, {'insert': ' '}]}",,,583,[],0,0,5,30,0.75,1,0,1,172
+text-insert,user,1630333094456,"{'ops': [{'retain': 583}, {'insert': 'c'}]}",,,584,[],0,0,5,30,0.75,1,0,1,173
+text-insert,user,1630333094553,"{'ops': [{'retain': 584}, {'insert': 'o'}]}",,,585,[],0,0,5,30,0.75,1,0,1,174
+text-insert,user,1630333094687,"{'ops': [{'retain': 585}, {'insert': 'u'}]}",,,586,[],0,0,5,30,0.75,1,0,1,175
+text-insert,user,1630333094852,"{'ops': [{'retain': 586}, {'insert': 'l'}]}",,,587,[],0,0,5,30,0.75,1,0,1,176
+text-insert,user,1630333094922,"{'ops': [{'retain': 587}, {'insert': 'd'}]}",,,588,[],0,0,5,30,0.75,1,0,1,177
+text-insert,user,1630333095076,"{'ops': [{'retain': 588}, {'insert': ' '}]}",,,589,[],0,0,5,30,0.75,1,0,1,178
+text-insert,user,1630333095718,"{'ops': [{'retain': 589}, {'insert': 't'}]}",,,590,[],0,0,5,30,0.75,1,0,1,179
+text-insert,user,1630333095878,"{'ops': [{'retain': 590}, {'insert': 'h'}]}",,,591,[],0,0,5,30,0.75,1,0,1,180
+text-insert,user,1630333095965,"{'ops': [{'retain': 591}, {'insert': 'e'}]}",,,592,[],0,0,5,30,0.75,1,0,1,181
+text-insert,user,1630333096123,"{'ops': [{'retain': 592}, {'insert': 'r'}]}",,,593,[],0,0,5,30,0.75,1,0,1,182
+text-insert,user,1630333096186,"{'ops': [{'retain': 593}, {'insert': 'e'}]}",,,594,[],0,0,5,30,0.75,1,0,1,183
+text-insert,user,1630333096422,"{'ops': [{'retain': 594}, {'insert': ' '}]}",,,595,[],0,0,5,30,0.75,1,0,1,184
+text-insert,user,1630333096894,"{'ops': [{'retain': 595}, {'insert': 'b'}]}",,,596,[],0,0,5,30,0.75,1,0,1,185
+text-insert,user,1630333097051,"{'ops': [{'retain': 596}, {'insert': 'e'}]}",,,597,[],0,0,5,30,0.75,1,0,1,186
+text-insert,user,1630333097754,"{'ops': [{'retain': 597}, {'insert': '.'}]}",,,598,[],0,0,5,30,0.75,1,0,1,187
+text-insert,user,1630333098033,"{'ops': [{'retain': 598}, {'insert': ' '}]}",,,599,[],0,0,5,30,0.75,1,0,1,188
+text-insert,user,1630333099027,"{'ops': [{'retain': 599}, {'insert': ' '}]}",,,600,[],0,0,5,30,0.75,1,0,1,189
+suggestion-get,user,1630333099487,,,,600,[],0,0,5,30,0.75,1,0,1,190
+suggestion-open,api,1630333101569,,,,600,"[{'index': 0, 'original': 'You arrive at the White House, and are directed to a conference room.', 'trimmed': 'You arrive at the White House, and are directed to a conference room.', 'probability': 9.994258432720178e-19}, {'index': 1, 'original': '""We\'ve been watching you Barack.""', 'trimmed': '""We\'ve been watching you Barack.""', 'probability': 2.025514398334933e-20}, {'index': 2, 'original': ""You arrive in D.C., and are met at the airport by JFK, and Bill Clinton, who's delighted to see you."", 'trimmed': ""You arrive in D.C., and are met at the airport by JFK, and Bill Clinton, who's delighted to see you."", 'probability': 6.6579526539856845e-18}, {'index': 3, 'original': 'Not wanting to waste time, you walk from the landing strip to the Old Executive Office Building.', 'trimmed': 'Not wanting to waste time, you walk from the landing strip to the Old Executive Office Building.', 'probability': 3.796803892343502e-21}, {'index': 4, 'original': ""You're about to find out."", 'trimmed': ""You're about to find out."", 'probability': 0.000253504854177366}]",0,0,5,30,0.75,1,0,1,191
+suggestion-down,user,1630333124925,,,,600,[],1,0,5,30,0.75,1,0,1,192
+suggestion-down,user,1630333125247,,,,600,[],2,0,5,30,0.75,1,0,1,193
+suggestion-down,user,1630333125411,,,,600,[],3,0,5,30,0.75,1,0,1,194
+suggestion-select,user,1630333130648,,,,600,[],3,3,5,30,0.75,1,0,1,195
+suggestion-close,api,1630333130649,,,,600,[],3,3,5,30,0.75,1,0,1,196
+text-insert,api,1630333130657,"{'ops': [{'retain': 600}, {'insert': 'Not wanting to waste time, you walk from the landing strip to the Old Executive Office Building.'}]}",,,696,[],3,3,5,30,0.75,1,0,1,197
+cursor-select,user,1630333136745,,"{'index': 627, 'length': 8}",,627,[],3,3,5,30,0.75,1,0,1,198
+text-delete,user,1630333139789,"{'ops': [{'retain': 628}, {'delete': 7}]}",,,628,[],3,3,5,30,0.75,1,0,1,199
+text-insert,user,1630333139888,"{'ops': [{'retain': 628}, {'insert': 'o'}]}",,,629,[],3,3,5,30,0.75,1,0,1,200
+text-insert,user,1630333140075,"{'ops': [{'retain': 629}, {'insert': 'u'}]}",,,630,[],3,3,5,30,0.75,1,0,1,201
+text-insert,user,1630333140358,"{'ops': [{'retain': 630}, {'insert': ' '}]}",,,631,[],3,3,5,30,0.75,1,0,1,202
+text-insert,user,1630333140856,"{'ops': [{'retain': 631}, {'insert': 'a'}]}",,,632,[],3,3,5,30,0.75,1,0,1,203
+text-insert,user,1630333141036,"{'ops': [{'retain': 632}, {'insert': 'r'}]}",,,633,[],3,3,5,30,0.75,1,0,1,204
+text-insert,user,1630333141137,"{'ops': [{'retain': 633}, {'insert': 'e'}]}",,,634,[],3,3,5,30,0.75,1,0,1,205
+text-insert,user,1630333141274,"{'ops': [{'retain': 634}, {'insert': ' '}]}",,,635,[],3,3,5,30,0.75,1,0,1,206
+text-insert,user,1630333141461,"{'ops': [{'retain': 635}, {'insert': 'w'}]}",,,636,[],3,3,5,30,0.75,1,0,1,207
+text-insert,user,1630333141613,"{'ops': [{'retain': 636}, {'insert': 'h'}]}",,,637,[],3,3,5,30,0.75,1,0,1,208
+text-insert,user,1630333141954,"{'ops': [{'retain': 637}, {'insert': 'i'}]}",,,638,[],3,3,5,30,0.75,1,0,1,209
+text-insert,user,1630333142905,"{'ops': [{'retain': 638}, {'insert': 's'}]}",,,639,[],3,3,5,30,0.75,1,0,1,210
+text-insert,user,1630333143287,"{'ops': [{'retain': 639}, {'insert': 'k'}]}",,,640,[],3,3,5,30,0.75,1,0,1,211
+text-insert,user,1630333143415,"{'ops': [{'retain': 640}, {'insert': 'e'}]}",,,641,[],3,3,5,30,0.75,1,0,1,212
+text-insert,user,1630333143586,"{'ops': [{'retain': 641}, {'insert': 'd'}]}",,,642,[],3,3,5,30,0.75,1,0,1,213
+text-insert,user,1630333143728,"{'ops': [{'retain': 642}, {'insert': ' '}]}",,,643,[],3,3,5,30,0.75,1,0,1,214
+cursor-backward,user,1630333147139,,"{'index': 642, 'length': 0}",,642,[],3,3,5,30,0.75,1,0,1,215
+cursor-forward,user,1630333148268,,"{'index': 643, 'length': 0}",,643,[],3,3,5,30,0.75,1,0,1,216
+cursor-forward,user,1630333148416,,"{'index': 644, 'length': 0}",,644,[],3,3,5,30,0.75,1,0,1,217
+text-delete,user,1630333149243,"{'ops': [{'retain': 643}, {'delete': 1}]}",,,643,[],3,3,5,30,0.75,1,0,1,218
+cursor-forward,user,1630333151329,,"{'index': 703, 'length': 0}",,703,[],3,3,5,30,0.75,1,0,1,219
+text-insert,user,1630333155353,"{'ops': [{'retain': 703}, {'insert': ' '}]}",,,704,[],3,3,5,30,0.75,1,0,1,220
+text-insert,user,1630333155497,"{'ops': [{'retain': 704}, {'insert': ' '}]}",,,705,[],3,3,5,30,0.75,1,0,1,221
+text-insert,user,1630333159238,"{'ops': [{'retain': 705}, {'insert': 'T'}]}",,,706,[],3,3,5,30,0.75,1,0,1,222
+text-insert,user,1630333159400,"{'ops': [{'retain': 706}, {'insert': 'h'}]}",,,707,[],3,3,5,30,0.75,1,0,1,223
+text-insert,user,1630333159551,"{'ops': [{'retain': 707}, {'insert': 'e'}]}",,,708,[],3,3,5,30,0.75,1,0,1,224
+text-insert,user,1630333159655,"{'ops': [{'retain': 708}, {'insert': 'r'}]}",,,709,[],3,3,5,30,0.75,1,0,1,225
+text-insert,user,1630333159708,"{'ops': [{'retain': 709}, {'insert': 'e'}]}",,,710,[],3,3,5,30,0.75,1,0,1,226
+text-insert,user,1630333159915,"{'ops': [{'retain': 710}, {'insert': ' '}]}",,,711,[],3,3,5,30,0.75,1,0,1,227
+text-insert,user,1630333165776,"{'ops': [{'retain': 711}, {'insert': 'y'}]}",,,712,[],3,3,5,30,0.75,1,0,1,228
+text-insert,user,1630333165884,"{'ops': [{'retain': 712}, {'insert': 'o'}]}",,,713,[],3,3,5,30,0.75,1,0,1,229
+text-insert,user,1630333166041,"{'ops': [{'retain': 713}, {'insert': 'u'}]}",,,714,[],3,3,5,30,0.75,1,0,1,230
+text-insert,user,1630333166237,"{'ops': [{'retain': 714}, {'insert': ' '}]}",,,715,[],3,3,5,30,0.75,1,0,1,231
+text-insert,user,1630333166440,"{'ops': [{'retain': 715}, {'insert': 'a'}]}",,,716,[],3,3,5,30,0.75,1,0,1,232
+text-insert,user,1630333166522,"{'ops': [{'retain': 716}, {'insert': 'r'}]}",,,717,[],3,3,5,30,0.75,1,0,1,233
+text-insert,user,1630333166733,"{'ops': [{'retain': 717}, {'insert': 'e'}]}",,,718,[],3,3,5,30,0.75,1,0,1,234
+text-insert,user,1630333166783,"{'ops': [{'retain': 718}, {'insert': ' '}]}",,,719,[],3,3,5,30,0.75,1,0,1,235
+text-insert,user,1630333167128,"{'ops': [{'retain': 719}, {'insert': 'g'}]}",,,720,[],3,3,5,30,0.75,1,0,1,236
+text-insert,user,1630333167318,"{'ops': [{'retain': 720}, {'insert': 'r'}]}",,,721,[],3,3,5,30,0.75,1,0,1,237
+text-insert,user,1630333167478,"{'ops': [{'retain': 721}, {'insert': 'e'}]}",,,722,[],3,3,5,30,0.75,1,0,1,238
+text-insert,user,1630333167605,"{'ops': [{'retain': 722}, {'insert': 'e'}]}",,,723,[],3,3,5,30,0.75,1,0,1,239
+text-insert,user,1630333167724,"{'ops': [{'retain': 723}, {'insert': 't'}]}",,,724,[],3,3,5,30,0.75,1,0,1,240
+text-insert,user,1630333167961,"{'ops': [{'retain': 724}, {'insert': 'e'}]}",,,725,[],3,3,5,30,0.75,1,0,1,241
+text-insert,user,1630333168140,"{'ops': [{'retain': 725}, {'insert': 'd'}]}",,,726,[],3,3,5,30,0.75,1,0,1,242
+text-insert,user,1630333168211,"{'ops': [{'retain': 726}, {'insert': ' '}]}",,,727,[],3,3,5,30,0.75,1,0,1,243
+text-insert,user,1630333169673,"{'ops': [{'retain': 727}, {'insert': 'b'}]}",,,728,[],3,3,5,30,0.75,1,0,1,244
+text-insert,user,1630333169860,"{'ops': [{'retain': 728}, {'insert': 'y'}]}",,,729,[],3,3,5,30,0.75,1,0,1,245
+text-insert,user,1630333170042,"{'ops': [{'retain': 729}, {'insert': ' '}]}",,,730,[],3,3,5,30,0.75,1,0,1,246
+text-insert,user,1630333178904,"{'ops': [{'retain': 730}, {'insert': 'm'}]}",,,731,[],3,3,5,30,0.75,1,0,1,247
+text-insert,user,1630333179085,"{'ops': [{'retain': 731}, {'insert': 'a'}]}",,,732,[],3,3,5,30,0.75,1,0,1,248
+text-insert,user,1630333179172,"{'ops': [{'retain': 732}, {'insert': 'n'}]}",,,733,[],3,3,5,30,0.75,1,0,1,249
+text-insert,user,1630333179376,"{'ops': [{'retain': 733}, {'insert': 'y'}]}",,,734,[],3,3,5,30,0.75,1,0,1,250
+text-insert,user,1630333179545,"{'ops': [{'retain': 734}, {'insert': ' '}]}",,,735,[],3,3,5,30,0.75,1,0,1,251
+text-insert,user,1630333179839,"{'ops': [{'retain': 735}, {'insert': 'p'}]}",,,736,[],3,3,5,30,0.75,1,0,1,252
+text-insert,user,1630333179992,"{'ops': [{'retain': 736}, {'insert': 'a'}]}",,,737,[],3,3,5,30,0.75,1,0,1,253
+text-insert,user,1630333180198,"{'ops': [{'retain': 737}, {'insert': 's'}]}",,,738,[],3,3,5,30,0.75,1,0,1,254
+text-insert,user,1630333180327,"{'ops': [{'retain': 738}, {'insert': 't'}]}",,,739,[],3,3,5,30,0.75,1,0,1,255
+text-insert,user,1630333180500,"{'ops': [{'retain': 739}, {'insert': ' '}]}",,,740,[],3,3,5,30,0.75,1,0,1,256
+text-insert,user,1630333182708,"{'ops': [{'retain': 740}, {'insert': 'P'}]}",,,741,[],3,3,5,30,0.75,1,0,1,257
+text-insert,user,1630333183062,"{'ops': [{'retain': 741}, {'insert': 'r'}]}",,,742,[],3,3,5,30,0.75,1,0,1,258
+text-insert,user,1630333183240,"{'ops': [{'retain': 742}, {'insert': 'e'}]}",,,743,[],3,3,5,30,0.75,1,0,1,259
+text-insert,user,1630333183733,"{'ops': [{'retain': 743}, {'insert': 's'}]}",,,744,[],3,3,5,30,0.75,1,0,1,260
+text-insert,user,1630333183974,"{'ops': [{'retain': 744}, {'insert': 'i'}]}",,,745,[],3,3,5,30,0.75,1,0,1,261
+text-insert,user,1630333184150,"{'ops': [{'retain': 745}, {'insert': 'd'}]}",,,746,[],3,3,5,30,0.75,1,0,1,262
+text-insert,user,1630333184379,"{'ops': [{'retain': 746}, {'insert': 'n'}]}",,,747,[],3,3,5,30,0.75,1,0,1,263
+text-insert,user,1630333184729,"{'ops': [{'retain': 747}, {'insert': 't'}]}",,,748,[],3,3,5,30,0.75,1,0,1,264
+text-insert,user,1630333184869,"{'ops': [{'retain': 748}, {'insert': 's'}]}",,,749,[],3,3,5,30,0.75,1,0,1,265
+text-delete,user,1630333186045,"{'ops': [{'retain': 748}, {'delete': 1}]}",,,748,[],3,3,5,30,0.75,1,0,1,266
+text-delete,user,1630333186188,"{'ops': [{'retain': 747}, {'delete': 1}]}",,,747,[],3,3,5,30,0.75,1,0,1,267
+text-delete,user,1630333186352,"{'ops': [{'retain': 746}, {'delete': 1}]}",,,746,[],3,3,5,30,0.75,1,0,1,268
+text-delete,user,1630333186501,"{'ops': [{'retain': 745}, {'delete': 1}]}",,,745,[],3,3,5,30,0.75,1,0,1,269
+text-insert,user,1630333187372,"{'ops': [{'retain': 745}, {'insert': 'd'}]}",,,746,[],3,3,5,30,0.75,1,0,1,270
+text-insert,user,1630333187533,"{'ops': [{'retain': 746}, {'insert': 'e'}]}",,,747,[],3,3,5,30,0.75,1,0,1,271
+text-insert,user,1630333187679,"{'ops': [{'retain': 747}, {'insert': 'n'}]}",,,748,[],3,3,5,30,0.75,1,0,1,272
+text-insert,user,1630333187949,"{'ops': [{'retain': 748}, {'insert': 't'}]}",,,749,[],3,3,5,30,0.75,1,0,1,273
+text-insert,user,1630333188122,"{'ops': [{'retain': 749}, {'insert': 's'}]}",,,750,[],3,3,5,30,0.75,1,0,1,274
+text-insert,user,1630333190997,"{'ops': [{'retain': 750}, {'insert': ','}]}",,,751,[],3,3,5,30,0.75,1,0,1,275
+text-insert,user,1630333191159,"{'ops': [{'retain': 751}, {'insert': ' '}]}",,,752,[],3,3,5,30,0.75,1,0,1,276
+text-delete,user,1630333198157,"{'ops': [{'retain': 751}, {'delete': 1}]}",,,751,[],3,3,5,30,0.75,1,0,1,277
+text-delete,user,1630333198542,"{'ops': [{'retain': 750}, {'delete': 1}]}",,,750,[],3,3,5,30,0.75,1,0,1,278
+text-insert,user,1630333201704,"{'ops': [{'retain': 750}, {'insert': ','}]}",,,751,[],3,3,5,30,0.75,1,0,1,279
+text-insert,user,1630333201859,"{'ops': [{'retain': 751}, {'insert': ' '}]}",,,752,[],3,3,5,30,0.75,1,0,1,280
+text-insert,user,1630333202434,"{'ops': [{'retain': 752}, {'insert': 'a'}]}",,,753,[],3,3,5,30,0.75,1,0,1,281
+text-insert,user,1630333202596,"{'ops': [{'retain': 753}, {'insert': 'l'}]}",,,754,[],3,3,5,30,0.75,1,0,1,282
+text-insert,user,1630333202734,"{'ops': [{'retain': 754}, {'insert': 'l'}]}",,,755,[],3,3,5,30,0.75,1,0,1,283
+text-insert,user,1630333202935,"{'ops': [{'retain': 755}, {'insert': ' '}]}",,,756,[],3,3,5,30,0.75,1,0,1,284
+text-insert,user,1630333203157,"{'ops': [{'retain': 756}, {'insert': 't'}]}",,,757,[],3,3,5,30,0.75,1,0,1,285
+text-insert,user,1630333203261,"{'ops': [{'retain': 757}, {'insert': 'h'}]}",,,758,[],3,3,5,30,0.75,1,0,1,286
+text-insert,user,1630333203357,"{'ops': [{'retain': 758}, {'insert': 'e'}]}",,,759,[],3,3,5,30,0.75,1,0,1,287
+text-insert,user,1630333203530,"{'ops': [{'retain': 759}, {'insert': ' '}]}",,,760,[],3,3,5,30,0.75,1,0,1,288
+text-insert,user,1630333204072,"{'ops': [{'retain': 760}, {'insert': 'w'}]}",,,761,[],3,3,5,30,0.75,1,0,1,289
+text-insert,user,1630333204173,"{'ops': [{'retain': 761}, {'insert': 'a'}]}",,,762,[],3,3,5,30,0.75,1,0,1,290
+text-insert,user,1630333204360,"{'ops': [{'retain': 762}, {'insert': 'y'}]}",,,763,[],3,3,5,30,0.75,1,0,1,291
+text-insert,user,1630333204538,"{'ops': [{'retain': 763}, {'insert': ' '}]}",,,764,[],3,3,5,30,0.75,1,0,1,292
+text-insert,user,1630333206100,"{'ops': [{'retain': 764}, {'insert': 'b'}]}",,,765,[],3,3,5,30,0.75,1,0,1,293
+text-insert,user,1630333206372,"{'ops': [{'retain': 765}, {'insert': 'a'}]}",,,766,[],3,3,5,30,0.75,1,0,1,294
+text-insert,user,1630333206648,"{'ops': [{'retain': 766}, {'insert': 'c'}]}",,,767,[],3,3,5,30,0.75,1,0,1,295
+text-insert,user,1630333206826,"{'ops': [{'retain': 767}, {'insert': 'k'}]}",,,768,[],3,3,5,30,0.75,1,0,1,296
+text-insert,user,1630333206983,"{'ops': [{'retain': 768}, {'insert': ' '}]}",,,769,[],3,3,5,30,0.75,1,0,1,297
+text-insert,user,1630333207171,"{'ops': [{'retain': 769}, {'insert': 't'}]}",,,770,[],3,3,5,30,0.75,1,0,1,298
+text-insert,user,1630333207295,"{'ops': [{'retain': 770}, {'insert': 'o'}]}",,,771,[],3,3,5,30,0.75,1,0,1,299
+text-insert,user,1630333207468,"{'ops': [{'retain': 771}, {'insert': ' '}]}",,,772,[],3,3,5,30,0.75,1,0,1,300
+text-insert,user,1630333237323,"{'ops': [{'retain': 772}, {'insert': 'E'}]}",,,773,[],3,3,5,30,0.75,1,0,1,301
+text-insert,user,1630333237838,"{'ops': [{'retain': 773}, {'insert': 'i'}]}",,,774,[],3,3,5,30,0.75,1,0,1,302
+text-insert,user,1630333238025,"{'ops': [{'retain': 774}, {'insert': 's'}]}",,,775,[],3,3,5,30,0.75,1,0,1,303
+text-insert,user,1630333238234,"{'ops': [{'retain': 775}, {'insert': 'e'}]}",,,776,[],3,3,5,30,0.75,1,0,1,304
+text-insert,user,1630333238369,"{'ops': [{'retain': 776}, {'insert': 'n'}]}",,,777,[],3,3,5,30,0.75,1,0,1,305
+text-insert,user,1630333238618,"{'ops': [{'retain': 777}, {'insert': 'h'}]}",,,778,[],3,3,5,30,0.75,1,0,1,306
+text-insert,user,1630333238963,"{'ops': [{'retain': 778}, {'insert': 'o'}]}",,,779,[],3,3,5,30,0.75,1,0,1,307
+text-insert,user,1630333239242,"{'ops': [{'retain': 779}, {'insert': 'w'}]}",,,780,[],3,3,5,30,0.75,1,0,1,308
+text-insert,user,1630333239441,"{'ops': [{'retain': 780}, {'insert': 'e'}]}",,,781,[],3,3,5,30,0.75,1,0,1,309
+text-insert,user,1630333239667,"{'ops': [{'retain': 781}, {'insert': 'r'}]}",,,782,[],3,3,5,30,0.75,1,0,1,310
+text-insert,user,1630333240859,"{'ops': [{'retain': 782}, {'insert': '.'}]}",,,783,[],3,3,5,30,0.75,1,0,1,311
+text-insert,user,1630333241046,"{'ops': [{'retain': 783}, {'insert': ' '}]}",,,784,[],3,3,5,30,0.75,1,0,1,312
+suggestion-get,user,1630333242970,,,,784,[],3,3,5,30,0.75,1,0,1,313
+suggestion-open,api,1630333245171,,,,784,"[{'index': 0, 'original': "" You're given a tour of the place, and you eventually reach the end of the building, where there is a large vault."", 'trimmed': ""You're given a tour of the place, and you eventually reach the end of the building, where there is a large vault."", 'probability': 4.816490008891603e-21}, {'index': 1, 'original': "" You recognize the men immediately, but you still can't remember ever meeting them."", 'trimmed': ""You recognize the men immediately, but you still can't remember ever meeting them."", 'probability': 4.826587063820818e-23}, {'index': 2, 'original': ' ""Come with us, Barack,"" says Ike, to which you follow up a flight of stairs to a door marked ""EXECUTIVE"".', 'trimmed': '""Come with us, Barack,"" says Ike, to which you follow up a flight of stairs to a door marked ""EXECUTIVE"".', 'probability': 3.7118264162359e-21}, {'index': 3, 'original': 'After the initial greetings you are given a note which reads ""Your first task is to go to the Oval Office and wait for ""him"".', 'trimmed': 'After the initial greetings you are given a note which reads ""Your first task is to go to the Oval Office and wait for ""him"".', 'probability': 2.0960655703996948e-22}, {'index': 4, 'original': ' They look very glad to see you.', 'trimmed': 'They look very glad to see you.', 'probability': 6.677130418356068e-21}]",0,3,5,30,0.75,1,0,1,314
+suggestion-hover,user,1630333245176,,,,784,[],0,2,5,30,0.75,1,0,1,315
+suggestion-hover,user,1630333245990,,,,784,[],0,3,5,30,0.75,1,0,1,316
+suggestion-hover,user,1630333246073,,,,784,[],0,4,5,30,0.75,1,0,1,317
+suggestion-hover,user,1630333260576,,,,784,[],0,4,5,30,0.75,1,0,1,318
+suggestion-hover,user,1630333260631,,,,784,[],0,3,5,30,0.75,1,0,1,319
+suggestion-hover,user,1630333260690,,,,784,[],0,2,5,30,0.75,1,0,1,320
+suggestion-hover,user,1630333260906,,,,784,[],0,3,5,30,0.75,1,0,1,321
+suggestion-hover,user,1630333264122,,,,784,[],0,2,5,30,0.75,1,0,1,322
+suggestion-select,user,1630333271403,,,,784,[],2,2,5,30,0.75,1,0,1,323
+suggestion-close,api,1630333271403,,,,784,[],2,2,5,30,0.75,1,0,1,324
+text-insert,api,1630333271418,"{'ops': [{'retain': 784}, {'insert': ' ""Come with us, Barack,"" says Ike, to which you follow up a flight of stairs to a door marked ""EXECUTIVE"".'}]}",,,890,[],2,2,5,30,0.75,1,0,1,325
+text-insert,user,1630333273555,"{'ops': [{'retain': 890}, {'insert': ' '}]}",,,891,[],2,2,5,30,0.75,1,0,1,326
+text-insert,user,1630333273675,"{'ops': [{'retain': 891}, {'insert': ' '}]}",,,892,[],2,2,5,30,0.75,1,0,1,327
+text-insert,user,1630333302667,"{'ops': [{'retain': 892}, {'insert': 'I'}]}",,,893,[],2,2,5,30,0.75,1,0,1,328
+text-insert,user,1630333302957,"{'ops': [{'retain': 893}, {'insert': 't'}]}",,,894,[],2,2,5,30,0.75,1,0,1,329
+text-insert,user,1630333303597,"{'ops': [{'retain': 894}, {'insert': ""'""}]}",,,895,[],2,2,5,30,0.75,1,0,1,330
+text-insert,user,1630333303789,"{'ops': [{'retain': 895}, {'insert': 's'}]}",,,896,[],2,2,5,30,0.75,1,0,1,331
+text-insert,user,1630333303913,"{'ops': [{'retain': 896}, {'insert': ' '}]}",,,897,[],2,2,5,30,0.75,1,0,1,332
+text-insert,user,1630333304130,"{'ops': [{'retain': 897}, {'insert': 'h'}]}",,,898,[],2,2,5,30,0.75,1,0,1,333
+text-insert,user,1630333304202,"{'ops': [{'retain': 898}, {'insert': 'e'}]}",,,899,[],2,2,5,30,0.75,1,0,1,334
+text-insert,user,1630333304349,"{'ops': [{'retain': 899}, {'insert': 'e'}]}",,,900,[],2,2,5,30,0.75,1,0,1,335
+text-insert,user,1630333304398,"{'ops': [{'retain': 900}, {'insert': 'r'}]}",,,901,[],2,2,5,30,0.75,1,0,1,336
+text-insert,user,1630333304595,"{'ops': [{'retain': 901}, {'insert': ' '}]}",,,902,[],2,2,5,30,0.75,1,0,1,337
+text-delete,user,1630333305316,"{'ops': [{'retain': 901}, {'delete': 1}]}",,,901,[],2,2,5,30,0.75,1,0,1,338
+text-delete,user,1630333305441,"{'ops': [{'retain': 900}, {'delete': 1}]}",,,900,[],2,2,5,30,0.75,1,0,1,339
+text-delete,user,1630333305573,"{'ops': [{'retain': 899}, {'delete': 1}]}",,,899,[],2,2,5,30,0.75,1,0,1,340
+text-delete,user,1630333305700,"{'ops': [{'retain': 898}, {'delete': 1}]}",,,898,[],2,2,5,30,0.75,1,0,1,341
+text-insert,user,1630333306481,"{'ops': [{'retain': 898}, {'insert': 'e'}]}",,,899,[],2,2,5,30,0.75,1,0,1,342
+text-insert,user,1630333306562,"{'ops': [{'retain': 899}, {'insert': 'r'}]}",,,900,[],2,2,5,30,0.75,1,0,1,343
+text-insert,user,1630333306664,"{'ops': [{'retain': 900}, {'insert': 'e'}]}",,,901,[],2,2,5,30,0.75,1,0,1,344
+text-insert,user,1630333306804,"{'ops': [{'retain': 901}, {'insert': ' '}]}",,,902,[],2,2,5,30,0.75,1,0,1,345
+text-insert,user,1630333307749,"{'ops': [{'retain': 902}, {'insert': 'y'}]}",,,903,[],2,2,5,30,0.75,1,0,1,346
+text-insert,user,1630333307854,"{'ops': [{'retain': 903}, {'insert': 'o'}]}",,,904,[],2,2,5,30,0.75,1,0,1,347
+text-insert,user,1630333307987,"{'ops': [{'retain': 904}, {'insert': 'u'}]}",,,905,[],2,2,5,30,0.75,1,0,1,348
+text-insert,user,1630333308203,"{'ops': [{'retain': 905}, {'insert': ' '}]}",,,906,[],2,2,5,30,0.75,1,0,1,349
+text-insert,user,1630333308450,"{'ops': [{'retain': 906}, {'insert': 'f'}]}",,,907,[],2,2,5,30,0.75,1,0,1,350
+text-insert,user,1630333308579,"{'ops': [{'retain': 907}, {'insert': 'i'}]}",,,908,[],2,2,5,30,0.75,1,0,1,351
+text-insert,user,1630333308730,"{'ops': [{'retain': 908}, {'insert': 'n'}]}",,,909,[],2,2,5,30,0.75,1,0,1,352
+text-insert,user,1630333308940,"{'ops': [{'retain': 909}, {'insert': 'd'}]}",,,910,[],2,2,5,30,0.75,1,0,1,353
+text-insert,user,1630333309077,"{'ops': [{'retain': 910}, {'insert': ' '}]}",,,911,[],2,2,5,30,0.75,1,0,1,354
+text-delete,user,1630333318033,"{'ops': [{'retain': 910}, {'delete': 1}]}",,,910,[],2,2,5,30,0.75,1,0,1,355
+text-delete,user,1630333318175,"{'ops': [{'retain': 909}, {'delete': 1}]}",,,909,[],2,2,5,30,0.75,1,0,1,356
+text-delete,user,1630333318307,"{'ops': [{'retain': 908}, {'delete': 1}]}",,,908,[],2,2,5,30,0.75,1,0,1,357
+text-delete,user,1630333318451,"{'ops': [{'retain': 907}, {'delete': 1}]}",,,907,[],2,2,5,30,0.75,1,0,1,358
+text-delete,user,1630333318981,"{'ops': [{'retain': 906}, {'delete': 1}]}",,,906,[],2,2,5,30,0.75,1,0,1,359
+text-delete,user,1630333319133,"{'ops': [{'retain': 905}, {'delete': 1}]}",,,905,[],2,2,5,30,0.75,1,0,1,360
+text-delete,user,1630333319297,"{'ops': [{'retain': 904}, {'delete': 1}]}",,,904,[],2,2,5,30,0.75,1,0,1,361
+text-delete,user,1630333319428,"{'ops': [{'retain': 903}, {'delete': 1}]}",,,903,[],2,2,5,30,0.75,1,0,1,362
+text-delete,user,1630333319593,"{'ops': [{'retain': 902}, {'delete': 1}]}",,,902,[],2,2,5,30,0.75,1,0,1,363
+text-insert,user,1630333321397,"{'ops': [{'retain': 902}, {'insert': 'h'}]}",,,903,[],2,2,5,30,0.75,1,0,1,364
+text-insert,user,1630333321741,"{'ops': [{'retain': 903}, {'insert': 'o'}]}",,,904,[],2,2,5,30,0.75,1,0,1,365
+text-insert,user,1630333321883,"{'ops': [{'retain': 904}, {'insert': 'p'}]}",,,905,[],2,2,5,30,0.75,1,0,1,366
+text-insert,user,1630333322033,"{'ops': [{'retain': 905}, {'insert': 'e'}]}",,,906,[],2,2,5,30,0.75,1,0,1,367
+text-insert,user,1630333322135,"{'ops': [{'retain': 906}, {'insert': ' '}]}",,,907,[],2,2,5,30,0.75,1,0,1,368
+text-insert,user,1630333322353,"{'ops': [{'retain': 907}, {'insert': 't'}]}",,,908,[],2,2,5,30,0.75,1,0,1,369
+text-insert,user,1630333322479,"{'ops': [{'retain': 908}, {'insert': 'o'}]}",,,909,[],2,2,5,30,0.75,1,0,1,370
+text-insert,user,1630333322679,"{'ops': [{'retain': 909}, {'insert': ' '}]}",,,910,[],2,2,5,30,0.75,1,0,1,371
+text-insert,user,1630333322926,"{'ops': [{'retain': 910}, {'insert': 'd'}]}",,,911,[],2,2,5,30,0.75,1,0,1,372
+text-insert,user,1630333323050,"{'ops': [{'retain': 911}, {'insert': 'i'}]}",,,912,[],2,2,5,30,0.75,1,0,1,373
+text-insert,user,1630333323180,"{'ops': [{'retain': 912}, {'insert': 's'}]}",,,913,[],2,2,5,30,0.75,1,0,1,374
+text-insert,user,1630333323514,"{'ops': [{'retain': 913}, {'insert': 'c'}]}",,,914,[],2,2,5,30,0.75,1,0,1,375
+text-insert,user,1630333323807,"{'ops': [{'retain': 914}, {'insert': 'o'}]}",,,915,[],2,2,5,30,0.75,1,0,1,376
+text-insert,user,1630333324370,"{'ops': [{'retain': 915}, {'insert': 'v'}]}",,,916,[],2,2,5,30,0.75,1,0,1,377
+text-insert,user,1630333324487,"{'ops': [{'retain': 916}, {'insert': 'e'}]}",,,917,[],2,2,5,30,0.75,1,0,1,378
+text-insert,user,1630333324587,"{'ops': [{'retain': 917}, {'insert': 'r'}]}",,,918,[],2,2,5,30,0.75,1,0,1,379
+text-insert,user,1630333324747,"{'ops': [{'retain': 918}, {'insert': ' '}]}",,,919,[],2,2,5,30,0.75,1,0,1,380
+text-insert,user,1630333325070,"{'ops': [{'retain': 919}, {'insert': 'w'}]}",,,920,[],2,2,5,30,0.75,1,0,1,381
+text-insert,user,1630333325220,"{'ops': [{'retain': 920}, {'insert': 'h'}]}",,,921,[],2,2,5,30,0.75,1,0,1,382
+text-insert,user,1630333325346,"{'ops': [{'retain': 921}, {'insert': 'a'}]}",,,922,[],2,2,5,30,0.75,1,0,1,383
+text-insert,user,1630333325446,"{'ops': [{'retain': 922}, {'insert': 't'}]}",,,923,[],2,2,5,30,0.75,1,0,1,384
+text-insert,user,1630333325592,"{'ops': [{'retain': 923}, {'insert': ' '}]}",,,924,[],2,2,5,30,0.75,1,0,1,385
+text-insert,user,1630333325853,"{'ops': [{'retain': 924}, {'insert': 'i'}]}",,,925,[],2,2,5,30,0.75,1,0,1,386
+text-insert,user,1630333326050,"{'ops': [{'retain': 925}, {'insert': 's'}]}",,,926,[],2,2,5,30,0.75,1,0,1,387
+text-insert,user,1630333326154,"{'ops': [{'retain': 926}, {'insert': ' '}]}",,,927,[],2,2,5,30,0.75,1,0,1,388
+text-insert,user,1630333326507,"{'ops': [{'retain': 927}, {'insert': 'g'}]}",,,928,[],2,2,5,30,0.75,1,0,1,389
+text-insert,user,1630333326639,"{'ops': [{'retain': 928}, {'insert': 'o'}]}",,,929,[],2,2,5,30,0.75,1,0,1,390
+text-insert,user,1630333326815,"{'ops': [{'retain': 929}, {'insert': 'i'}]}",,,930,[],2,2,5,30,0.75,1,0,1,391
+text-insert,user,1630333326974,"{'ops': [{'retain': 930}, {'insert': 'n'}]}",,,931,[],2,2,5,30,0.75,1,0,1,392
+text-insert,user,1630333327075,"{'ops': [{'retain': 931}, {'insert': 'g'}]}",,,932,[],2,2,5,30,0.75,1,0,1,393
+text-insert,user,1630333327175,"{'ops': [{'retain': 932}, {'insert': ' '}]}",,,933,[],2,2,5,30,0.75,1,0,1,394
+text-insert,user,1630333327610,"{'ops': [{'retain': 933}, {'insert': 'o'}]}",,,934,[],2,2,5,30,0.75,1,0,1,395
+text-insert,user,1630333327785,"{'ops': [{'retain': 934}, {'insert': 'n'}]}",,,935,[],2,2,5,30,0.75,1,0,1,396
+text-insert,user,1630333328550,"{'ops': [{'retain': 935}, {'insert': ','}]}",,,936,[],2,2,5,30,0.75,1,0,1,397
+text-insert,user,1630333328750,"{'ops': [{'retain': 936}, {'insert': ' '}]}",,,937,[],2,2,5,30,0.75,1,0,1,398
+text-insert,user,1630333329591,"{'ops': [{'retain': 937}, {'insert': 'h'}]}",,,938,[],2,2,5,30,0.75,1,0,1,399
+text-insert,user,1630333329727,"{'ops': [{'retain': 938}, {'insert': 'o'}]}",,,939,[],2,2,5,30,0.75,1,0,1,400
+text-insert,user,1630333329819,"{'ops': [{'retain': 939}, {'insert': 'w'}]}",,,940,[],2,2,5,30,0.75,1,0,1,401
+text-insert,user,1630333329939,"{'ops': [{'retain': 940}, {'insert': ' '}]}",,,941,[],2,2,5,30,0.75,1,0,1,402
+text-insert,user,1630333330360,"{'ops': [{'retain': 941}, {'insert': 'a'}]}",,,942,[],2,2,5,30,0.75,1,0,1,403
+text-insert,user,1630333330640,"{'ops': [{'retain': 942}, {'insert': 'r'}]}",,,943,[],2,2,5,30,0.75,1,0,1,404
+text-insert,user,1630333330724,"{'ops': [{'retain': 943}, {'insert': 'e'}]}",,,944,[],2,2,5,30,0.75,1,0,1,405
+text-insert,user,1630333330838,"{'ops': [{'retain': 944}, {'insert': ' '}]}",,,945,[],2,2,5,30,0.75,1,0,1,406
+text-insert,user,1630333331916,"{'ops': [{'retain': 945}, {'insert': 't'}]}",,,946,[],2,2,5,30,0.75,1,0,1,407
+text-insert,user,1630333332032,"{'ops': [{'retain': 946}, {'insert': 'h'}]}",,,947,[],2,2,5,30,0.75,1,0,1,408
+text-insert,user,1630333332118,"{'ops': [{'retain': 947}, {'insert': 'e'}]}",,,948,[],2,2,5,30,0.75,1,0,1,409
+text-insert,user,1630333332257,"{'ops': [{'retain': 948}, {'insert': 'r'}]}",,,949,[],2,2,5,30,0.75,1,0,1,410
+text-insert,user,1630333332378,"{'ops': [{'retain': 949}, {'insert': 'e'}]}",,,950,[],2,2,5,30,0.75,1,0,1,411
+text-delete,user,1630333332772,"{'ops': [{'retain': 949}, {'delete': 1}]}",,,949,[],2,2,5,30,0.75,1,0,1,412
+text-delete,user,1630333333459,"{'ops': [{'retain': 948}, {'delete': 1}]}",,,948,[],2,2,5,30,0.75,1,0,1,413
+text-insert,user,1630333333861,"{'ops': [{'retain': 948}, {'insert': 's'}]}",,,949,[],2,2,5,30,0.75,1,0,1,414
+text-insert,user,1630333334019,"{'ops': [{'retain': 949}, {'insert': 'e'}]}",,,950,[],2,2,5,30,0.75,1,0,1,415
+cursor-backward,user,1630333360422,,"{'index': 902, 'length': 0}",,902,[],2,2,5,30,0.75,1,0,1,416
+text-insert,user,1630333361252,"{'ops': [{'retain': 902}, {'insert': 'y'}]}",,,903,[],2,2,5,30,0.75,1,0,1,417
+text-insert,user,1630333361318,"{'ops': [{'retain': 903}, {'insert': 'o'}]}",,,904,[],2,2,5,30,0.75,1,0,1,418
+text-insert,user,1630333361472,"{'ops': [{'retain': 904}, {'insert': 'u'}]}",,,905,[],2,2,5,30,0.75,1,0,1,419
+text-insert,user,1630333361678,"{'ops': [{'retain': 905}, {'insert': ' '}]}",,,906,[],2,2,5,30,0.75,1,0,1,420
+cursor-forward,user,1630333363491,,"{'index': 954, 'length': 0}",,954,[],2,2,5,30,0.75,1,0,1,421
+text-delete,user,1630333364721,"{'ops': [{'retain': 953}, {'delete': 1}]}",,,953,[],2,2,5,30,0.75,1,0,1,422
+text-delete,user,1630333364845,"{'ops': [{'retain': 952}, {'delete': 1}]}",,,952,[],2,2,5,30,0.75,1,0,1,423
+text-delete,user,1630333364989,"{'ops': [{'retain': 951}, {'delete': 1}]}",,,951,[],2,2,5,30,0.75,1,0,1,424
+text-delete,user,1630333365123,"{'ops': [{'retain': 950}, {'delete': 1}]}",,,950,[],2,2,5,30,0.75,1,0,1,425
+text-delete,user,1630333365504,"{'ops': [{'retain': 949}, {'delete': 1}]}",,,949,[],2,2,5,30,0.75,1,0,1,426
+text-insert,user,1630333365951,"{'ops': [{'retain': 949}, {'insert': 's'}]}",,,950,[],2,2,5,30,0.75,1,0,1,427
+text-insert,user,1630333366070,"{'ops': [{'retain': 950}, {'insert': 'o'}]}",,,951,[],2,2,5,30,0.75,1,0,1,428
+text-insert,user,1630333366239,"{'ops': [{'retain': 951}, {'insert': 'm'}]}",,,952,[],2,2,5,30,0.75,1,0,1,429
+text-insert,user,1630333366267,"{'ops': [{'retain': 952}, {'insert': 'e'}]}",,,953,[],2,2,5,30,0.75,1,0,1,430
+text-insert,user,1630333366408,"{'ops': [{'retain': 953}, {'insert': ' '}]}",,,954,[],2,2,5,30,0.75,1,0,1,431
+text-insert,user,1630333366636,"{'ops': [{'retain': 954}, {'insert': 'o'}]}",,,955,[],2,2,5,30,0.75,1,0,1,432
+text-insert,user,1630333366857,"{'ops': [{'retain': 955}, {'insert': 'f'}]}",,,956,[],2,2,5,30,0.75,1,0,1,433
+text-insert,user,1630333366942,"{'ops': [{'retain': 956}, {'insert': ' '}]}",,,957,[],2,2,5,30,0.75,1,0,1,434
+text-insert,user,1630333367075,"{'ops': [{'retain': 957}, {'insert': 't'}]}",,,958,[],2,2,5,30,0.75,1,0,1,435
+text-insert,user,1630333367194,"{'ops': [{'retain': 958}, {'insert': 'h'}]}",,,959,[],2,2,5,30,0.75,1,0,1,436
+text-insert,user,1630333367269,"{'ops': [{'retain': 959}, {'insert': 'e'}]}",,,960,[],2,2,5,30,0.75,1,0,1,437
+text-insert,user,1630333367492,"{'ops': [{'retain': 960}, {'insert': 's'}]}",,,961,[],2,2,5,30,0.75,1,0,1,438
+text-insert,user,1630333367692,"{'ops': [{'retain': 961}, {'insert': 'e'}]}",,,962,[],2,2,5,30,0.75,1,0,1,439
+text-insert,user,1630333367850,"{'ops': [{'retain': 962}, {'insert': ' '}]}",,,963,[],2,2,5,30,0.75,1,0,1,440
+text-insert,user,1630333368584,"{'ops': [{'retain': 963}, {'insert': 'p'}]}",,,964,[],2,2,5,30,0.75,1,0,1,441
+text-insert,user,1630333368760,"{'ops': [{'retain': 964}, {'insert': 'e'}]}",,,965,[],2,2,5,30,0.75,1,0,1,442
+text-insert,user,1630333368875,"{'ops': [{'retain': 965}, {'insert': 'o'}]}",,,966,[],2,2,5,30,0.75,1,0,1,443
+text-insert,user,1630333368979,"{'ops': [{'retain': 966}, {'insert': 'p'}]}",,,967,[],2,2,5,30,0.75,1,0,1,444
+text-insert,user,1630333369106,"{'ops': [{'retain': 967}, {'insert': 'l'}]}",,,968,[],2,2,5,30,0.75,1,0,1,445
+text-insert,user,1630333369156,"{'ops': [{'retain': 968}, {'insert': 'e'}]}",,,969,[],2,2,5,30,0.75,1,0,1,446
+text-insert,user,1630333369321,"{'ops': [{'retain': 969}, {'insert': ' '}]}",,,970,[],2,2,5,30,0.75,1,0,1,447
+text-insert,user,1630333369581,"{'ops': [{'retain': 970}, {'insert': 's'}]}",,,971,[],2,2,5,30,0.75,1,0,1,448
+text-insert,user,1630333369864,"{'ops': [{'retain': 971}, {'insert': 't'}]}",,,972,[],2,2,5,30,0.75,1,0,1,449
+text-insert,user,1630333370027,"{'ops': [{'retain': 972}, {'insert': 'i'}]}",,,973,[],2,2,5,30,0.75,1,0,1,450
+text-insert,user,1630333370228,"{'ops': [{'retain': 973}, {'insert': 'l'}]}",,,974,[],2,2,5,30,0.75,1,0,1,451
+text-insert,user,1630333370352,"{'ops': [{'retain': 974}, {'insert': 'l'}]}",,,975,[],2,2,5,30,0.75,1,0,1,452
+text-insert,user,1630333370519,"{'ops': [{'retain': 975}, {'insert': ' '}]}",,,976,[],2,2,5,30,0.75,1,0,1,453
+text-insert,user,1630333370721,"{'ops': [{'retain': 976}, {'insert': 'a'}]}",,,977,[],2,2,5,30,0.75,1,0,1,454
+text-insert,user,1630333370989,"{'ops': [{'retain': 977}, {'insert': 'l'}]}",,,978,[],2,2,5,30,0.75,1,0,1,455
+text-insert,user,1630333371116,"{'ops': [{'retain': 978}, {'insert': 'l'}]}",,,979,[],2,2,5,30,0.75,1,0,1,456
+text-delete,user,1630333372051,"{'ops': [{'retain': 978}, {'delete': 1}]}",,,978,[],2,2,5,30,0.75,1,0,1,457
+text-insert,user,1630333372496,"{'ops': [{'retain': 978}, {'insert': 'i'}]}",,,979,[],2,2,5,30,0.75,1,0,1,458
+text-insert,user,1630333372847,"{'ops': [{'retain': 979}, {'insert': 'v'}]}",,,980,[],2,2,5,30,0.75,1,0,1,459
+text-insert,user,1630333373035,"{'ops': [{'retain': 980}, {'insert': 'e'}]}",,,981,[],2,2,5,30,0.75,1,0,1,460
+text-insert,user,1630333373174,"{'ops': [{'retain': 981}, {'insert': ' '}]}",,,982,[],2,2,5,30,0.75,1,0,1,461
+text-delete,user,1630333374248,"{'ops': [{'retain': 981}, {'delete': 1}]}",,,981,[],2,2,5,30,0.75,1,0,1,462
+text-insert,user,1630333374997,"{'ops': [{'retain': 981}, {'insert': '?'}]}",,,982,[],2,2,5,30,0.75,1,0,1,463
+text-insert,user,1630333376009,"{'ops': [{'retain': 982}, {'insert': ' '}]}",,,983,[],2,2,5,30,0.75,1,0,1,464
+suggestion-get,user,1630333376407,,,,983,[],2,2,5,30,0.75,1,0,1,465
+suggestion-open,api,1630333378451,,,,983,"[{'index': 0, 'original': ' You have a feeling you know, though.', 'trimmed': 'You have a feeling you know, though.', 'probability': 1.4678373584959575e-25}, {'index': 1, 'original': 'What is the ""Important Job"" you must perform.', 'trimmed': 'What is the ""Important Job"" you must perform.', 'probability': 1.6426814788131955e-22}, {'index': 2, 'original': ' You walk into the room, there is a desk with an executive chair.', 'trimmed': 'You walk into the room, there is a desk with an executive chair.', 'probability': 6.373132837244768e-20}, {'index': 3, 'original': ' You open the door, and find an office.', 'trimmed': 'You open the door, and find an office.', 'probability': 1.0017076025925678e-17}, {'index': 4, 'original': ' The door swings open and you are greeted by the warm smile of JFK.', 'trimmed': 'The door swings open and you are greeted by the warm smile of JFK.', 'probability': 1.023917721411243e-14}]",0,2,5,30,0.75,1,0,1,466
+suggestion-hover,user,1630333391428,,,,983,[],0,4,5,30,0.75,1,0,1,467
+suggestion-hover,user,1630333391961,,,,983,[],0,3,5,30,0.75,1,0,1,468
+suggestion-hover,user,1630333392061,,,,983,[],0,2,5,30,0.75,1,0,1,469
+suggestion-hover,user,1630333392211,,,,983,[],0,1,5,30,0.75,1,0,1,470
+suggestion-select,user,1630333392762,,,,983,[],1,1,5,30,0.75,1,0,1,471
+suggestion-close,api,1630333392763,,,,983,[],1,1,5,30,0.75,1,0,1,472
+text-insert,api,1630333392767,"{'ops': [{'retain': 983}, {'insert': 'What is the ""Important Job"" you must perform.'}]}",,,1028,[],1,1,5,30,0.75,1,0,1,473
+text-delete,user,1630333394215,"{'ops': [{'retain': 1027}, {'delete': 1}]}",,,1027,[],1,1,5,30,0.75,1,0,1,474
+text-insert,user,1630333394968,"{'ops': [{'retain': 1027}, {'insert': '?'}]}",,,1028,[],1,1,5,30,0.75,1,0,1,475
+text-insert,user,1630333417679,"{'ops': [{'retain': 1028}, {'insert': ' '}]}",,,1029,[],1,1,5,30,0.75,1,0,1,476
+text-insert,user,1630333417801,"{'ops': [{'retain': 1029}, {'insert': ' '}]}",,,1030,[],1,1,5,30,0.75,1,0,1,477
+text-insert,user,1630333418536,"{'ops': [{'retain': 1030}, {'insert': 'Y'}]}",,,1031,[],1,1,5,30,0.75,1,0,1,478
+text-insert,user,1630333418708,"{'ops': [{'retain': 1031}, {'insert': 'o'}]}",,,1032,[],1,1,5,30,0.75,1,0,1,479
+text-insert,user,1630333418861,"{'ops': [{'retain': 1032}, {'insert': 'u'}]}",,,1033,[],1,1,5,30,0.75,1,0,1,480
+text-insert,user,1630333419066,"{'ops': [{'retain': 1033}, {'insert': ' '}]}",,,1034,[],1,1,5,30,0.75,1,0,1,481
+text-insert,user,1630333419279,"{'ops': [{'retain': 1034}, {'insert': 'a'}]}",,,1035,[],1,1,5,30,0.75,1,0,1,482
+text-insert,user,1630333419371,"{'ops': [{'retain': 1035}, {'insert': 'r'}]}",,,1036,[],1,1,5,30,0.75,1,0,1,483
+text-insert,user,1630333419543,"{'ops': [{'retain': 1036}, {'insert': 'e'}]}",,,1037,[],1,1,5,30,0.75,1,0,1,484
+text-insert,user,1630333419614,"{'ops': [{'retain': 1037}, {'insert': ' '}]}",,,1038,[],1,1,5,30,0.75,1,0,1,485
+text-insert,user,1630333420297,"{'ops': [{'retain': 1038}, {'insert': 's'}]}",,,1039,[],1,1,5,30,0.75,1,0,1,486
+text-insert,user,1630333420414,"{'ops': [{'retain': 1039}, {'insert': 'a'}]}",,,1040,[],1,1,5,30,0.75,1,0,1,487
+text-insert,user,1630333420558,"{'ops': [{'retain': 1040}, {'insert': 't'}]}",,,1041,[],1,1,5,30,0.75,1,0,1,488
+text-insert,user,1630333420722,"{'ops': [{'retain': 1041}, {'insert': ' '}]}",,,1042,[],1,1,5,30,0.75,1,0,1,489
+text-insert,user,1630333421028,"{'ops': [{'retain': 1042}, {'insert': 'd'}]}",,,1043,[],1,1,5,30,0.75,1,0,1,490
+text-insert,user,1630333421237,"{'ops': [{'retain': 1043}, {'insert': 'o'}]}",,,1044,[],1,1,5,30,0.75,1,0,1,491
+text-insert,user,1630333421504,"{'ops': [{'retain': 1044}, {'insert': 'w'}]}",,,1045,[],1,1,5,30,0.75,1,0,1,492
+text-insert,user,1630333421688,"{'ops': [{'retain': 1045}, {'insert': 'n'}]}",,,1046,[],1,1,5,30,0.75,1,0,1,493
+text-insert,user,1630333421868,"{'ops': [{'retain': 1046}, {'insert': ' '}]}",,,1047,[],1,1,5,30,0.75,1,0,1,494
+text-delete,user,1630333422989,"{'ops': [{'retain': 1046}, {'delete': 1}]}",,,1046,[],1,1,5,30,0.75,1,0,1,495
+text-insert,user,1630333423276,"{'ops': [{'retain': 1046}, {'insert': ','}]}",,,1047,[],1,1,5,30,0.75,1,0,1,496
+text-insert,user,1630333423415,"{'ops': [{'retain': 1047}, {'insert': ' '}]}",,,1048,[],1,1,5,30,0.75,1,0,1,497
+text-insert,user,1630333425302,"{'ops': [{'retain': 1048}, {'insert': 'a'}]}",,,1049,[],1,1,5,30,0.75,1,0,1,498
+text-insert,user,1630333425434,"{'ops': [{'retain': 1049}, {'insert': 'n'}]}",,,1050,[],1,1,5,30,0.75,1,0,1,499
+text-insert,user,1630333425604,"{'ops': [{'retain': 1050}, {'insert': ' '}]}",,,1051,[],1,1,5,30,0.75,1,0,1,500
+text-insert,user,1630333426439,"{'ops': [{'retain': 1051}, {'insert': 'a'}]}",,,1052,[],1,1,5,30,0.75,1,0,1,501
+text-insert,user,1630333426706,"{'ops': [{'retain': 1052}, {'insert': 'n'}]}",,,1053,[],1,1,5,30,0.75,1,0,1,502
+text-insert,user,1630333427024,"{'ops': [{'retain': 1053}, {'insert': 'o'}]}",,,1054,[],1,1,5,30,0.75,1,0,1,503
+text-insert,user,1630333427587,"{'ops': [{'retain': 1054}, {'insert': 'n'}]}",,,1055,[],1,1,5,30,0.75,1,0,1,504
+text-insert,user,1630333427825,"{'ops': [{'retain': 1055}, {'insert': 'y'}]}",,,1056,[],1,1,5,30,0.75,1,0,1,505
+text-insert,user,1630333428205,"{'ops': [{'retain': 1056}, {'insert': 'm'}]}",,,1057,[],1,1,5,30,0.75,1,0,1,506
+text-insert,user,1630333428353,"{'ops': [{'retain': 1057}, {'insert': 'o'}]}",,,1058,[],1,1,5,30,0.75,1,0,1,507
+text-insert,user,1630333428485,"{'ops': [{'retain': 1058}, {'insert': 'u'}]}",,,1059,[],1,1,5,30,0.75,1,0,1,508
+text-insert,user,1630333428634,"{'ops': [{'retain': 1059}, {'insert': 's'}]}",,,1060,[],1,1,5,30,0.75,1,0,1,509
+text-insert,user,1630333428771,"{'ops': [{'retain': 1060}, {'insert': ' '}]}",,,1061,[],1,1,5,30,0.75,1,0,1,510
+text-insert,user,1630333429353,"{'ops': [{'retain': 1061}, {'insert': 'p'}]}",,,1062,[],1,1,5,30,0.75,1,0,1,511
+text-insert,user,1630333429563,"{'ops': [{'retain': 1062}, {'insert': 'e'}]}",,,1063,[],1,1,5,30,0.75,1,0,1,512
+text-insert,user,1630333429765,"{'ops': [{'retain': 1063}, {'insert': 'r'}]}",,,1064,[],1,1,5,30,0.75,1,0,1,513
+text-insert,user,1630333430017,"{'ops': [{'retain': 1064}, {'insert': 'o'}]}",,,1065,[],1,1,5,30,0.75,1,0,1,514
+text-insert,user,1630333430211,"{'ops': [{'retain': 1065}, {'insert': 'n'}]}",,,1066,[],1,1,5,30,0.75,1,0,1,515
+text-insert,user,1630333430438,"{'ops': [{'retain': 1066}, {'insert': ' '}]}",,,1067,[],1,1,5,30,0.75,1,0,1,516
+text-delete,user,1630333431006,"{'ops': [{'retain': 1066}, {'delete': 1}]}",,,1066,[],1,1,5,30,0.75,1,0,1,517
+text-delete,user,1630333431152,"{'ops': [{'retain': 1065}, {'delete': 1}]}",,,1065,[],1,1,5,30,0.75,1,0,1,518
+text-delete,user,1630333431293,"{'ops': [{'retain': 1064}, {'delete': 1}]}",,,1064,[],1,1,5,30,0.75,1,0,1,519
+text-insert,user,1630333432023,"{'ops': [{'retain': 1064}, {'insert': 's'}]}",,,1065,[],1,1,5,30,0.75,1,0,1,520
+text-insert,user,1630333432183,"{'ops': [{'retain': 1065}, {'insert': 'o'}]}",,,1066,[],1,1,5,30,0.75,1,0,1,521
+text-insert,user,1630333432372,"{'ops': [{'retain': 1066}, {'insert': 'n'}]}",,,1067,[],1,1,5,30,0.75,1,0,1,522
+text-insert,user,1630333432525,"{'ops': [{'retain': 1067}, {'insert': ' '}]}",,,1068,[],1,1,5,30,0.75,1,0,1,523
+text-insert,user,1630333432754,"{'ops': [{'retain': 1068}, {'insert': 'a'}]}",,,1069,[],1,1,5,30,0.75,1,0,1,524
+text-insert,user,1630333433141,"{'ops': [{'retain': 1069}, {'insert': 'p'}]}",,,1070,[],1,1,5,30,0.75,1,0,1,525
+text-insert,user,1630333433269,"{'ops': [{'retain': 1070}, {'insert': 'p'}]}",,,1071,[],1,1,5,30,0.75,1,0,1,526
+text-insert,user,1630333433510,"{'ops': [{'retain': 1071}, {'insert': 'r'}]}",,,1072,[],1,1,5,30,0.75,1,0,1,527
+text-insert,user,1630333433629,"{'ops': [{'retain': 1072}, {'insert': 'o'}]}",,,1073,[],1,1,5,30,0.75,1,0,1,528
+text-insert,user,1630333433783,"{'ops': [{'retain': 1073}, {'insert': 'a'}]}",,,1074,[],1,1,5,30,0.75,1,0,1,529
+text-insert,user,1630333434059,"{'ops': [{'retain': 1074}, {'insert': 'c'}]}",,,1075,[],1,1,5,30,0.75,1,0,1,530
+text-insert,user,1630333434217,"{'ops': [{'retain': 1075}, {'insert': 'h'}]}",,,1076,[],1,1,5,30,0.75,1,0,1,531
+text-insert,user,1630333434378,"{'ops': [{'retain': 1076}, {'insert': 'e'}]}",,,1077,[],1,1,5,30,0.75,1,0,1,532
+text-insert,user,1630333434671,"{'ops': [{'retain': 1077}, {'insert': 's'}]}",,,1078,[],1,1,5,30,0.75,1,0,1,533
+text-insert,user,1630333434807,"{'ops': [{'retain': 1078}, {'insert': ' '}]}",,,1079,[],1,1,5,30,0.75,1,0,1,534
+text-insert,user,1630333435346,"{'ops': [{'retain': 1079}, {'insert': 'y'}]}",,,1080,[],1,1,5,30,0.75,1,0,1,535
+text-insert,user,1630333435439,"{'ops': [{'retain': 1080}, {'insert': 'o'}]}",,,1081,[],1,1,5,30,0.75,1,0,1,536
+text-insert,user,1630333435577,"{'ops': [{'retain': 1081}, {'insert': 'u'}]}",,,1082,[],1,1,5,30,0.75,1,0,1,537
+text-insert,user,1630333443890,"{'ops': [{'retain': 1082}, {'insert': ','}]}",,,1083,[],1,1,5,30,0.75,1,0,1,538
+text-insert,user,1630333444028,"{'ops': [{'retain': 1083}, {'insert': ' '}]}",,,1084,[],1,1,5,30,0.75,1,0,1,539
+suggestion-get,user,1630333445163,,,,1084,[],1,1,5,30,0.75,1,0,1,540
+suggestion-open,api,1630333447136,,,,1084,"[{'index': 0, 'original': ""and you're offered a drink."", 'trimmed': ""and you're offered a drink."", 'probability': 1.2079199754828832e-22}, {'index': 1, 'original': 'and hands you a file.', 'trimmed': 'and hands you a file.', 'probability': 1.1024526774885175e-14}, {'index': 2, 'original': 'hands you a pen and an envelope.', 'trimmed': 'hands you a pen and an envelope.', 'probability': 6.755304507569187e-17}, {'index': 3, 'original': 'and whispers ""The Presidency.', 'trimmed': 'and whispers ""The Presidency.', 'probability': 4.5274592866102256e-20}, {'index': 4, 'original': 'sits down, and begins to explain the situation.', 'trimmed': 'sits down, and begins to explain the situation.', 'probability': 6.980382829217676e-21}]",0,1,5,30,0.75,1,0,1,541
+suggestion-down,user,1630333469741,,,,1084,[],1,1,5,30,0.75,1,0,1,542
+suggestion-down,user,1630333469894,,,,1084,[],2,1,5,30,0.75,1,0,1,543
+suggestion-down,user,1630333470036,,,,1084,[],3,1,5,30,0.75,1,0,1,544
+suggestion-down,user,1630333470338,,,,1084,[],4,1,5,30,0.75,1,0,1,545
+suggestion-select,user,1630333470957,,,,1084,[],4,4,5,30,0.75,1,0,1,546
+suggestion-close,api,1630333470957,,,,1084,[],4,4,5,30,0.75,1,0,1,547
+text-insert,api,1630333470965,"{'ops': [{'retain': 1084}, {'insert': 'sits down, and begins to explain the situation.'}]}",,,1131,[],4,4,5,30,0.75,1,0,1,548
+text-insert,user,1630333471979,"{'ops': [{'retain': 1131}, {'insert': ' '}]}",,,1132,[],4,4,5,30,0.75,1,0,1,549
+text-insert,user,1630333472109,"{'ops': [{'retain': 1132}, {'insert': ' '}]}",,,1133,[],4,4,5,30,0.75,1,0,1,550
+text-insert,user,1630333476037,"{'ops': [{'retain': 1133}, {'insert': 'T'}]}",,,1134,[],4,4,5,30,0.75,1,0,1,551
+text-insert,user,1630333476234,"{'ops': [{'retain': 1134}, {'insert': 'h'}]}",,,1135,[],4,4,5,30,0.75,1,0,1,552
+text-insert,user,1630333476637,"{'ops': [{'retain': 1135}, {'insert': 'i'}]}",,,1136,[],4,4,5,30,0.75,1,0,1,553
+text-insert,user,1630333476834,"{'ops': [{'retain': 1136}, {'insert': 's'}]}",,,1137,[],4,4,5,30,0.75,1,0,1,554
+text-insert,user,1630333476915,"{'ops': [{'retain': 1137}, {'insert': ' '}]}",,,1138,[],4,4,5,30,0.75,1,0,1,555
+text-insert,user,1630333478619,"{'ops': [{'retain': 1138}, {'insert': 'w'}]}",,,1139,[],4,4,5,30,0.75,1,0,1,556
+text-insert,user,1630333478806,"{'ops': [{'retain': 1139}, {'insert': 'a'}]}",,,1140,[],4,4,5,30,0.75,1,0,1,557
+text-insert,user,1630333478901,"{'ops': [{'retain': 1140}, {'insert': 's'}]}",,,1141,[],4,4,5,30,0.75,1,0,1,558
+text-insert,user,1630333479067,"{'ops': [{'retain': 1141}, {'insert': ' '}]}",,,1142,[],4,4,5,30,0.75,1,0,1,559
+text-insert,user,1630333479317,"{'ops': [{'retain': 1142}, {'insert': 'j'}]}",,,1143,[],4,4,5,30,0.75,1,0,1,560
+text-insert,user,1630333479466,"{'ops': [{'retain': 1143}, {'insert': 'u'}]}",,,1144,[],4,4,5,30,0.75,1,0,1,561
+text-insert,user,1630333479664,"{'ops': [{'retain': 1144}, {'insert': 's'}]}",,,1145,[],4,4,5,30,0.75,1,0,1,562
+text-insert,user,1630333479739,"{'ops': [{'retain': 1145}, {'insert': 't'}]}",,,1146,[],4,4,5,30,0.75,1,0,1,563
+text-insert,user,1630333479909,"{'ops': [{'retain': 1146}, {'insert': ' '}]}",,,1147,[],4,4,5,30,0.75,1,0,1,564
+text-insert,user,1630333480067,"{'ops': [{'retain': 1147}, {'insert': 'a'}]}",,,1148,[],4,4,5,30,0.75,1,0,1,565
+text-insert,user,1630333480150,"{'ops': [{'retain': 1148}, {'insert': ' '}]}",,,1149,[],4,4,5,30,0.75,1,0,1,566
+text-insert,user,1630333480508,"{'ops': [{'retain': 1149}, {'insert': 'd'}]}",,,1150,[],4,4,5,30,0.75,1,0,1,567
+text-insert,user,1630333480649,"{'ops': [{'retain': 1150}, {'insert': 'r'}]}",,,1151,[],4,4,5,30,0.75,1,0,1,568
+text-insert,user,1630333480820,"{'ops': [{'retain': 1151}, {'insert': 'e'}]}",,,1152,[],4,4,5,30,0.75,1,0,1,569
+text-insert,user,1630333480986,"{'ops': [{'retain': 1152}, {'insert': 's'}]}",,,1153,[],4,4,5,30,0.75,1,0,1,570
+text-insert,user,1630333481142,"{'ops': [{'retain': 1153}, {'insert': 's'}]}",,,1154,[],4,4,5,30,0.75,1,0,1,571
+text-insert,user,1630333481236,"{'ops': [{'retain': 1154}, {'insert': ' '}]}",,,1155,[],4,4,5,30,0.75,1,0,1,572
+text-insert,user,1630333481965,"{'ops': [{'retain': 1155}, {'insert': 'r'}]}",,,1156,[],4,4,5,30,0.75,1,0,1,573
+text-insert,user,1630333482092,"{'ops': [{'retain': 1156}, {'insert': 'e'}]}",,,1157,[],4,4,5,30,0.75,1,0,1,574
+text-insert,user,1630333482535,"{'ops': [{'retain': 1157}, {'insert': 'h'}]}",,,1158,[],4,4,5,30,0.75,1,0,1,575
+text-insert,user,1630333485041,"{'ops': [{'retain': 1158}, {'insert': 'r'}]}",,,1159,[],4,4,5,30,0.75,1,0,1,576
+text-insert,user,1630333485222,"{'ops': [{'retain': 1159}, {'insert': 'e'}]}",,,1160,[],4,4,5,30,0.75,1,0,1,577
+text-insert,user,1630333485494,"{'ops': [{'retain': 1160}, {'insert': 's'}]}",,,1161,[],4,4,5,30,0.75,1,0,1,578
+text-insert,user,1630333485609,"{'ops': [{'retain': 1161}, {'insert': 'a'}]}",,,1162,[],4,4,5,30,0.75,1,0,1,579
+text-insert,user,1630333486171,"{'ops': [{'retain': 1162}, {'insert': 'l'}]}",,,1163,[],4,4,5,30,0.75,1,0,1,580
+text-insert,user,1630333487232,"{'ops': [{'retain': 1163}, {'insert': ','}]}",,,1164,[],4,4,5,30,0.75,1,0,1,581
+text-insert,user,1630333487437,"{'ops': [{'retain': 1164}, {'insert': ' '}]}",,,1165,[],4,4,5,30,0.75,1,0,1,582
+cursor-backward,user,1630333489606,,"{'index': 1159, 'length': 0}",,1159,[],4,4,5,30,0.75,1,0,1,583
+cursor-select,user,1630333489611,,"{'index': 1155, 'length': 8}",,1155,[],4,4,5,30,0.75,1,0,1,584
+cursor-forward,user,1630333493302,,"{'index': 1158, 'length': 0}",,1158,[],4,4,5,30,0.75,1,0,1,585
+text-insert,user,1630333493859,"{'ops': [{'retain': 1158}, {'insert': 'e'}]}",,,1159,[],4,4,5,30,0.75,1,0,1,586
+cursor-forward,user,1630333494501,,"{'index': 1161, 'length': 0}",,1161,[],4,4,5,30,0.75,1,0,1,587
+cursor-backward,user,1630333495586,,"{'index': 1150, 'length': 0}",,1150,[],4,4,5,30,0.75,1,0,1,588
+cursor-forward,user,1630333496609,,"{'index': 1164, 'length': 0}",,1164,[],4,4,5,30,0.75,1,0,1,589
+text-delete,user,1630333497441,"{'ops': [{'retain': 1163}, {'delete': 1}]}",,,1163,[],4,4,5,30,0.75,1,0,1,590
+text-delete,user,1630333497572,"{'ops': [{'retain': 1162}, {'delete': 1}]}",,,1162,[],4,4,5,30,0.75,1,0,1,591
+text-delete,user,1630333497709,"{'ops': [{'retain': 1161}, {'delete': 1}]}",,,1161,[],4,4,5,30,0.75,1,0,1,592
+text-delete,user,1630333497847,"{'ops': [{'retain': 1160}, {'delete': 1}]}",,,1160,[],4,4,5,30,0.75,1,0,1,593
+text-delete,user,1630333497996,"{'ops': [{'retain': 1159}, {'delete': 1}]}",,,1159,[],4,4,5,30,0.75,1,0,1,594
+text-delete,user,1630333498460,"{'ops': [{'retain': 1158}, {'delete': 1}]}",,,1158,[],4,4,5,30,0.75,1,0,1,595
+text-insert,user,1630333499695,"{'ops': [{'retain': 1158}, {'insert': 'e'}]}",,,1159,[],4,4,5,30,0.75,1,0,1,596
+text-insert,user,1630333499856,"{'ops': [{'retain': 1159}, {'insert': 'r'}]}",,,1160,[],4,4,5,30,0.75,1,0,1,597
+text-insert,user,1630333499987,"{'ops': [{'retain': 1160}, {'insert': 's'}]}",,,1161,[],4,4,5,30,0.75,1,0,1,598
+text-insert,user,1630333500108,"{'ops': [{'retain': 1161}, {'insert': 'a'}]}",,,1162,[],4,4,5,30,0.75,1,0,1,599
+text-insert,user,1630333500435,"{'ops': [{'retain': 1162}, {'insert': 'l'}]}",,,1163,[],4,4,5,30,0.75,1,0,1,600
+cursor-backward,user,1630333502606,,"{'index': 1159, 'length': 0}",,1159,[],4,4,5,30,0.75,1,0,1,601
+cursor-select,user,1630333502612,,"{'index': 1155, 'length': 8}",,1155,[],4,4,5,30,0.75,1,0,1,602
+text-insert,user,1630333503845,"{'ops': [{'retain': 1159}, {'insert': 'a'}]}",,,1164,[],4,4,5,30,0.75,1,0,1,603
+cursor-backward,user,1630333505853,,"{'index': 1137, 'length': 0}",,1137,[],4,4,5,30,0.75,1,0,1,604
+text-delete,user,1630333507083,"{'ops': [{'retain': 1136}, {'delete': 1}]}",,,1136,[],4,4,5,30,0.75,1,0,1,605
+text-delete,user,1630333507225,"{'ops': [{'retain': 1135}, {'delete': 1}]}",,,1135,[],4,4,5,30,0.75,1,0,1,606
+text-delete,user,1630333507367,"{'ops': [{'retain': 1134}, {'delete': 1}]}",,,1134,[],4,4,5,30,0.75,1,0,1,607
+text-insert,user,1630333508344,"{'ops': [{'retain': 1134}, {'insert': 'h'}]}",,,1135,[],4,4,5,30,0.75,1,0,1,608
+text-insert,user,1630333508497,"{'ops': [{'retain': 1135}, {'insert': 'e'}]}",,,1136,[],4,4,5,30,0.75,1,0,1,609
+text-insert,user,1630333508910,"{'ops': [{'retain': 1136}, {'insert': ' '}]}",,,1137,[],4,4,5,30,0.75,1,0,1,610
+text-insert,user,1630333509414,"{'ops': [{'retain': 1137}, {'insert': 'p'}]}",,,1138,[],4,4,5,30,0.75,1,0,1,611
+text-insert,user,1630333509558,"{'ops': [{'retain': 1138}, {'insert': 'a'}]}",,,1139,[],4,4,5,30,0.75,1,0,1,612
+text-insert,user,1630333509743,"{'ops': [{'retain': 1139}, {'insert': 's'}]}",,,1140,[],4,4,5,30,0.75,1,0,1,613
+text-insert,user,1630333509902,"{'ops': [{'retain': 1140}, {'insert': 't'}]}",,,1141,[],4,4,5,30,0.75,1,0,1,614
+cursor-forward,user,1630333511866,,"{'index': 1170, 'length': 0}",,1170,[],4,4,5,30,0.75,1,0,1,615
+suggestion-get,user,1630333512566,,,,1170,[],4,4,5,30,0.75,1,0,1,616
+suggestion-open,api,1630333514599,,,,1170,"[{'index': 0, 'original': 'a fake reality created with your mind.', 'trimmed': 'a fake reality created with your mind.', 'probability': 1.9673208231209215e-21}, {'index': 1, 'original': 'Barack, this is the real thing.', 'trimmed': 'Barack, this is the real thing.', 'probability': 1.4728193216375676e-26}, {'index': 2, 'original': 'a test run, a warm up.', 'trimmed': 'a test run, a warm up.', 'probability': 1.0372464148578412e-26}, {'index': 3, 'original': ""and now it's time to decide the fate of the world."", 'trimmed': ""and now it's time to decide the fate of the world."", 'probability': 1.3181246048500547e-20}, {'index': 4, 'original': ""and now it's your turn to save the world..."", 'trimmed': ""and now it's your turn to save the world..."", 'probability': 5.865266117400376e-17}]",0,4,5,30,0.75,1,0,1,617
+suggestion-hover,user,1630333518040,,,,1170,[],0,4,5,30,0.75,1,0,1,618
+suggestion-hover,user,1630333518090,,,,1170,[],0,3,5,30,0.75,1,0,1,619
+suggestion-hover,user,1630333518107,,,,1170,[],0,2,5,30,0.75,1,0,1,620
+suggestion-hover,user,1630333518173,,,,1170,[],0,1,5,30,0.75,1,0,1,621
+suggestion-select,user,1630333520376,,,,1170,[],1,1,5,30,0.75,1,0,1,622
+suggestion-close,api,1630333520376,,,,1170,[],1,1,5,30,0.75,1,0,1,623
+text-insert,api,1630333520381,"{'ops': [{'retain': 1170}, {'insert': 'Barack, this is the real thing.'}]}",,,1201,[],1,1,5,30,0.75,1,0,1,624
+text-insert,user,1630333524548,"{'ops': [{'retain': 1201}, {'insert': ' '}]}",,,1202,[],1,1,5,30,0.75,1,0,1,625
+text-insert,user,1630333524676,"{'ops': [{'retain': 1202}, {'insert': ' '}]}",,,1203,[],1,1,5,30,0.75,1,0,1,626
+text-insert,user,1630333525179,"{'ops': [{'retain': 1203}, {'insert': 'T'}]}",,,1204,[],1,1,5,30,0.75,1,0,1,627
+text-insert,user,1630333525347,"{'ops': [{'retain': 1204}, {'insert': 'h'}]}",,,1205,[],1,1,5,30,0.75,1,0,1,628
+text-insert,user,1630333525563,"{'ops': [{'retain': 1205}, {'insert': 'e'}]}",,,1206,[],1,1,5,30,0.75,1,0,1,629
+text-insert,user,1630333525641,"{'ops': [{'retain': 1206}, {'insert': ' '}]}",,,1207,[],1,1,5,30,0.75,1,0,1,630
+text-insert,user,1630333526675,"{'ops': [{'retain': 1207}, {'insert': 'G'}]}",,,1208,[],1,1,5,30,0.75,1,0,1,631
+text-insert,user,1630333526931,"{'ops': [{'retain': 1208}, {'insert': 'a'}]}",,,1209,[],1,1,5,30,0.75,1,0,1,632
+text-insert,user,1630333527240,"{'ops': [{'retain': 1209}, {'insert': 'l'}]}",,,1210,[],1,1,5,30,0.75,1,0,1,633
+text-insert,user,1630333527845,"{'ops': [{'retain': 1210}, {'insert': 't'}]}",,,1211,[],1,1,5,30,0.75,1,0,1,634
+text-insert,user,1630333527967,"{'ops': [{'retain': 1211}, {'insert': 'i'}]}",,,1212,[],1,1,5,30,0.75,1,0,1,635
+text-insert,user,1630333528212,"{'ops': [{'retain': 1212}, {'insert': 'c'}]}",,,1213,[],1,1,5,30,0.75,1,0,1,636
+text-insert,user,1630333528385,"{'ops': [{'retain': 1213}, {'insert': ' '}]}",,,1214,[],1,1,5,30,0.75,1,0,1,637
+text-delete,user,1630333528945,"{'ops': [{'retain': 1213}, {'delete': 1}]}",,,1213,[],1,1,5,30,0.75,1,0,1,638
+text-delete,user,1630333529052,"{'ops': [{'retain': 1212}, {'delete': 1}]}",,,1212,[],1,1,5,30,0.75,1,0,1,639
+text-delete,user,1630333529188,"{'ops': [{'retain': 1211}, {'delete': 1}]}",,,1211,[],1,1,5,30,0.75,1,0,1,640
+text-delete,user,1630333529324,"{'ops': [{'retain': 1210}, {'delete': 1}]}",,,1210,[],1,1,5,30,0.75,1,0,1,641
+text-delete,user,1630333529736,"{'ops': [{'retain': 1209}, {'delete': 1}]}",,,1209,[],1,1,5,30,0.75,1,0,1,642
+text-insert,user,1630333531789,"{'ops': [{'retain': 1209}, {'insert': 'l'}]}",,,1210,[],1,1,5,30,0.75,1,0,1,643
+text-insert,user,1630333532008,"{'ops': [{'retain': 1210}, {'insert': 'a'}]}",,,1211,[],1,1,5,30,0.75,1,0,1,644
+text-insert,user,1630333532328,"{'ops': [{'retain': 1211}, {'insert': 'c'}]}",,,1212,[],1,1,5,30,0.75,1,0,1,645
+text-insert,user,1630333532599,"{'ops': [{'retain': 1212}, {'insert': 't'}]}",,,1213,[],1,1,5,30,0.75,1,0,1,646
+text-insert,user,1630333532745,"{'ops': [{'retain': 1213}, {'insert': 'i'}]}",,,1214,[],1,1,5,30,0.75,1,0,1,647
+text-insert,user,1630333533143,"{'ops': [{'retain': 1214}, {'insert': 'c'}]}",,,1215,[],1,1,5,30,0.75,1,0,1,648
+text-insert,user,1630333533317,"{'ops': [{'retain': 1215}, {'insert': ' '}]}",,,1216,[],1,1,5,30,0.75,1,0,1,649
+text-insert,user,1630333534503,"{'ops': [{'retain': 1216}, {'insert': 'C'}]}",,,1217,[],1,1,5,30,0.75,1,0,1,650
+text-insert,user,1630333534735,"{'ops': [{'retain': 1217}, {'insert': 'o'}]}",,,1218,[],1,1,5,30,0.75,1,0,1,651
+text-insert,user,1630333534844,"{'ops': [{'retain': 1218}, {'insert': 'u'}]}",,,1219,[],1,1,5,30,0.75,1,0,1,652
+text-insert,user,1630333535083,"{'ops': [{'retain': 1219}, {'insert': 'n'}]}",,,1220,[],1,1,5,30,0.75,1,0,1,653
+text-insert,user,1630333535360,"{'ops': [{'retain': 1220}, {'insert': 'c'}]}",,,1221,[],1,1,5,30,0.75,1,0,1,654
+text-insert,user,1630333535567,"{'ops': [{'retain': 1221}, {'insert': 'i'}]}",,,1222,[],1,1,5,30,0.75,1,0,1,655
+text-insert,user,1630333535740,"{'ops': [{'retain': 1222}, {'insert': 'l'}]}",,,1223,[],1,1,5,30,0.75,1,0,1,656
+text-insert,user,1630333535934,"{'ops': [{'retain': 1223}, {'insert': ' '}]}",,,1224,[],1,1,5,30,0.75,1,0,1,657
+text-insert,user,1630333536575,"{'ops': [{'retain': 1224}, {'insert': 'n'}]}",,,1225,[],1,1,5,30,0.75,1,0,1,658
+text-insert,user,1630333536895,"{'ops': [{'retain': 1225}, {'insert': 'e'}]}",,,1226,[],1,1,5,30,0.75,1,0,1,659
+text-insert,user,1630333537036,"{'ops': [{'retain': 1226}, {'insert': 'e'}]}",,,1227,[],1,1,5,30,0.75,1,0,1,660
+text-insert,user,1630333537315,"{'ops': [{'retain': 1227}, {'insert': 'd'}]}",,,1228,[],1,1,5,30,0.75,1,0,1,661
+text-insert,user,1630333537359,"{'ops': [{'retain': 1228}, {'insert': 's'}]}",,,1229,[],1,1,5,30,0.75,1,0,1,662
+text-insert,user,1630333537533,"{'ops': [{'retain': 1229}, {'insert': ' '}]}",,,1230,[],1,1,5,30,0.75,1,0,1,663
+text-insert,user,1630333537981,"{'ops': [{'retain': 1230}, {'insert': 'l'}]}",,,1231,[],1,1,5,30,0.75,1,0,1,664
+text-insert,user,1630333538116,"{'ops': [{'retain': 1231}, {'insert': 'e'}]}",,,1232,[],1,1,5,30,0.75,1,0,1,665
+text-insert,user,1630333538191,"{'ops': [{'retain': 1232}, {'insert': 'a'}]}",,,1233,[],1,1,5,30,0.75,1,0,1,666
+text-insert,user,1630333538364,"{'ops': [{'retain': 1233}, {'insert': 'd'}]}",,,1234,[],1,1,5,30,0.75,1,0,1,667
+text-insert,user,1630333538671,"{'ops': [{'retain': 1234}, {'insert': 'e'}]}",,,1235,[],1,1,5,30,0.75,1,0,1,668
+text-insert,user,1630333538875,"{'ops': [{'retain': 1235}, {'insert': 'r'}]}",,,1236,[],1,1,5,30,0.75,1,0,1,669
+text-insert,user,1630333539079,"{'ops': [{'retain': 1236}, {'insert': 's'}]}",,,1237,[],1,1,5,30,0.75,1,0,1,670
+text-insert,user,1630333541729,"{'ops': [{'retain': 1237}, {'insert': ' '}]}",,,1238,[],1,1,5,30,0.75,1,0,1,671
+text-insert,user,1630333542143,"{'ops': [{'retain': 1238}, {'insert': 'o'}]}",,,1239,[],1,1,5,30,0.75,1,0,1,672
+text-insert,user,1630333542709,"{'ops': [{'retain': 1239}, {'insert': 'f'}]}",,,1240,[],1,1,5,30,0.75,1,0,1,673
+text-insert,user,1630333542829,"{'ops': [{'retain': 1240}, {'insert': ' '}]}",,,1241,[],1,1,5,30,0.75,1,0,1,674
+text-insert,user,1630333543056,"{'ops': [{'retain': 1241}, {'insert': 'e'}]}",,,1242,[],1,1,5,30,0.75,1,0,1,675
+text-insert,user,1630333543379,"{'ops': [{'retain': 1242}, {'insert': 'x'}]}",,,1243,[],1,1,5,30,0.75,1,0,1,676
+text-insert,user,1630333543578,"{'ops': [{'retain': 1243}, {'insert': 'c'}]}",,,1244,[],1,1,5,30,0.75,1,0,1,677
+text-insert,user,1630333543708,"{'ops': [{'retain': 1244}, {'insert': 'e'}]}",,,1245,[],1,1,5,30,0.75,1,0,1,678
+text-insert,user,1630333543944,"{'ops': [{'retain': 1245}, {'insert': 'p'}]}",,,1246,[],1,1,5,30,0.75,1,0,1,679
+text-insert,user,1630333544351,"{'ops': [{'retain': 1246}, {'insert': 't'}]}",,,1247,[],1,1,5,30,0.75,1,0,1,680
+text-insert,user,1630333546099,"{'ops': [{'retain': 1247}, {'insert': 'i'}]}",,,1248,[],1,1,5,30,0.75,1,0,1,681
+text-insert,user,1630333546201,"{'ops': [{'retain': 1248}, {'insert': 'o'}]}",,,1249,[],1,1,5,30,0.75,1,0,1,682
+text-insert,user,1630333546359,"{'ops': [{'retain': 1249}, {'insert': 'n'}]}",,,1250,[],1,1,5,30,0.75,1,0,1,683
+text-insert,user,1630333546539,"{'ops': [{'retain': 1250}, {'insert': 'a'}]}",,,1251,[],1,1,5,30,0.75,1,0,1,684
+text-insert,user,1630333546633,"{'ops': [{'retain': 1251}, {'insert': 'l'}]}",,,1252,[],1,1,5,30,0.75,1,0,1,685
+text-insert,user,1630333546827,"{'ops': [{'retain': 1252}, {'insert': ' '}]}",,,1253,[],1,1,5,30,0.75,1,0,1,686
+text-insert,user,1630333547521,"{'ops': [{'retain': 1253}, {'insert': 't'}]}",,,1254,[],1,1,5,30,0.75,1,0,1,687
+text-insert,user,1630333547683,"{'ops': [{'retain': 1254}, {'insert': 'a'}]}",,,1255,[],1,1,5,30,0.75,1,0,1,688
+text-insert,user,1630333547995,"{'ops': [{'retain': 1255}, {'insert': 'l'}]}",,,1256,[],1,1,5,30,0.75,1,0,1,689
+text-insert,user,1630333548215,"{'ops': [{'retain': 1256}, {'insert': 'e'}]}",,,1257,[],1,1,5,30,0.75,1,0,1,690
+text-insert,user,1630333548411,"{'ops': [{'retain': 1257}, {'insert': 'n'}]}",,,1258,[],1,1,5,30,0.75,1,0,1,691
+text-insert,user,1630333548624,"{'ops': [{'retain': 1258}, {'insert': 't'}]}",,,1259,[],1,1,5,30,0.75,1,0,1,692
+text-insert,user,1630333550155,"{'ops': [{'retain': 1259}, {'insert': ','}]}",,,1260,[],1,1,5,30,0.75,1,0,1,693
+text-insert,user,1630333550340,"{'ops': [{'retain': 1260}, {'insert': ' '}]}",,,1261,[],1,1,5,30,0.75,1,0,1,694
+text-insert,user,1630333557849,"{'ops': [{'retain': 1261}, {'insert': 'y'}]}",,,1262,[],1,1,5,30,0.75,1,0,1,695
+text-insert,user,1630333557985,"{'ops': [{'retain': 1262}, {'insert': 'o'}]}",,,1263,[],1,1,5,30,0.75,1,0,1,696
+text-insert,user,1630333558109,"{'ops': [{'retain': 1263}, {'insert': 'u'}]}",,,1264,[],1,1,5,30,0.75,1,0,1,697
+text-insert,user,1630333558343,"{'ops': [{'retain': 1264}, {'insert': ' '}]}",,,1265,[],1,1,5,30,0.75,1,0,1,698
+text-insert,user,1630333558692,"{'ops': [{'retain': 1265}, {'insert': 'h'}]}",,,1266,[],1,1,5,30,0.75,1,0,1,699
+text-insert,user,1630333558812,"{'ops': [{'retain': 1266}, {'insert': 'a'}]}",,,1267,[],1,1,5,30,0.75,1,0,1,700
+text-delete,user,1630333559556,"{'ops': [{'retain': 1266}, {'delete': 1}]}",,,1266,[],1,1,5,30,0.75,1,0,1,701
+text-insert,user,1630333559833,"{'ops': [{'retain': 1266}, {'insert': 'd'}]}",,,1267,[],1,1,5,30,0.75,1,0,1,702
+text-delete,user,1630333560691,"{'ops': [{'retain': 1266}, {'delete': 1}]}",,,1266,[],1,1,5,30,0.75,1,0,1,703
+text-insert,user,1630333561184,"{'ops': [{'retain': 1266}, {'insert': 'a'}]}",,,1267,[],1,1,5,30,0.75,1,0,1,704
+text-insert,user,1630333561442,"{'ops': [{'retain': 1267}, {'insert': 'd'}]}",,,1268,[],1,1,5,30,0.75,1,0,1,705
+text-insert,user,1630333561583,"{'ops': [{'retain': 1268}, {'insert': ' '}]}",,,1269,[],1,1,5,30,0.75,1,0,1,706
+text-insert,user,1630333562024,"{'ops': [{'retain': 1269}, {'insert': 'b'}]}",,,1270,[],1,1,5,30,0.75,1,0,1,707
+text-insert,user,1630333562194,"{'ops': [{'retain': 1270}, {'insert': 'e'}]}",,,1271,[],1,1,5,30,0.75,1,0,1,708
+text-insert,user,1630333562342,"{'ops': [{'retain': 1271}, {'insert': 'e'}]}",,,1272,[],1,1,5,30,0.75,1,0,1,709
+text-insert,user,1630333562484,"{'ops': [{'retain': 1272}, {'insert': 'n'}]}",,,1273,[],1,1,5,30,0.75,1,0,1,710
+text-insert,user,1630333562633,"{'ops': [{'retain': 1273}, {'insert': ' '}]}",,,1274,[],1,1,5,30,0.75,1,0,1,711
+text-insert,user,1630333562754,"{'ops': [{'retain': 1274}, {'insert': 's'}]}",,,1275,[],1,1,5,30,0.75,1,0,1,712
+text-insert,user,1630333562962,"{'ops': [{'retain': 1275}, {'insert': 'e'}]}",,,1276,[],1,1,5,30,0.75,1,0,1,713
+text-insert,user,1630333563116,"{'ops': [{'retain': 1276}, {'insert': 'l'}]}",,,1277,[],1,1,5,30,0.75,1,0,1,714
+text-insert,user,1630333563257,"{'ops': [{'retain': 1277}, {'insert': 'e'}]}",,,1278,[],1,1,5,30,0.75,1,0,1,715
+text-insert,user,1630333563538,"{'ops': [{'retain': 1278}, {'insert': 'c'}]}",,,1279,[],1,1,5,30,0.75,1,0,1,716
+text-insert,user,1630333563755,"{'ops': [{'retain': 1279}, {'insert': 't'}]}",,,1280,[],1,1,5,30,0.75,1,0,1,717
+text-insert,user,1630333563890,"{'ops': [{'retain': 1280}, {'insert': 'i'}]}",,,1281,[],1,1,5,30,0.75,1,0,1,718
+text-delete,user,1630333565617,"{'ops': [{'retain': 1280}, {'delete': 1}]}",,,1280,[],1,1,5,30,0.75,1,0,1,719
+text-insert,user,1630333565866,"{'ops': [{'retain': 1280}, {'insert': 'e'}]}",,,1281,[],1,1,5,30,0.75,1,0,1,720
+text-insert,user,1630333566354,"{'ops': [{'retain': 1281}, {'insert': 'd'}]}",,,1282,[],1,1,5,30,0.75,1,0,1,721
+text-insert,user,1630333566781,"{'ops': [{'retain': 1282}, {'insert': ' '}]}",,,1283,[],1,1,5,30,0.75,1,0,1,722
+text-insert,user,1630333569874,"{'ops': [{'retain': 1283}, {'insert': 't'}]}",,,1284,[],1,1,5,30,0.75,1,0,1,723
+text-insert,user,1630333570044,"{'ops': [{'retain': 1284}, {'insert': 'o'}]}",,,1285,[],1,1,5,30,0.75,1,0,1,724
+text-insert,user,1630333570237,"{'ops': [{'retain': 1285}, {'insert': ' '}]}",,,1286,[],1,1,5,30,0.75,1,0,1,725
+text-insert,user,1630333572393,"{'ops': [{'retain': 1286}, {'insert': 'b'}]}",,,1287,[],1,1,5,30,0.75,1,0,1,726
+text-insert,user,1630333572519,"{'ops': [{'retain': 1287}, {'insert': 'e'}]}",,,1288,[],1,1,5,30,0.75,1,0,1,727
+text-insert,user,1630333572630,"{'ops': [{'retain': 1288}, {'insert': ' '}]}",,,1289,[],1,1,5,30,0.75,1,0,1,728
+text-insert,user,1630333573217,"{'ops': [{'retain': 1289}, {'insert': 'l'}]}",,,1290,[],1,1,5,30,0.75,1,0,1,729
+text-insert,user,1630333573362,"{'ops': [{'retain': 1290}, {'insert': 'e'}]}",,,1291,[],1,1,5,30,0.75,1,0,1,730
+text-insert,user,1630333573472,"{'ops': [{'retain': 1291}, {'insert': 'a'}]}",,,1292,[],1,1,5,30,0.75,1,0,1,731
+text-insert,user,1630333573647,"{'ops': [{'retain': 1292}, {'insert': 'd'}]}",,,1293,[],1,1,5,30,0.75,1,0,1,732
+text-insert,user,1630333573828,"{'ops': [{'retain': 1293}, {'insert': 'e'}]}",,,1294,[],1,1,5,30,0.75,1,0,1,733
+text-insert,user,1630333573965,"{'ops': [{'retain': 1294}, {'insert': 'r'}]}",,,1295,[],1,1,5,30,0.75,1,0,1,734
+text-insert,user,1630333574127,"{'ops': [{'retain': 1295}, {'insert': ' '}]}",,,1296,[],1,1,5,30,0.75,1,0,1,735
+text-insert,user,1630333574429,"{'ops': [{'retain': 1296}, {'insert': 'o'}]}",,,1297,[],1,1,5,30,0.75,1,0,1,736
+text-insert,user,1630333574629,"{'ops': [{'retain': 1297}, {'insert': 'f'}]}",,,1298,[],1,1,5,30,0.75,1,0,1,737
+text-insert,user,1630333574697,"{'ops': [{'retain': 1298}, {'insert': ' '}]}",,,1299,[],1,1,5,30,0.75,1,0,1,738
+text-insert,user,1630333574807,"{'ops': [{'retain': 1299}, {'insert': 't'}]}",,,1300,[],1,1,5,30,0.75,1,0,1,739
+text-insert,user,1630333574901,"{'ops': [{'retain': 1300}, {'insert': 'h'}]}",,,1301,[],1,1,5,30,0.75,1,0,1,740
+text-insert,user,1630333574957,"{'ops': [{'retain': 1301}, {'insert': 'e'}]}",,,1302,[],1,1,5,30,0.75,1,0,1,741
+text-insert,user,1630333575073,"{'ops': [{'retain': 1302}, {'insert': ' '}]}",,,1303,[],1,1,5,30,0.75,1,0,1,742
+text-insert,user,1630333575616,"{'ops': [{'retain': 1303}, {'insert': 'r'}]}",,,1304,[],1,1,5,30,0.75,1,0,1,743
+text-delete,user,1630333576117,"{'ops': [{'retain': 1303}, {'delete': 1}]}",,,1303,[],1,1,5,30,0.75,1,0,1,744
+text-insert,user,1630333576663,"{'ops': [{'retain': 1303}, {'insert': 'f'}]}",,,1304,[],1,1,5,30,0.75,1,0,1,745
+text-insert,user,1630333576941,"{'ops': [{'retain': 1304}, {'insert': 'r'}]}",,,1305,[],1,1,5,30,0.75,1,0,1,746
+text-insert,user,1630333577209,"{'ops': [{'retain': 1305}, {'insert': 'e'}]}",,,1306,[],1,1,5,30,0.75,1,0,1,747
+text-insert,user,1630333577347,"{'ops': [{'retain': 1306}, {'insert': 'e'}]}",,,1307,[],1,1,5,30,0.75,1,0,1,748
+text-insert,user,1630333577501,"{'ops': [{'retain': 1307}, {'insert': ' '}]}",,,1308,[],1,1,5,30,0.75,1,0,1,749
+text-insert,user,1630333578302,"{'ops': [{'retain': 1308}, {'insert': 'w'}]}",,,1309,[],1,1,5,30,0.75,1,0,1,750
+text-insert,user,1630333578546,"{'ops': [{'retain': 1309}, {'insert': 'o'}]}",,,1310,[],1,1,5,30,0.75,1,0,1,751
+text-insert,user,1630333578761,"{'ops': [{'retain': 1310}, {'insert': 'r'}]}",,,1311,[],1,1,5,30,0.75,1,0,1,752
+text-insert,user,1630333578872,"{'ops': [{'retain': 1311}, {'insert': 'l'}]}",,,1312,[],1,1,5,30,0.75,1,0,1,753
+text-insert,user,1630333578993,"{'ops': [{'retain': 1312}, {'insert': 'd'}]}",,,1313,[],1,1,5,30,0.75,1,0,1,754
+text-insert,user,1630333579127,"{'ops': [{'retain': 1313}, {'insert': ' '}]}",,,1314,[],1,1,5,30,0.75,1,0,1,755
+text-insert,user,1630333579533,"{'ops': [{'retain': 1314}, {'insert': 'a'}]}",,,1315,[],1,1,5,30,0.75,1,0,1,756
+text-insert,user,1630333579710,"{'ops': [{'retain': 1315}, {'insert': 's'}]}",,,1316,[],1,1,5,30,0.75,1,0,1,757
+text-insert,user,1630333579848,"{'ops': [{'retain': 1316}, {'insert': ' '}]}",,,1317,[],1,1,5,30,0.75,1,0,1,758
+text-insert,user,1630333580131,"{'ops': [{'retain': 1317}, {'insert': 'a'}]}",,,1318,[],1,1,5,30,0.75,1,0,1,759
+text-insert,user,1630333580245,"{'ops': [{'retain': 1318}, {'insert': ' '}]}",,,1319,[],1,1,5,30,0.75,1,0,1,760
+text-insert,user,1630333580617,"{'ops': [{'retain': 1319}, {'insert': 'p'}]}",,,1320,[],1,1,5,30,0.75,1,0,1,761
+text-insert,user,1630333580903,"{'ops': [{'retain': 1320}, {'insert': 'r'}]}",,,1321,[],1,1,5,30,0.75,1,0,1,762
+text-insert,user,1630333582682,"{'ops': [{'retain': 1321}, {'insert': 'e'}]}",,,1322,[],1,1,5,30,0.75,1,0,1,763
+text-insert,user,1630333583066,"{'ops': [{'retain': 1322}, {'insert': 'l'}]}",,,1323,[],1,1,5,30,0.75,1,0,1,764
+text-insert,user,1630333583364,"{'ops': [{'retain': 1323}, {'insert': 'u'}]}",,,1324,[],1,1,5,30,0.75,1,0,1,765
+text-insert,user,1630333583573,"{'ops': [{'retain': 1324}, {'insert': 'd'}]}",,,1325,[],1,1,5,30,0.75,1,0,1,766
+text-insert,user,1630333583674,"{'ops': [{'retain': 1325}, {'insert': 'e'}]}",,,1326,[],1,1,5,30,0.75,1,0,1,767
+text-insert,user,1630333583877,"{'ops': [{'retain': 1326}, {'insert': ' '}]}",,,1327,[],1,1,5,30,0.75,1,0,1,768
+text-insert,user,1630333584059,"{'ops': [{'retain': 1327}, {'insert': 't'}]}",,,1328,[],1,1,5,30,0.75,1,0,1,769
+text-insert,user,1630333584248,"{'ops': [{'retain': 1328}, {'insert': 'o'}]}",,,1329,[],1,1,5,30,0.75,1,0,1,770
+text-insert,user,1630333584432,"{'ops': [{'retain': 1329}, {'insert': ' '}]}",,,1330,[],1,1,5,30,0.75,1,0,1,771
+text-insert,user,1630333585660,"{'ops': [{'retain': 1330}, {'insert': 'b'}]}",,,1331,[],1,1,5,30,0.75,1,0,1,772
+text-insert,user,1630333585872,"{'ops': [{'retain': 1331}, {'insert': 'e'}]}",,,1332,[],1,1,5,30,0.75,1,0,1,773
+text-insert,user,1630333586046,"{'ops': [{'retain': 1332}, {'insert': 'i'}]}",,,1333,[],1,1,5,30,0.75,1,0,1,774
+text-insert,user,1630333586208,"{'ops': [{'retain': 1333}, {'insert': 'n'}]}",,,1334,[],1,1,5,30,0.75,1,0,1,775
+text-insert,user,1630333586290,"{'ops': [{'retain': 1334}, {'insert': 'g'}]}",,,1335,[],1,1,5,30,0.75,1,0,1,776
+text-insert,user,1630333586421,"{'ops': [{'retain': 1335}, {'insert': ' '}]}",,,1336,[],1,1,5,30,0.75,1,0,1,777
+text-insert,user,1630333590511,"{'ops': [{'retain': 1336}, {'insert': 'a'}]}",,,1337,[],1,1,5,30,0.75,1,0,1,778
+text-insert,user,1630333590692,"{'ops': [{'retain': 1337}, {'insert': ' '}]}",,,1338,[],1,1,5,30,0.75,1,0,1,779
+text-insert,user,1630333591073,"{'ops': [{'retain': 1338}, {'insert': 'l'}]}",,,1339,[],1,1,5,30,0.75,1,0,1,780
+text-insert,user,1630333591348,"{'ops': [{'retain': 1339}, {'insert': 'e'}]}",,,1340,[],1,1,5,30,0.75,1,0,1,781
+text-insert,user,1630333591434,"{'ops': [{'retain': 1340}, {'insert': 'a'}]}",,,1341,[],1,1,5,30,0.75,1,0,1,782
+text-insert,user,1630333591619,"{'ops': [{'retain': 1341}, {'insert': 'd'}]}",,,1342,[],1,1,5,30,0.75,1,0,1,783
+text-insert,user,1630333591804,"{'ops': [{'retain': 1342}, {'insert': 'e'}]}",,,1343,[],1,1,5,30,0.75,1,0,1,784
+text-insert,user,1630333591929,"{'ops': [{'retain': 1343}, {'insert': 'r'}]}",,,1344,[],1,1,5,30,0.75,1,0,1,785
+text-insert,user,1630333592112,"{'ops': [{'retain': 1344}, {'insert': ' '}]}",,,1345,[],1,1,5,30,0.75,1,0,1,786
+text-insert,user,1630333592744,"{'ops': [{'retain': 1345}, {'insert': 'o'}]}",,,1346,[],1,1,5,30,0.75,1,0,1,787
+text-insert,user,1630333592994,"{'ops': [{'retain': 1346}, {'insert': 'f'}]}",,,1347,[],1,1,5,30,0.75,1,0,1,788
+text-insert,user,1630333593115,"{'ops': [{'retain': 1347}, {'insert': ' '}]}",,,1348,[],1,1,5,30,0.75,1,0,1,789
+text-insert,user,1630333593699,"{'ops': [{'retain': 1348}, {'insert': 'r'}]}",,,1349,[],1,1,5,30,0.75,1,0,1,790
+text-insert,user,1630333593711,"{'ops': [{'retain': 1349}, {'insert': 't'}]}",,,1350,[],1,1,5,30,0.75,1,0,1,791
+text-insert,user,1630333593838,"{'ops': [{'retain': 1350}, {'insert': 'h'}]}",,,1351,[],1,1,5,30,0.75,1,0,1,792
+text-insert,user,1630333593991,"{'ops': [{'retain': 1351}, {'insert': 'e'}]}",,,1352,[],1,1,5,30,0.75,1,0,1,793
+text-insert,user,1630333594095,"{'ops': [{'retain': 1352}, {'insert': ' '}]}",,,1353,[],1,1,5,30,0.75,1,0,1,794
+text-delete,user,1630333594941,"{'ops': [{'retain': 1352}, {'delete': 1}]}",,,1352,[],1,1,5,30,0.75,1,0,1,795
+text-delete,user,1630333595153,"{'ops': [{'retain': 1351}, {'delete': 1}]}",,,1351,[],1,1,5,30,0.75,1,0,1,796
+text-delete,user,1630333595347,"{'ops': [{'retain': 1350}, {'delete': 1}]}",,,1350,[],1,1,5,30,0.75,1,0,1,797
+text-delete,user,1630333595495,"{'ops': [{'retain': 1349}, {'delete': 1}]}",,,1349,[],1,1,5,30,0.75,1,0,1,798
+text-delete,user,1630333595642,"{'ops': [{'retain': 1348}, {'delete': 1}]}",,,1348,[],1,1,5,30,0.75,1,0,1,799
+text-insert,user,1630333596196,"{'ops': [{'retain': 1348}, {'insert': 't'}]}",,,1349,[],1,1,5,30,0.75,1,0,1,800
+text-insert,user,1630333596279,"{'ops': [{'retain': 1349}, {'insert': 'h'}]}",,,1350,[],1,1,5,30,0.75,1,0,1,801
+text-insert,user,1630333596384,"{'ops': [{'retain': 1350}, {'insert': 'e'}]}",,,1351,[],1,1,5,30,0.75,1,0,1,802
+text-insert,user,1630333596447,"{'ops': [{'retain': 1351}, {'insert': ' '}]}",,,1352,[],1,1,5,30,0.75,1,0,1,803
+text-insert,user,1630333596695,"{'ops': [{'retain': 1352}, {'insert': 'g'}]}",,,1353,[],1,1,5,30,0.75,1,0,1,804
+text-insert,user,1630333596814,"{'ops': [{'retain': 1353}, {'insert': 'a'}]}",,,1354,[],1,1,5,30,0.75,1,0,1,805
+text-insert,user,1630333597140,"{'ops': [{'retain': 1354}, {'insert': 'l'}]}",,,1355,[],1,1,5,30,0.75,1,0,1,806
+text-insert,user,1630333597427,"{'ops': [{'retain': 1355}, {'insert': 'a'}]}",,,1356,[],1,1,5,30,0.75,1,0,1,807
+text-insert,user,1630333597892,"{'ops': [{'retain': 1356}, {'insert': 'x'}]}",,,1357,[],1,1,5,30,0.75,1,0,1,808
+text-insert,user,1630333598274,"{'ops': [{'retain': 1357}, {'insert': 'y'}]}",,,1358,[],1,1,5,30,0.75,1,0,1,809
+text-insert,user,1630333598854,"{'ops': [{'retain': 1358}, {'insert': '.'}]}",,,1359,[],1,1,5,30,0.75,1,0,1,810
+text-insert,user,1630333599104,"{'ops': [{'retain': 1359}, {'insert': ' '}]}",,,1360,[],1,1,5,30,0.75,1,0,1,811
+text-insert,user,1630333599223,"{'ops': [{'retain': 1360}, {'insert': ' '}]}",,,1361,[],1,1,5,30,0.75,1,0,1,812
+text-delete,user,1630333600272,"{'ops': [{'retain': 1360}, {'delete': 1}]}",,,1360,[],1,1,5,30,0.75,1,0,1,813
+text-delete,user,1630333600426,"{'ops': [{'retain': 1359}, {'delete': 1}]}",,,1359,[],1,1,5,30,0.75,1,0,1,814
+text-insert,user,1630333601171,"{'ops': [{'retain': 1359}, {'insert': '.'}]}",,,1360,[],1,1,5,30,0.75,1,0,1,815
+text-insert,user,1630333601378,"{'ops': [{'retain': 1360}, {'insert': ' '}]}",,,1361,[],1,1,5,30,0.75,1,0,1,816
+text-insert,user,1630333601501,"{'ops': [{'retain': 1361}, {'insert': ' '}]}",,,1362,[],1,1,5,30,0.75,1,0,1,817
+text-delete,user,1630333601963,"{'ops': [{'retain': 1361}, {'delete': 1}]}",,,1361,[],1,1,5,30,0.75,1,0,1,818
+text-delete,user,1630333602077,"{'ops': [{'retain': 1360}, {'delete': 1}]}",,,1360,[],1,1,5,30,0.75,1,0,1,819
+text-delete,user,1630333602494,"{'ops': [{'retain': 1359}, {'delete': 1}]}",,,1359,[],1,1,5,30,0.75,1,0,1,820
+text-insert,user,1630333602960,"{'ops': [{'retain': 1359}, {'insert': ' '}]}",,,1360,[],1,1,5,30,0.75,1,0,1,821
+text-insert,user,1630333603108,"{'ops': [{'retain': 1360}, {'insert': ' '}]}",,,1361,[],1,1,5,30,0.75,1,0,1,822
+text-insert,user,1630333603383,"{'ops': [{'retain': 1361}, {'insert': 'Y'}]}",,,1362,[],1,1,5,30,0.75,1,0,1,823
+text-insert,user,1630333603600,"{'ops': [{'retain': 1362}, {'insert': 'o'}]}",,,1363,[],1,1,5,30,0.75,1,0,1,824
+text-insert,user,1630333603698,"{'ops': [{'retain': 1363}, {'insert': 'u'}]}",,,1364,[],1,1,5,30,0.75,1,0,1,825
+text-insert,user,1630333603895,"{'ops': [{'retain': 1364}, {'insert': ' '}]}",,,1365,[],1,1,5,30,0.75,1,0,1,826
+text-insert,user,1630333604393,"{'ops': [{'retain': 1365}, {'insert': 'a'}]}",,,1366,[],1,1,5,30,0.75,1,0,1,827
+text-insert,user,1630333604588,"{'ops': [{'retain': 1366}, {'insert': 'r'}]}",,,1367,[],1,1,5,30,0.75,1,0,1,828
+text-insert,user,1630333604684,"{'ops': [{'retain': 1367}, {'insert': 'e'}]}",,,1368,[],1,1,5,30,0.75,1,0,1,829
+text-insert,user,1630333604787,"{'ops': [{'retain': 1368}, {'insert': ' '}]}",,,1369,[],1,1,5,30,0.75,1,0,1,830
+text-insert,user,1630333605269,"{'ops': [{'retain': 1369}, {'insert': 't'}]}",,,1370,[],1,1,5,30,0.75,1,0,1,831
+text-insert,user,1630333605426,"{'ops': [{'retain': 1370}, {'insert': 'o'}]}",,,1371,[],1,1,5,30,0.75,1,0,1,832
+text-insert,user,1630333605571,"{'ops': [{'retain': 1371}, {'insert': 'l'}]}",,,1372,[],1,1,5,30,0.75,1,0,1,833
+text-insert,user,1630333605737,"{'ops': [{'retain': 1372}, {'insert': 'd'}]}",,,1373,[],1,1,5,30,0.75,1,0,1,834
+text-insert,user,1630333605849,"{'ops': [{'retain': 1373}, {'insert': ' '}]}",,,1374,[],1,1,5,30,0.75,1,0,1,835
+text-insert,user,1630333609688,"{'ops': [{'retain': 1374}, {'insert': 'y'}]}",,,1375,[],1,1,5,30,0.75,1,0,1,836
+text-insert,user,1630333609833,"{'ops': [{'retain': 1375}, {'insert': 'o'}]}",,,1376,[],1,1,5,30,0.75,1,0,1,837
+text-insert,user,1630333609997,"{'ops': [{'retain': 1376}, {'insert': 'u'}]}",,,1377,[],1,1,5,30,0.75,1,0,1,838
+text-insert,user,1630333611423,"{'ops': [{'retain': 1377}, {'insert': 'p'}]}",,,1378,[],1,1,5,30,0.75,1,0,1,839
+text-insert,user,1630333611553,"{'ops': [{'retain': 1378}, {'insert': 'a'}]}",,,1379,[],1,1,5,30,0.75,1,0,1,840
+text-insert,user,1630333611719,"{'ops': [{'retain': 1379}, {'insert': 's'}]}",,,1380,[],1,1,5,30,0.75,1,0,1,841
+text-insert,user,1630333611864,"{'ops': [{'retain': 1380}, {'insert': 't'}]}",,,1381,[],1,1,5,30,0.75,1,0,1,842
+text-insert,user,1630333612028,"{'ops': [{'retain': 1381}, {'insert': ' '}]}",,,1382,[],1,1,5,30,0.75,1,0,1,843
+text-insert,user,1630333612240,"{'ops': [{'retain': 1382}, {'insert': 'w'}]}",,,1383,[],1,1,5,30,0.75,1,0,1,844
+text-insert,user,1630333612442,"{'ops': [{'retain': 1383}, {'insert': 'i'}]}",,,1384,[],1,1,5,30,0.75,1,0,1,845
+text-insert,user,1630333612547,"{'ops': [{'retain': 1384}, {'insert': 't'}]}",,,1385,[],1,1,5,30,0.75,1,0,1,846
+text-insert,user,1630333612657,"{'ops': [{'retain': 1385}, {'insert': 'h'}]}",,,1386,[],1,1,5,30,0.75,1,0,1,847
+text-insert,user,1630333612816,"{'ops': [{'retain': 1386}, {'insert': ' '}]}",,,1387,[],1,1,5,30,0.75,1,0,1,848
+text-insert,user,1630333613149,"{'ops': [{'retain': 1387}, {'insert': 'f'}]}",,,1388,[],1,1,5,30,0.75,1,0,1,849
+text-insert,user,1630333613253,"{'ops': [{'retain': 1388}, {'insert': 'l'}]}",,,1389,[],1,1,5,30,0.75,1,0,1,850
+text-insert,user,1630333613820,"{'ops': [{'retain': 1389}, {'insert': 'y'}]}",,,1390,[],1,1,5,30,0.75,1,0,1,851
+text-insert,user,1630333614064,"{'ops': [{'retain': 1390}, {'insert': 'i'}]}",,,1391,[],1,1,5,30,0.75,1,0,1,852
+text-insert,user,1630333614213,"{'ops': [{'retain': 1391}, {'insert': 'n'}]}",,,1392,[],1,1,5,30,0.75,1,0,1,853
+text-insert,user,1630333614308,"{'ops': [{'retain': 1392}, {'insert': 'g'}]}",,,1393,[],1,1,5,30,0.75,1,0,1,854
+text-insert,user,1630333614415,"{'ops': [{'retain': 1393}, {'insert': ' '}]}",,,1394,[],1,1,5,30,0.75,1,0,1,855
+text-insert,user,1630333614795,"{'ops': [{'retain': 1394}, {'insert': 'c'}]}",,,1395,[],1,1,5,30,0.75,1,0,1,856
+text-insert,user,1630333614978,"{'ops': [{'retain': 1395}, {'insert': 'o'}]}",,,1396,[],1,1,5,30,0.75,1,0,1,857
+text-insert,user,1630333615150,"{'ops': [{'retain': 1396}, {'insert': 'l'}]}",,,1397,[],1,1,5,30,0.75,1,0,1,858
+text-insert,user,1630333615299,"{'ops': [{'retain': 1397}, {'insert': 'o'}]}",,,1398,[],1,1,5,30,0.75,1,0,1,859
+text-insert,user,1630333615609,"{'ops': [{'retain': 1398}, {'insert': 'r'}]}",,,1399,[],1,1,5,30,0.75,1,0,1,860
+text-insert,user,1630333615749,"{'ops': [{'retain': 1399}, {'insert': 's'}]}",,,1400,[],1,1,5,30,0.75,1,0,1,861
+cursor-backward,user,1630333618101,,"{'index': 1377, 'length': 0}",,1377,[],1,1,5,30,0.75,1,0,1,862
+text-insert,user,1630333618909,"{'ops': [{'retain': 1377}, {'insert': ' '}]}",,,1378,[],1,1,5,30,0.75,1,0,1,863
+cursor-forward,user,1630333621526,,"{'index': 1401, 'length': 0}",,1401,[],1,1,5,30,0.75,1,0,1,864
+text-insert,user,1630333622943,"{'ops': [{'retain': 1401}, {'insert': ','}]}",,,1402,[],1,1,5,30,0.75,1,0,1,865
+text-insert,user,1630333623406,"{'ops': [{'retain': 1402}, {'insert': ' '}]}",,,1403,[],1,1,5,30,0.75,1,0,1,866
+suggestion-get,user,1630333623623,,,,1403,[],1,1,5,30,0.75,1,0,1,867
+suggestion-open,api,1630333625690,,,,1403,"[{'index': 0, 'original': 'but that there are many different worlds, and they all have their own challenges, and to be the best in the universe, you must be tested.', 'trimmed': 'but that there are many different worlds, and they all have their own challenges, and to be the best in the universe, you must be tested.', 'probability': 2.5856689472528935e-23}, {'index': 1, 'original': 'and you are ready to begin your training.', 'trimmed': 'and you are ready to begin your training.', 'probability': 3.4563629989936025e-22}, {'index': 2, 'original': 'but one problem;', 'trimmed': 'but one problem;', 'probability': 3.1780389316757886e-30}, {'index': 3, 'original': 'but a new challenge awaits...', 'trimmed': 'but a new challenge awaits...', 'probability': 7.43894714311927e-30}]",0,1,5,30,0.75,1,0,1,868
+suggestion-hover,user,1630333627834,,,,1403,[],0,3,5,30,0.75,1,0,1,869
+suggestion-hover,user,1630333627918,,,,1403,[],0,2,5,30,0.75,1,0,1,870
+suggestion-hover,user,1630333630518,,,,1403,[],0,1,5,30,0.75,1,0,1,871
+suggestion-hover,user,1630333630684,,,,1403,[],0,0,5,30,0.75,1,0,1,872
+suggestion-select,user,1630333631205,,,,1403,[],0,0,5,30,0.75,1,0,1,873
+suggestion-close,api,1630333631206,,,,1403,[],0,0,5,30,0.75,1,0,1,874
+text-insert,api,1630333631211,"{'ops': [{'retain': 1403}, {'insert': 'but that there are many different worlds, and they all have their own challenges, and to be the best in the universe, you must be tested.'}]}",,,1540,[],0,0,5,30,0.75,1,0,1,875
+text-insert,user,1630333633571,"{'ops': [{'retain': 1540}, {'insert': ' '}]}",,,1541,[],0,0,5,30,0.75,1,0,1,876
+text-insert,user,1630333633675,"{'ops': [{'retain': 1541}, {'insert': ' '}]}",,,1542,[],0,0,5,30,0.75,1,0,1,877
+text-insert,user,1630333634120,"{'ops': [{'retain': 1542}, {'insert': 'P'}]}",,,1543,[],0,0,5,30,0.75,1,0,1,878
+text-insert,user,1630333634258,"{'ops': [{'retain': 1543}, {'insert': 'l'}]}",,,1544,[],0,0,5,30,0.75,1,0,1,879
+text-insert,user,1630333634534,"{'ops': [{'retain': 1544}, {'insert': 'e'}]}",,,1545,[],0,0,5,30,0.75,1,0,1,880
+text-insert,user,1630333634751,"{'ops': [{'retain': 1545}, {'insert': 'a'}]}",,,1546,[],0,0,5,30,0.75,1,0,1,881
+text-insert,user,1630333634948,"{'ops': [{'retain': 1546}, {'insert': 's'}]}",,,1547,[],0,0,5,30,0.75,1,0,1,882
+text-insert,user,1630333635115,"{'ops': [{'retain': 1547}, {'insert': 'e'}]}",,,1548,[],0,0,5,30,0.75,1,0,1,883
+text-insert,user,1630333635343,"{'ops': [{'retain': 1548}, {'insert': ' '}]}",,,1549,[],0,0,5,30,0.75,1,0,1,884
+text-insert,user,1630333635819,"{'ops': [{'retain': 1549}, {'insert': 's'}]}",,,1550,[],0,0,5,30,0.75,1,0,1,885
+text-insert,user,1630333636104,"{'ops': [{'retain': 1550}, {'insert': 't'}]}",,,1551,[],0,0,5,30,0.75,1,0,1,886
+text-insert,user,1630333636249,"{'ops': [{'retain': 1551}, {'insert': 'e'}]}",,,1552,[],0,0,5,30,0.75,1,0,1,887
+text-insert,user,1630333636387,"{'ops': [{'retain': 1552}, {'insert': 'p'}]}",,,1553,[],0,0,5,30,0.75,1,0,1,888
+text-insert,user,1630333636575,"{'ops': [{'retain': 1553}, {'insert': ' '}]}",,,1554,[],0,0,5,30,0.75,1,0,1,889
+text-insert,user,1630333636822,"{'ops': [{'retain': 1554}, {'insert': 't'}]}",,,1555,[],0,0,5,30,0.75,1,0,1,890
+text-insert,user,1630333636964,"{'ops': [{'retain': 1555}, {'insert': 'h'}]}",,,1556,[],0,0,5,30,0.75,1,0,1,891
+text-insert,user,1630333637069,"{'ops': [{'retain': 1556}, {'insert': 'i'}]}",,,1557,[],0,0,5,30,0.75,1,0,1,892
+text-insert,user,1630333637257,"{'ops': [{'retain': 1557}, {'insert': 's'}]}",,,1558,[],0,0,5,30,0.75,1,0,1,893
+text-insert,user,1630333637368,"{'ops': [{'retain': 1558}, {'insert': ' '}]}",,,1559,[],0,0,5,30,0.75,1,0,1,894
+text-insert,user,1630333637705,"{'ops': [{'retain': 1559}, {'insert': 'w'}]}",,,1560,[],0,0,5,30,0.75,1,0,1,895
+text-insert,user,1630333637834,"{'ops': [{'retain': 1560}, {'insert': 'a'}]}",,,1561,[],0,0,5,30,0.75,1,0,1,896
+text-insert,user,1630333637986,"{'ops': [{'retain': 1561}, {'insert': 'y'}]}",,,1562,[],0,0,5,30,0.75,1,0,1,897
+text-insert,user,1630333638889,"{'ops': [{'retain': 1562}, {'insert': ','}]}",,,1563,[],0,0,5,30,0.75,1,0,1,898
+text-insert,user,1630333639057,"{'ops': [{'retain': 1563}, {'insert': ' '}]}",,,1564,[],0,0,5,30,0.75,1,0,1,899
+text-insert,user,1630333643999,"{'ops': [{'retain': 1564}, {'insert': 'y'}]}",,,1565,[],0,0,5,30,0.75,1,0,1,900
+text-insert,user,1630333644119,"{'ops': [{'retain': 1565}, {'insert': 'o'}]}",,,1566,[],0,0,5,30,0.75,1,0,1,901
+text-insert,user,1630333644236,"{'ops': [{'retain': 1566}, {'insert': 'u'}]}",,,1567,[],0,0,5,30,0.75,1,0,1,902
+text-insert,user,1630333644513,"{'ops': [{'retain': 1567}, {'insert': 'r'}]}",,,1568,[],0,0,5,30,0.75,1,0,1,903
+text-insert,user,1630333644593,"{'ops': [{'retain': 1568}, {'insert': ' '}]}",,,1569,[],0,0,5,30,0.75,1,0,1,904
+text-insert,user,1630333644930,"{'ops': [{'retain': 1569}, {'insert': 's'}]}",,,1570,[],0,0,5,30,0.75,1,0,1,905
+text-insert,user,1630333645096,"{'ops': [{'retain': 1570}, {'insert': 'h'}]}",,,1571,[],0,0,5,30,0.75,1,0,1,906
+text-insert,user,1630333645481,"{'ops': [{'retain': 1571}, {'insert': 'i'}]}",,,1572,[],0,0,5,30,0.75,1,0,1,907
+text-insert,user,1630333645661,"{'ops': [{'retain': 1572}, {'insert': 'p'}]}",,,1573,[],0,0,5,30,0.75,1,0,1,908
+text-insert,user,1630333645856,"{'ops': [{'retain': 1573}, {'insert': ' '}]}",,,1574,[],0,0,5,30,0.75,1,0,1,909
+text-insert,user,1630333646128,"{'ops': [{'retain': 1574}, {'insert': 'a'}]}",,,1575,[],0,0,5,30,0.75,1,0,1,910
+text-insert,user,1630333646363,"{'ops': [{'retain': 1575}, {'insert': 'w'}]}",,,1576,[],0,0,5,30,0.75,1,0,1,911
+text-insert,user,1630333646440,"{'ops': [{'retain': 1576}, {'insert': 'a'}]}",,,1577,[],0,0,5,30,0.75,1,0,1,912
+text-insert,user,1630333647020,"{'ops': [{'retain': 1577}, {'insert': 'i'}]}",,,1578,[],0,0,5,30,0.75,1,0,1,913
+text-insert,user,1630333647312,"{'ops': [{'retain': 1578}, {'insert': 't'}]}",,,1579,[],0,0,5,30,0.75,1,0,1,914
+text-insert,user,1630333647519,"{'ops': [{'retain': 1579}, {'insert': 's'}]}",,,1580,[],0,0,5,30,0.75,1,0,1,915
+text-insert,user,1630333648271,"{'ops': [{'retain': 1580}, {'insert': ','}]}",,,1581,[],0,0,5,30,0.75,1,0,1,916
+text-insert,user,1630333648443,"{'ops': [{'retain': 1581}, {'insert': ' '}]}",,,1582,[],0,0,5,30,0.75,1,0,1,917
+text-insert,user,1630333653204,"{'ops': [{'retain': 1582}, {'insert': 'Y'}]}",,,1583,[],0,0,5,30,0.75,1,0,1,918
+text-insert,user,1630333653363,"{'ops': [{'retain': 1583}, {'insert': 'o'}]}",,,1584,[],0,0,5,30,0.75,1,0,1,919
+text-insert,user,1630333653492,"{'ops': [{'retain': 1584}, {'insert': 'u'}]}",,,1585,[],0,0,5,30,0.75,1,0,1,920
+text-insert,user,1630333653789,"{'ops': [{'retain': 1585}, {'insert': 'r'}]}",,,1586,[],0,0,5,30,0.75,1,0,1,921
+text-insert,user,1630333653954,"{'ops': [{'retain': 1586}, {'insert': ' '}]}",,,1587,[],0,0,5,30,0.75,1,0,1,922
+text-insert,user,1630333654348,"{'ops': [{'retain': 1587}, {'insert': 'M'}]}",,,1588,[],0,0,5,30,0.75,1,0,1,923
+text-insert,user,1630333654502,"{'ops': [{'retain': 1588}, {'insert': 'a'}]}",,,1589,[],0,0,5,30,0.75,1,0,1,924
+text-insert,user,1630333654794,"{'ops': [{'retain': 1589}, {'insert': 'j'}]}",,,1590,[],0,0,5,30,0.75,1,0,1,925
+text-insert,user,1630333655022,"{'ops': [{'retain': 1590}, {'insert': 'e'}]}",,,1591,[],0,0,5,30,0.75,1,0,1,926
+text-insert,user,1630333655234,"{'ops': [{'retain': 1591}, {'insert': 's'}]}",,,1592,[],0,0,5,30,0.75,1,0,1,927
+text-insert,user,1630333655490,"{'ops': [{'retain': 1592}, {'insert': 't'}]}",,,1593,[],0,0,5,30,0.75,1,0,1,928
+text-insert,user,1630333655698,"{'ops': [{'retain': 1593}, {'insert': 'y'}]}",,,1594,[],0,0,5,30,0.75,1,0,1,929
+text-insert,user,1630333656313,"{'ops': [{'retain': 1594}, {'insert': '.'}]}",,,1595,[],0,0,5,30,0.75,1,0,1,930
