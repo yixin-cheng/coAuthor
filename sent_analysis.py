@@ -392,20 +392,22 @@ def execute(file_name: str, genre: str):
             df2 = df2.append(new_row, ignore_index=True)
             # print(i)
     df2.fillna(0, inplace=True)
-    df2.to_csv('./{}/{}.csv'.format(genre, file_name[16:48]))  # [11:43] [16:48]
+    df2.to_csv('./{}/{}.csv'.format(genre, file_name[11:43]))  # [11:43] [16:48]
     print(error_doc)
 
 
 def main():
-    directory = './argumentative/'
+    directory = './creative/'
     files = os.listdir(directory)
-    files_mapping = os.listdir('./argumentativeMapping/')
+    files_mapping = os.listdir('./creativeMapping/')
+    index=0
     for file in files:
         if file not in files_mapping:
             print('file: ', file)
             start_time = time.time()
-            execute(file_name=directory + file, genre='argumentativeMapping')
+            execute(file_name=directory + file, genre='creativeMapping')
             print("--- %s seconds ---" % (time.time() - start_time))
+        index+=1
     # execute('a068c.csv', genre='creativeMapping')
 
 
