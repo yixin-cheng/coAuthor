@@ -437,6 +437,10 @@ def behavioural_code_identifier(df: pd.DataFrame, index: int, original_list: lis
     # 3.Revise
     # insert revise
     if revise(df, index):
+        if sent_pair1[2]=='api':
+            behaviour_seq.append('reviseUser')
+        if sent_pair1[2]=='user':
+            behaviour_seq.append('reviseAPI')
         behaviour_seq.append('revise')
 
     # 5.Reflect
@@ -448,6 +452,7 @@ def behavioural_code_identifier(df: pd.DataFrame, index: int, original_list: lis
     if df['eventName'][index] == 'suggestion-get':
         behaviour_seq.append('seekSugg')
         return behaviour_seq
+
     # 7.Dismiss Suggestion
     # Note: implement from other samples
     if df['eventName'][index] == 'suggestion-close' and df['eventSource'][index] == 'user':
@@ -455,9 +460,11 @@ def behavioural_code_identifier(df: pd.DataFrame, index: int, original_list: lis
 
     if df['eventName'][index] == 'suggestion-get' and df['eventName'][index + 1] != 'suggestion-open':
         behaviour_seq.append('dismissSugg')
+
     # 8.Accept Suggestion
     if df['eventSource'][index] == 'api' and df['eventName'][index] == 'text-insert':
         behaviour_seq.append('acceptSugg')
+
     if sent_pair1 is not None and sent_pair1 != []:
         # print(sent_pair1)
         # 9.Relocate

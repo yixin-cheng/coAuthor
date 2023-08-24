@@ -1,341 +1,248 @@
-,eventName,currentDoc,eventSource,sentIndex,compose,insert,delete,revise,relocate,reflect,seekSugg,acceptSugg,dismissSugg,lowModification,highModification,highTemp,lowTemp
-0,text-insert,"What Stereotypical Characters Make You Cringe?
+eventName,currentDoc,eventSource,sentIndex,compose,delete,relocate,reflect,seekSugg,acceptSugg,dismissSugg,reviseSugg,reviseUser,lowModification,highModification,highTemp,lowTemp
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
-In my opinion, ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-1,text-insert,"What Stereotypical Characters Make You Cringe?
+In my opinion, I",user,3,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-delete,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
-In my opinion, I",user,3,1,1,0,0,0,0,0,0,0,0,0,1,0
-2,text-insert,"What Stereotypical Characters Make You Cringe?
+In my opinion, I",user,3,0,1,0,0,0,0,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
-In my opinion, I ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-3,text-delete,"What Stereotypical Characters Make You Cringe?
+In my opinion, ",user,3,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
-In my opinion, I",user,3,0,0,1,0,0,0,0,0,0,0,0,1,0
-4,text-delete,"What Stereotypical Characters Make You Cringe?
+In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.",api,3,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
-In my opinion, ",user,0,0,0,1,0,0,0,0,0,0,0,0,1,0
-5,suggestion-get,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, ",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-6,text-insert,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.",api,3,0,1,0,0,0,0,0,1,0,0,0,1,0
-7,text-insert,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes. ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-8,suggestion-get,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes. ",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-9,text-insert,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes. 
-I know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
-",api,0,0,1,0,0,0,0,0,1,0,0,0,1,0
-10,text-delete,"What Stereotypical Characters Make You Cringe?
+In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes. ",user,3,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-delete,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes. I know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
-",user,4,0,0,1,1,0,0,0,0,0,0,0,1,0
-11,text-delete,"What Stereotypical Characters Make You Cringe?
+",user,4,0,1,0,0,0,0,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
-",user,0,0,0,1,1,0,0,0,0,0,0,0,1,0
-12,suggestion-get,"What Stereotypical Characters Make You Cringe?
+",user,4,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
-",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-13,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people.",api,4,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people.",api,4,0,1,0,0,0,0,0,1,0,0,0,1,0
-14,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. ",user,4,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-15,suggestion-get,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of",api,5,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. ",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-16,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of",user,5,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of",api,5,0,1,0,0,0,0,0,1,0,0,0,1,0
-17,suggestion-get,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother?",api,5,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of",user,5,0,0,0,0,0,0,1,0,0,0,0,1,0
-18,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother?",user,5,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother?",api,5,0,1,0,0,0,0,0,1,0,0,0,1,0
-19,suggestion-get,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own?",api,6,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother?",user,5,0,0,0,0,0,0,1,0,0,0,0,1,0
-20,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own?",user,6,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own?",api,6,0,1,0,0,0,0,0,1,0,0,0,1,0
-21,suggestion-get,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart?",api,7,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own?",user,6,0,0,0,0,0,0,1,0,0,0,0,1,0
-22,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? ",user,7,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart?",api,7,0,1,0,0,0,0,0,1,0,0,0,1,0
-23,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people?",api,8,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-24,suggestion-get,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people?",user,8,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? ",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-25,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports?",api,9,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people?",api,8,0,1,0,0,0,0,0,1,0,0,0,1,0
-26,suggestion-get,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? ",user,9,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people?",user,8,0,0,0,0,0,0,1,0,0,0,0,1,0
-27,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not?",api,10,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports?",api,9,0,1,0,0,0,0,0,1,0,0,0,1,0
-28,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? ",user,10,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-29,suggestion-get,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist.",api,11,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? ",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-30,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. ",user,11,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not?",api,10,0,1,0,0,0,0,0,1,0,0,0,1,0
-31,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races.",api,12,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-32,suggestion-get,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. ",user,12,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? ",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-33,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are.",api,13,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist.",api,11,0,1,0,0,0,0,0,1,0,0,0,1,0
-34,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. ",user,13,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-35,suggestion-get,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner.",api,14,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. ",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-36,text-insert,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races.",api,12,0,1,0,0,0,0,0,1,0,0,0,1,0
-37,text-insert,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-38,suggestion-get,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. ",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-39,text-insert,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are.",api,13,0,1,0,0,0,0,0,1,0,0,0,1,0
-40,text-insert,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-41,suggestion-get,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. ",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-42,text-insert,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner.",api,14,0,1,0,0,0,0,0,1,0,0,0,1,0
-43,suggestion-get,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner.",user,14,0,0,0,0,1,0,0,0,0,0,0,1,0
+suggestion-close,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
@@ -343,131 +250,99 @@ What stereotypical characters in books, movies or television shows make you crin
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
  black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner.",user,14,0,0,0,0,0,0,1,0,0,0,0,1,0
-44,suggestion-close,"What Stereotypical Characters Make You Cringe?
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner.",user,14,0,0,0,0,0,0,0,0,1,0,0,1,0
-45,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. T",user,15,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-46,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To",user,15,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. T",user,15,1,1,0,0,0,0,0,0,0,0,0,1,0
-47,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To c",user,15,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To",user,15,1,1,0,0,0,0,0,0,0,0,0,1,0
-48,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To co",user,15,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-49,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To con",user,15,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To c",user,15,1,1,0,0,0,0,0,0,0,0,0,1,0
-50,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To conc",user,15,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To co",user,15,1,1,0,0,0,0,0,0,0,0,0,1,0
-51,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To concl",user,15,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To con",user,15,1,1,0,0,0,0,0,0,0,0,0,1,0
-52,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To conclu",user,15,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To conc",user,15,1,1,0,0,0,0,0,0,0,0,0,1,0
-53,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To conclud",user,15,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To concl",user,15,1,1,0,0,0,0,0,0,0,0,0,1,0
-54,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To conclude",user,15,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To conclu",user,15,1,1,0,0,0,0,0,0,0,0,0,1,0
-55,text-insert,"What Stereotypical Characters Make You Cringe?
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To conclude,",user,15,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"What Stereotypical Characters Make You Cringe?
 
 What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
 
 ---
 
 In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To conclud",user,15,1,1,0,0,0,0,0,0,0,0,0,1,0
-56,text-insert,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To conclude",user,15,1,1,0,0,0,0,0,0,0,0,0,1,0
-57,text-insert,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To conclude,",user,15,1,1,0,0,0,0,0,0,0,0,0,1,0
-58,text-insert,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To conclude, ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-59,text-insert,"What Stereotypical Characters Make You Cringe?
-
-What stereotypical characters in books, movies or television shows make you cringe and why? Would you ever not watch or read something because of its offensive portrayal of someone?
-
----
-
-In my opinion, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes.  know that African Americans were enslaved and treated really terribly in the past, but you can't go around saying the N word or saying that
- black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To conclude, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes. ",user,15,0,1,0,1,0,1,0,0,0,0,0,1,0
+ black people have a different intelligence level than white people. I know that people use stereotypes to make themselves feel better because it allows them to lump black people together as a whole, but honestly what if one of those stereotypes was your mother? And what if your great grandparents and from the west coast of Africa, which is a very rich place with a language of its own? And what if they were actually smart? Would you still think that African Americans are less intelligent than white people? Would you still think that black people with more melanin are more strong, which is why they excel in sports? If not, why not? You can't honestly believe that certain races are stronger than others, because that's racist. You can't be racist against white people, you can only be racist against certain races. These stereotypes prevent people from seeing the person for who they really are. If we don't stop using stereotypes as soon as possible, we're going to end up like Matthew Turner. To conclude, the worst stereotype to ever be put in any book or on film that I have EVER seen is African American stereotypes. ",user,15,0,0,0,1,0,0,0,0,0,0,0,1,0

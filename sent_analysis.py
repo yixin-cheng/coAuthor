@@ -16,6 +16,7 @@ import stanza
 import time
 import collections
 from sklearn.metrics.pairwise import linear_kernel
+from spellchecker import SpellChecker
 
 
 def insert(df: pd.DataFrame, index: int) -> bool:
@@ -35,7 +36,7 @@ def post_text_identifier(df: pd.DataFrame, index: int) -> bool:
     Identify if there is text behind the current cursor
 
     """
-    return df['currentCursor'][index] < len(df['currentDoc'][index])
+    return df['currentCursor'][index] < len(df['currentDoc'][index].strip())
 
 
 def sentences_with_range(df: pd.DataFrame, index: int) -> list:
@@ -177,7 +178,7 @@ def sent_update(df: pd.DataFrame, index: int, sent_list: list) -> list:
                                 sent_list[k][3] = -1
                 return sent_list
 
-        # case 2 is already handled in the get_init_sent function
+        # case 2 add the sentence has already been handled in the get_init_sent function
 
         # case 3 revise
         if len(symmetric_difference) == 2:
@@ -201,7 +202,7 @@ def sent_update(df: pd.DataFrame, index: int, sent_list: list) -> list:
     return sent_list
 
 
-def get_revised_sent(df: pd.DataFrame, initial_sent: list) -> list:
+def get_updated_sent_list(df: pd.DataFrame, initial_sent: list) -> list:
     """
     Entirely updated gpt-sentence list
 
@@ -214,17 +215,14 @@ def get_revised_sent(df: pd.DataFrame, initial_sent: list) -> list:
     return repo
 
 
-def original_final_revise_sent_identifier(df: pd.DataFrame, index: int, original_list: list,
-                                          final_list: list, similarity: list) -> list:
+def original_final_sent_identifier(df: pd.DataFrame, index: int, original_list: list,
+                                   final_list: list, similarity: list) -> list:
     """
     Generate the sentence pair (original vs finished) by index
     :return: sentence pair
     """
-
     if revise(df, index):
-
-        # preindex_sent_list = get_revised_sent(df[:index - 1], original_list)
-        index_sent_list = get_revised_sent(df[:index], original_list)
+        index_sent_list = get_updated_sent_list(df[:index], original_list)
 
         for i in range(len(index_sent_list)):
             if index_sent_list[i][2] <= df['currentCursor'][index] <= index_sent_list[i][3]:
@@ -235,15 +233,28 @@ def get_index(df: pd.DataFrame, index: int) -> int:
     sent_with_index = sentences_with_range(df, index)
     # print(sent_with_index)
     # print(df['currentCursor'][index])
-    for i in range(len(sent_with_index)):
-        # if df['textDelta'].isnull()[index]:
-        if sent_with_index[i][1] <= df['currentCursor'][index] <= sent_with_index[i][2]:
-            return sent_with_index[i][3]
+    if df['eventName'][index] == 'suggestion-get':
+        cursor = df['currentCursor'][index]
+        while cursor > 0:
+            for i in range(len(sent_with_index)):
+                if sent_with_index[i][1] <= cursor <= sent_with_index[i][2]:
+                    return sent_with_index[i][3]+1
+            cursor -= 1
+    else:
+        for i in range(len(sent_with_index)):
+            # if df['textDelta'].isnull()[index]:
+            if sent_with_index[i][1] <= df['currentCursor'][index] <= sent_with_index[i][2]:
+                return sent_with_index[i][3]+1
+        return -1
 
 
 def relocate(df: pd.DataFrame, index: int, sent_pair: list) -> bool:
     # case 1: remove a sentence
     if sent_pair[1] == 'None':
+        return True
+    # case 2: add/transfer a sentence
+    if len(sent_tokenize(df['currentDoc'][index])) > len(sent_tokenize(df['currentDoc'][index-1])) \
+            and post_text_identifier(df, index):
         return True
 
 
@@ -255,23 +266,62 @@ def compose(df: pd.DataFrame, index: int) -> bool:
 
 def modify_low(df: pd.DataFrame, index: int, sent_pair: list) -> bool:
     if revise(df, index):
-        if sent_pair[2] == 'api' and sent_pair[3] >= 0.8:
+        if sent_pair[3] >= 0.8:    # sent_pair[2] == 'api' and
             return True
+        if sent_pair[3] == 100:    # sent_pair[2] == 'api' and
+            return False
 
 
 def modify_high(df: pd.DataFrame, index: int, sent_pair: list) -> bool:
     if revise(df, index):
-        if sent_pair[2] == 'api' and sent_pair[3] < 0.8:
+        if sent_pair[3] < 0.8:   # sent_pair[2] == 'api' and
             return True
+        if sent_pair[3] == 100:  # sent_pair[2] == 'api' and
+            return False
 
+
+# def pair_similarity(original_list: list, final_list: list) -> list:
+#     res = []
+#     model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+#     for i in range(len(original_list)):
+#         origin=original_list[i][0]
+#         final=final_list[i][0]
+#         sent_pair = [original_list[i][0], final_list[i][0]]
+#         embeddings = model.encode(sent_pair)
+#         res.append(cosine_similarity(embeddings)[0][1])
+#
+#     return res
 
 def pair_similarity(original_list: list, final_list: list) -> list:
     res = []
     model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-    for i in range(len(original_list)):
-        sent_pair = [original_list[i][0], final_list[i][0]]
-        embeddings = model.encode(sent_pair)
-        res.append(cosine_similarity(embeddings)[0][1])
+    spell = SpellChecker()
+    # d = enchant.Dict("en_US")
+    for orig, fin in zip(original_list, final_list):
+        origin_sentence = orig[0]
+        final_sentence = fin[0]
+
+        original_words = set(word_tokenize(origin_sentence))
+        final_words = set(word_tokenize(final_sentence))
+        difference = list(original_words.symmetric_difference(final_words))
+
+        # If only one word is different, it might be a misspelling/substring, handle this case below
+        if len(difference) == 2:
+            # print(difference)
+            word_1 = difference[0]
+            word_2 = difference[1]
+            misspelled = spell.unknown(difference)
+            if len(misspelled) != 0:  # check spell
+                # print('misspelling identified', misspelled)
+                res.append(100)
+                continue
+            if word_1 in word_2 if word_1 in final_words else word_2 in word_1:  # check substring
+                # print('substring identified')
+                res.append(100)
+                continue
+
+        embeddings = model.encode([origin_sentence, final_sentence])
+        res.append(cosine_similarity([embeddings[0]], [embeddings[1]])[0][0])
 
     return res
 
@@ -279,18 +329,14 @@ def pair_similarity(original_list: list, final_list: list) -> list:
 def behavioural_code_identifier(df: pd.DataFrame, index: int, original_list: list, final_list: list,
                                 similarity: list) -> list:
     behaviour_seq = []
-    sent_pair1 = original_final_revise_sent_identifier(df, index, original_list, final_list, similarity)
+    sent_pair1 = original_final_sent_identifier(df, index, original_list, final_list, similarity)
 
     # 1.Insert
-    if insert(df, index):
-        behaviour_seq.append('insert')
+    # if insert(df, index):
+    #     behaviour_seq.append('insert')
     # 2.Delete
     if delete(df, index):
         behaviour_seq.append('delete')
-    # 3.Revise
-    # insert revise
-    if revise(df, index):
-        behaviour_seq.append('revise')
 
     # 5.Reflect
     if index / len(df) > 0.9 and post_text_identifier(df, index) and (
@@ -311,6 +357,21 @@ def behavioural_code_identifier(df: pd.DataFrame, index: int, original_list: lis
     if df['eventSource'][index] == 'api' and df['eventName'][index] == 'text-insert':
         behaviour_seq.append('acceptSugg')
     if sent_pair1 is not None and sent_pair1 != []:
+        # 3.Revise
+        # insert revise
+        if revise(df, index):
+            if sent_pair1[2] == 'user':
+                behaviour_seq.append('reviseUser')
+                # behaviour_seq.append('user')
+            if sent_pair1[2] == 'api':
+                behaviour_seq.append('reviseSugg')
+                # behaviour_seq.append('gpt')
+                # behaviour_seq.append('revise')
+        # else:
+        # if sent_pair1[2] == 'user':
+        #     behaviour_seq.append('user')
+        # if sent_pair1[2] == 'api':
+        #     behaviour_seq.append('gpt')
         # print(sent_pair1)
         # 9.Relocate
         if relocate(df, index, sent_pair=sent_pair1):
@@ -326,7 +387,6 @@ def behavioural_code_identifier(df: pd.DataFrame, index: int, original_list: lis
     # 12.Compose
     if compose(df, index):
         behaviour_seq.append('compose')
-
     return behaviour_seq
 
 
@@ -335,28 +395,29 @@ def execute(file_name: str, genre: str):
     original = get_init_sent(data)
     error_doc = []
     original1 = copy.deepcopy(original)
-    final = get_revised_sent(data, original1)
+    final = get_updated_sent_list(data, original1)
     similarity_list = pair_similarity(original_list=original, final_list=final)
     # print('similarity: ', similarity_list)
     # print('original: ', original)
     # print('final: ', final)
     # for i in range(len(original)):
-    #     if original[i][1]=='api'and similarity_list[i]>=0.8:
-    #         print([original[i],final[i],similarity_list[i]])
+    #     if original[i][1] == 'api' and similarity_list[i] < 0.8:
+    #         print([original[i], final[i], similarity_list[i]])
 
     cols = ["eventName",
             "currentDoc",
             "eventSource",
             "sentIndex",
+            "sentSeq",
             "compose",
-            "insert",
             "delete",
-            "revise",
             "relocate",
             "reflect",
             "seekSugg",
             "acceptSugg",
             "dismissSugg",
+            "reviseSugg",
+            "reviseUser",
             "lowModification",
             "highModification",
             "highTemp",
@@ -383,7 +444,6 @@ def execute(file_name: str, genre: str):
             values_to_copy = data[given_list_2[:3]].iloc[i].to_dict()
             values_to_copy['currentDoc'] = values_to_copy['currentDoc']  # [len(data['currentDoc'][0]):]
             values_to_copy['sentIndex'] = get_index(data, i)
-            # print(get_index(data, i))
             # Creating the new row with the specified values and 1 in the given columns
             new_row = {col: values_to_copy[col] if col in given_list_2 else (1 if col in code_list else 0) for col in
                        df2.columns}
@@ -391,23 +451,25 @@ def execute(file_name: str, genre: str):
             # Appending the new row to the new DataFrame (df2)
             df2 = df2.append(new_row, ignore_index=True)
             # print(i)
+    df2 = df2[df2.sentIndex != -1]
+
     df2.fillna(0, inplace=True)
-    df2.to_csv('./{}/{}.csv'.format(genre, file_name[11:43]))  # [11:43] [16:48]
-    print(error_doc)
+
+    df2.to_csv('./{}/{}.csv'.format(genre, file_name[16:48]), index=False)  # [11:43] [16:48]
 
 
 def main():
-    directory = './creative/'
+    directory = './argumentative/'   # creative argumentative
     files = os.listdir(directory)
-    files_mapping = os.listdir('./creativeMapping/')
-    index=0
+    files_mapping = os.listdir('./argumentativeMapping/')
+    index = 0
     for file in files:
-        if file not in files_mapping:
+        if file not in files_mapping:                          # and50<index<100         file not in files_mapping
             print('file: ', file)
             start_time = time.time()
-            execute(file_name=directory + file, genre='creativeMapping')
+            execute(file_name=directory + file, genre='argumentativeMapping')   # creativeMapping    argumentativeMapping
             print("--- %s seconds ---" % (time.time() - start_time))
-        index+=1
+        index += 1
     # execute('a068c.csv', genre='creativeMapping')
 
 

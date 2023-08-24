@@ -1,5 +1,5 @@
-,eventName,currentDoc,eventSource,sentIndex,compose,insert,delete,revise,relocate,reflect,seekSugg,acceptSugg,dismissSugg,lowModification,highModification,highTemp,lowTemp
-0,text-insert,"Should College Athletes Be Paid?
+eventName,currentDoc,eventSource,sentIndex,sentSeq,compose,delete,relocate,reflect,seekSugg,acceptSugg,dismissSugg,reviseSugg,reviseUser,lowModification,highModification,highTemp,lowTemp
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -9,8 +9,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 college athletes should be paid
-In my opinion,",user,8,0,1,0,1,0,0,0,0,0,0,0,1,0
-1,text-delete,"Should College Athletes Be Paid?
+In my opinion,",user,9,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+text-delete,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -20,8 +20,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion,",user,8,0,0,1,1,0,0,0,0,0,0,0,1,0
-2,text-insert,"Should College Athletes Be Paid?
+In my opinion,",user,9,0,0,1,0,0,0,0,0,0,0,0,1,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -31,8 +31,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-3,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should be paid",user,9,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -42,8 +42,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should be paid",user,8,0,1,0,1,0,0,0,0,0,0,0,1,0
-4,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should nbe paid",user,9,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -53,8 +53,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should nbe paid",user,8,0,1,0,1,0,0,0,0,0,0,0,1,0
-5,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should nobe paid",user,9,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -64,8 +64,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should nobe paid",user,8,0,1,0,1,0,0,0,0,0,0,0,1,0
-6,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should notbe paid",user,9,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -75,8 +75,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should notbe paid",user,8,0,1,0,1,0,0,0,0,0,0,0,1,0
-7,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid",user,9,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -86,8 +86,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid",user,8,0,1,0,1,0,0,0,0,0,0,0,1,0
-8,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid w",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -97,8 +97,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-9,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid wi",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -108,8 +108,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid w",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-10,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid wit",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -119,8 +119,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid wi",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-11,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -130,8 +130,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid wit",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-12,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with m",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -141,8 +141,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-13,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with mo",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -152,8 +152,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-14,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with mon",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -163,8 +163,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with m",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-15,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with mone",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -174,8 +174,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with mo",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-16,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monet",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -185,8 +185,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with mon",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-17,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with moneta",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -196,8 +196,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with mone",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-18,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetar",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -207,8 +207,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monet",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-19,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -218,8 +218,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with moneta",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-20,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary r",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -229,8 +229,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetar",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-21,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary re",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -240,8 +240,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetary",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-22,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary req",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-delete,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -251,8 +251,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetary ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-23,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary re",user,9,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -262,8 +262,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetary r",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-24,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary rew",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -273,8 +273,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetary re",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-25,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary rewa",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -284,8 +284,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetary req",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-26,text-delete,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary rewar",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -295,8 +295,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetary re",user,8,0,0,1,0,0,0,0,0,0,0,0,1,0
-27,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary reward",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -306,8 +306,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetary rew",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-28,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary rewards",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -317,8 +317,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetary rewa",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-29,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary rewards.",user,9,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+suggestion-get,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -328,8 +328,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetary rewar",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-30,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary rewards.",user,9,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -339,8 +339,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetary reward",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-31,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field.",api,10,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -350,8 +350,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetary rewards",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-32,text-insert,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. ",user,10,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -361,8 +361,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetary rewards.",user,8,1,1,0,0,0,0,0,0,0,0,0,1,0
-33,suggestion-get,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players.",api,11,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -372,76 +372,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 ---
 
-In my opinion, college athletes should not be paid with monetary rewards.",user,8,0,0,0,0,0,0,1,0,0,0,0,1,0
-34,text-insert,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field.",api,9,0,1,0,0,0,0,0,1,0,0,0,1,0
-35,text-insert,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-36,suggestion-get,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. ",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-37,text-insert,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players.",api,10,0,1,0,0,0,0,0,1,0,0,0,1,0
-38,suggestion-get,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players.",user,10,0,0,0,0,0,0,1,0,0,0,0,1,0
-39,text-insert,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players.
-College athletes already earn tutors, trainers, and coaching in order to be better players.
-",api,0,0,1,0,0,0,0,0,1,0,0,0,1,0
-40,text-delete,"Should College Athletes Be Paid?
+In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players.",user,11,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-delete,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -452,8 +384,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 ---
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players.College athletes already earn tutors, trainers, and coaching in order to be better players.
-",user,10,0,0,1,1,0,0,0,0,0,1,0,1,0
-41,text-delete,"Should College Athletes Be Paid?
+",user,11,0,0,1,0,0,0,0,0,1,0,1,0,1,0
+text-delete,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -464,8 +396,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 ---
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players.ollege athletes already earn tutors, trainers, and coaching in order to be better players.
-",user,10,0,0,1,1,0,0,0,0,0,1,0,1,0
-42,text-insert,"Should College Athletes Be Paid?
+",user,11,0,0,1,0,0,0,0,0,1,0,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -476,8 +408,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 ---
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
-",user,11,0,1,0,1,0,0,0,0,0,1,0,1,0
-43,suggestion-get,"Should College Athletes Be Paid?
+",user,12,0,0,0,1,0,0,0,0,1,0,1,0,1,0
+suggestion-get,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -488,8 +420,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 ---
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
-",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-44,text-insert,"Should College Athletes Be Paid?
+",user,12,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -500,8 +432,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 ---
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players.",api,12,0,1,0,0,0,0,0,1,0,0,0,1,0
-45,text-insert,"Should College Athletes Be Paid?
+ The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players.",api,13,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -512,34 +444,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 ---
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-46,suggestion-get,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. ",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-47,text-insert,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. 
-My opponent argues that the colleges should pay athletes because the colleges generate so much money.
-",api,0,0,1,0,0,0,0,0,1,0,0,0,1,0
-48,text-delete,"Should College Athletes Be Paid?
+ The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. ",user,13,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-delete,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -552,35 +458,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. 
 y opponent argues that the colleges should pay athletes because the colleges generate so much money.
-",user,13,0,0,1,1,0,0,0,0,0,1,0,1,0
-49,text-delete,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. 
- opponent argues that the colleges should pay athletes because the colleges generate so much money.
-",user,0,0,0,1,1,0,0,0,0,0,1,0,1,0
-50,text-delete,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players.  opponent argues that the colleges should pay athletes because the colleges generate so much money.
-",user,0,0,0,1,1,0,0,0,0,0,0,0,1,0
-51,text-insert,"Should College Athletes Be Paid?
+",user,14,0,0,1,0,0,0,0,0,1,0,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -592,8 +471,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-",user,13,0,1,0,1,0,0,0,0,0,0,0,1,0
-52,text-insert,"Should College Athletes Be Paid?
+",user,14,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+suggestion-get,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -605,8 +484,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
- ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-53,suggestion-get,"Should College Athletes Be Paid?
+ ",user,14,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -618,8 +497,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
- ",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-54,text-insert,"Should College Athletes Be Paid?
+ The colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",api,15,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -631,8 +510,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
- The colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",api,14,0,1,0,0,0,0,0,1,0,0,0,1,0
-55,text-insert,"Should College Athletes Be Paid?
+  The colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -644,8 +523,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  The colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-56,text-insert,"Should College Athletes Be Paid?
+  HThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -657,8 +536,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  HThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-57,text-insert,"Should College Athletes Be Paid?
+  HoThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -670,8 +549,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  HoThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-58,text-insert,"Should College Athletes Be Paid?
+  HowThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -683,8 +562,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  HowThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-59,text-insert,"Should College Athletes Be Paid?
+  HoweThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -696,8 +575,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  HoweThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-60,text-insert,"Should College Athletes Be Paid?
+  HowerThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-delete,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -709,8 +588,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  HowerThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-61,text-delete,"Should College Athletes Be Paid?
+  HoweThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,1,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -722,8 +601,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  HoweThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,0,1,1,0,0,0,0,0,0,0,1,0
-62,text-insert,"Should College Athletes Be Paid?
+  HowevThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -735,8 +614,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  HowevThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-63,text-insert,"Should College Athletes Be Paid?
+  HoweveThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -748,8 +627,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  HoweveThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-64,text-insert,"Should College Athletes Be Paid?
+  HoweverThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -761,8 +640,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  HoweverThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-65,text-insert,"Should College Athletes Be Paid?
+  However,The colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -774,8 +653,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However,The colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-66,text-insert,"Should College Athletes Be Paid?
+  However, The colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -787,8 +666,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, The colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-67,text-insert,"Should College Athletes Be Paid?
+  However, tThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-delete,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -800,8 +679,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, tThe colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-68,text-delete,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,15,0,0,1,0,0,0,0,0,0,1,1,0,1,0
+text-delete,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -813,8 +692,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries,",user,14,0,0,1,1,0,0,0,0,0,0,0,1,0
-69,text-delete,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries",user,15,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -826,8 +705,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries",user,14,0,0,1,0,0,0,0,0,0,0,0,1,0
-70,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries.",user,15,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-delete,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -839,8 +718,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields, extensive libraries.",user,14,1,1,0,0,0,0,0,0,0,0,0,1,0
-71,text-delete,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields extensive libraries.",user,15,0,0,1,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -852,8 +731,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields extensive libraries.",user,14,0,0,1,1,0,0,0,0,0,0,0,1,0
-72,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields  extensive libraries.",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -865,8 +744,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields  extensive libraries.",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-73,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields a extensive libraries.",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -878,8 +757,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields a extensive libraries.",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-74,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields an extensive libraries.",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -891,8 +770,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields an extensive libraries.",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-75,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries.",user,15,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+suggestion-get,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -904,8 +783,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries.",user,14,0,1,0,1,0,0,0,0,0,0,0,1,0
-76,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. ",user,15,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -917,8 +796,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-77,suggestion-get,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.",api,16,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -930,8 +809,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. ",user,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-78,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.",user,16,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -943,8 +822,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.",api,15,0,1,0,0,0,0,0,1,0,0,0,1,0
-79,suggestion-get,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part.",api,17,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -956,8 +835,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.",user,15,0,0,0,0,0,0,1,0,0,0,0,1,0
-80,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part.",user,17,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -969,8 +848,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part.",api,16,0,1,0,0,0,0,0,1,0,0,0,1,0
-81,suggestion-get,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The opportunity to play is compensation enough.",api,18,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+suggestion-get,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -982,8 +861,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part.",user,16,0,0,0,0,0,0,1,0,0,0,0,1,0
-82,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The opportunity to play is compensation enough.",user,18,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+suggestion-get,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -995,8 +874,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The opportunity to play is compensation enough.",api,17,0,1,0,0,0,0,0,1,0,0,0,1,0
-83,suggestion-get,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The opportunity to play is compensation enough.",user,18,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1008,8 +887,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The opportunity to play is compensation enough.",user,17,0,0,0,0,0,0,1,0,0,0,0,1,0
-84,suggestion-get,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The opportunity to play is compensation enough. The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year.",api,19,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1021,8 +900,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The opportunity to play is compensation enough.",user,17,0,0,0,0,0,0,1,0,0,0,0,1,0
-85,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. TThe colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year.he opportunity to play is compensation enough. ",user,18,0,0,0,0,1,0,0,0,1,0,0,1,1,0
+text-delete,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1034,8 +913,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The opportunity to play is compensation enough. The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year.",api,18,0,1,0,0,0,0,0,1,0,0,0,1,0
-86,text-delete,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year.he opportunity to play is compensation enough. ",user,18,0,0,1,0,1,0,0,0,1,0,0,1,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1047,8 +926,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The opportunity to play is compensation enough. ",user,0,0,0,1,0,0,0,0,0,0,0,0,1,0
-87,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. he opportunity to play is compensation enough. ",user,19,0,0,0,1,1,0,0,0,1,0,0,1,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1060,8 +939,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. TThe colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year.he opportunity to play is compensation enough. ",user,17,0,1,0,1,0,1,0,0,0,0,1,1,0
-88,text-delete,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. The opportunity to play is compensation enough. ",user,19,0,0,0,0,1,0,0,0,1,0,1,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1073,8 +952,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year.he opportunity to play is compensation enough. ",user,17,0,0,1,1,0,1,0,0,0,0,1,1,0
-89,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part.",user,18,0,0,0,0,1,0,0,0,1,0,0,1,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1086,8 +965,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. he opportunity to play is compensation enough. ",user,18,0,1,0,1,0,1,0,0,0,0,1,1,0
-90,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. A",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1099,8 +978,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional. This is quite generous on the colleges part. The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. The opportunity to play is compensation enough. ",user,18,0,1,0,1,0,1,0,0,0,1,0,1,0
-91,text-delete,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1112,8 +991,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. The opportunity to play is compensation enough. ",user,0,0,0,1,1,1,1,0,0,0,0,1,1,0
-92,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1125,8 +1004,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part.",user,17,0,1,0,1,0,1,0,0,0,0,1,1,0
-93,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a c",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1138,8 +1017,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-94,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a co",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1151,8 +1030,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. A",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-95,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a con",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1164,8 +1043,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-96,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conc",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1177,8 +1056,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-97,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a concl",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1190,8 +1069,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-98,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclu",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1203,8 +1082,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-99,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclus",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1216,8 +1095,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a c",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-100,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclusi",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1229,8 +1108,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a co",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-101,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclusio",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1242,8 +1121,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a con",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-102,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclusion",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1255,8 +1134,8 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conc",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-103,text-insert,"Should College Athletes Be Paid?
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclusion,",user,19,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+text-insert,"Should College Athletes Be Paid?
 
 Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
 
@@ -1268,108 +1147,4 @@ Do you find his argument persuasive? What possible difficulties or downsides mig
 
 In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
  The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a concl",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-104,text-insert,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclu",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-105,text-insert,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclus",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-106,text-insert,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclusi",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-107,text-insert,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclusio",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-108,text-insert,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclusion",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-109,text-insert,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclusion,",user,18,1,1,0,0,0,0,0,0,0,0,0,1,0
-110,text-insert,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclusion, ",user,0,1,1,0,0,0,0,0,0,0,0,0,1,0
-111,text-insert,"Should College Athletes Be Paid?
-
-Do you think college athletes should be paid? Or is a college scholarship and other non-monetary perks like the opportunity to play in front of cheering fans enough?
-
-In “Paying Students to Play Would Ruin College Sports,"" Cody J. McDavis writes: “Paying student-athletes might sound like a fairer way to treat students who generate so much money and attention for their colleges (not to mention the television networks that broadcast their games). But paying athletes would distort the economics of college sports in a way that would hurt the broader community of student-athletes, universities, fans and alumni. A handful of big sports programs would pay top dollar for a select few athletes, while almost every other college would get caught up in a bidding war it couldn't afford.""
-
-Do you find his argument persuasive? What possible difficulties or downsides might there be in providing monetary compensation to players?
-
----
-
-In my opinion, college athletes should not be paid with monetary rewards. These athletes receive their scholarship in exchange for their performance on the court, track, or field. The opportunity to play in big games, to impress future employers, and to represent their school is enough compensation for these players. ollege athletes already earn tutors, trainers, and coaching in order to be better players.
- The tutors, trainers, and coaches do not charge for their services; therefore neither should the college players. M opponent argues that the colleges should pay athletes because the colleges generate so much money.
-  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclusion, college athletes should not be paid with monetary rewards. ",user,18,0,1,0,1,0,1,0,0,0,1,0,1,0
+  However, the colleges are already pampering the athletes by providing comfortable locker rooms with plush benches, nice equipment, well-tended fields and extensive libraries. In addition to these pampering amenities, the colleges also arrange for summer camps, which increase the odds of a player turning professional.  The colleges also provide a stipend for the athletes, to compensate for their lack of income during the school year. This is quite generous on the colleges part. As a conclusion, college athletes should not be paid with monetary rewards. ",user,19,0,0,0,0,1,0,0,0,1,0,1,0,1,0
