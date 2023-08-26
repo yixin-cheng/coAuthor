@@ -134,6 +134,10 @@ def most_similar_pair(sent_a, sent_b):
 # Re-defining the functions
 
 def sent_update(df: pd.DataFrame, index: int, sent_list: list) -> list:
+    """
+    Core function: track and update the state of sentence list by index.
+    :return: sent_list
+    """
     if revise(df, index):
         last_sent_range = sentences_with_range(df, index - 1)
         current_sent_range = sentences_with_range(df, index)
@@ -455,22 +459,22 @@ def execute(file_name: str, genre: str):
 
     df2.fillna(0, inplace=True)
 
-    df2.to_csv('./{}/{}.csv'.format(genre, file_name[11:43]), index=False)  # [11:43] [16:48]
+    df2.to_csv('./{}/{}.csv'.format(genre, file_name[16:48]), index=False)  # [11:43] [16:48]
 
 
 def main():
-    directory = './creative/'   # creative argumentative
-    files = os.listdir(directory)
-    files_mapping = os.listdir('./argumentativeMapping/')
-    index = 0
-    for file in files:
-        if file not in files_mapping:                          # and50<index<100         file not in files_mapping
-            print('file: ', file)
-            start_time = time.time()
-            execute(file_name=directory + file, genre='creativeMapping')   # creativeMapping    argumentativeMapping
-            print("--- %s seconds ---" % (time.time() - start_time))
-        index += 1
-    # execute('a068c.csv', genre='creativeMapping')
+    # directory = './creative/'   # creative argumentative
+    # files = os.listdir(directory)
+    # files_mapping = os.listdir('./argumentativeMapping/')
+    # index = 0
+    # for file in files:
+    #     if file not in files_mapping:                          # and50<index<100         file not in files_mapping
+    #         print('file: ', file)
+    #         start_time = time.time()
+    #         execute(file_name=directory + file, genre='creativeMapping')   # creativeMapping    argumentativeMapping
+    #         print("--- %s seconds ---" % (time.time() - start_time))
+    #     index += 1
+    execute('a068c.csv', genre='creativeMapping')
 
 
 if __name__ == '__main__':

@@ -159,8 +159,8 @@ def classify_sentences_by_author(text, mask):
     return sentences_by_author
 
 
-creative = pd.read_csv('creative.csv')['session_id'].to_list()
-argument = pd.read_csv('argumentative.csv')['session_id'].to_list()
+creative = pd.read_csv('matedataSurvey/creative_metadata.csv')['session_id'].to_list()
+argument = pd.read_csv('matedataSurvey/argumentative_metadata.csv')['session_id'].to_list()
 dataset_dir = './coauthor-v1.0/'
 paths = find_writing_sessions(dataset_dir)
 for path in paths:
