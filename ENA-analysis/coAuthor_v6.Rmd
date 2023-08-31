@@ -1,0 +1,356 @@
+---
+title: "coAuthor-ENA"
+author: "Zach"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+# Load packages
+```{r message=F, warning=F, paged.print=T}
+
+rm(list=ls()) #clear environment
+
+library(rENA)
+#library(ona)
+#library(tma)
+library(tidyverse) #for wrangling
+library(lmerTest) #for hlms
+library(ICC) #for testing clustering of observations
+library(emmeans)  #for comparing subpopulations 
+library(performance) #for regression diagnostics
+
+```
+
+# Prep data
+
+## Read data
+```{r}
+data1 <- read.csv('ena_all_new_v2.csv',stringsAsFactors = FALSE) #read data
+# 
+#read metadata
+
+meta_cr = read.csv("~/Rprojects/Yixin/CoAuthor - Metadata & Survey - Metadata (creative).csv",
+                   stringsAsFactors = FALSE)
+
+meta_arg = read.csv("~/Rprojects/Yixin/CoAuthor - Metadata & Survey - Metadata (argumentative).csv",
+                   stringsAsFactors = FALSE)
+
+meta_coauthor = bind_rows(meta_cr,meta_arg)
+
+
+#load("~/Rprojects/Yixin/accum-300823.Rdata")
+```
+
+
+## Add metadata
+```{r}
+data1 = left_join(data1,meta_coauthor,by = c("worker_id","session_id"))
+```
+
+
+
+# Prep for ENA model
+```{r }
+
+units = data1[,c("session_id",
+                 "worker_id")]
+
+
+conversation = data1[,c("session_id",
+                        "worker_id",
+                        "sentSeq")]
+
+codeCols = c(
+  'compose',
+  #'delete',
+  'relocate',
+  'reflect',
+  'seekSugg',
+  'acceptSugg',
+  'dismissSugg',
+  'lowModification',
+  'highModification',
+  'reviseSugg',
+  'reviseUser',
+  "cursorFwd",
+  "cursorBwd",
+  "cursorSelect",
+  #"reopenSugg",
+  "hoverSugg"
+)
+
+codes = data1[,codeCols]
+
+#mask =
+
+meta = data1[,c("genre",
+                "highTemp",
+                "ownershipMetadata",
+                "prompt_code"
+                )]
+
+```
+
+# Run ENA accumulation
+```{r}
+accum =
+  ena.accumulate.data(
+  units = units,
+  conversation = conversation,
+  codes = codes,
+  metadata = meta,
+  #mask = mask,
+  window.size.back = "inf" # each line in the conversation can connect back to the first line--allows for more fine-grained view of connections w/i convos
+)
+```
+
+# Run ENA dimensional reduction
+```{r}
+set = ena.make.set(accum)
+```
+
+# View space
+```{r}
+network = as.matrix(set$line.weights)
+mean_network = colMeans(network)
+
+network_mult = 0
+
+p = ena.plot(set,title = "Overall Mean Network") %>%
+  ena.plot.network(mean_network * network_mult,colors = "black")
+
+p$plot
+```
+
+# Statistical tests
+
+## Set up data and check data
+```{r}
+#names(set$points)
+reg_data = set$points[,c(1:9)]
+#glimpse(reg_data)
+#table(reg_data$genre)
+#t(table(reg_data$genre,reg_data$worker_id))
+#summary(reg_data)
+```
+
+## Checking points
+```{r}
+ggplot(reg_data,aes(x = SVD1, y = SVD2)) + geom_point()
+```
+
+## Checking other groups
+
+### genre
+```{r}
+ggplot(reg_data, aes(x = genre, y = SVD1)) + geom_boxplot()
+ggplot(reg_data, aes(x = genre, y = SVD2)) + geom_boxplot()
+
+```
+### ownership
+```{r}
+ggplot(reg_data, aes(x = ownershipMetadata, y = SVD1)) + geom_boxplot()
+ggplot(reg_data, aes(x = ownershipMetadata, y = SVD2)) + geom_boxplot()
+
+```
+
+### temperature
+```{r}
+ggplot(reg_data, aes(x = as.factor(highTemp), y = SVD1)) + geom_boxplot()
+ggplot(reg_data, aes(x = as.factor(highTemp), y = SVD2)) + geom_boxplot()
+```
+
+## Clustering of observations
+```{r}
+ICCest(worker_id,SVD1,reg_data) #CI does not contain zero; significant
+ICCest(worker_id,SVD2,reg_data) #CI does not contain zero; significant
+
+#suggests multilevel models are appropriate for these data
+
+ICCest(prompt_code,SVD1,reg_data) #CI does contains zero; not significant
+ICCest(prompt_code,SVD2,reg_data) #CI contains zero; not significant
+```
+
+## Regression analysis
+
+### SVD1
+```{r}
+#mod.x.1 = lmerTest::lmer(SVD1 ~ genre*ownershipMetadata*highTemp + (1|worker_id),data = reg_data)
+
+#confint(mod.x.1)
+
+#mod.x.2 = lmerTest::lmer(SVD1 ~ genre + ownershipMetadata + highTemp + (1|worker_id),data = reg_data)
+
+#confint(mod.x.2)
+
+#suggests only ownership is signficant
+
+mod.x.3 = lmerTest::lmer(SVD1 ~ ownershipMetadata + (1|worker_id),data = reg_data)
+
+summary(mod.x.3)
+
+```
+#### Check model
+```{r}
+check.x = check_model(mod.x.3, check = c("qq","normality","linearity", "homogeneity", "outliers","reqq")) #looks pretty good
+
+check.x
+
+check_outliers(mod.x.3,"mahalanobis")
+```
+
+#### Effect size
+```{r}
+
+demean = function(x){
+  return(x - mean(x))
+}
+
+cohensd = function(diff_,x1,x2){
+  num = diff_
+  denom = sqrt((sum(demean(x1)^2) + sum(demean(x2)^2))/(length(x1) + length(x2) - 2))
+  return(num/denom)
+  
+}
+
+```
+
+
+```{r}
+diff_ = coefficients(mod.x.3)$worker_id$ownershipMetadatauser[1]
+x1 = as.matrix(set$points$ownershipMetadata$user)[,"SVD1"]
+x2 = as.matrix(set$points$ownershipMetadata$api)[,"SVD1"]
+
+cohensd(diff_ = diff_,x1,x2)
+
+
+```
+
+### SVD2
+
+```{r}
+# mod.y.1 = lmerTest::lmer(SVD2 ~ genre*ownershipMetadata*highTemp + (1|worker_id),data = reg_data)
+# 
+# summary(mod.y.1)
+# 
+# 
+# mod.y.2 = lmerTest::lmer(SVD2 ~ genre + ownershipMetadata + highTemp  + (1|worker_id),data = reg_data)
+# 
+# summary(mod.y.2)
+
+mod.y.3 = lmerTest::lmer(SVD2 ~ genre  + (1|worker_id),data = reg_data)
+
+summary(mod.y.3)
+
+```
+#### check model
+```{r}
+check.y = check_model(mod.y.3, check = c("qq","normality","linearity", "homogeneity", "outliers","reqq")) #looks pretty good
+
+check.y
+
+check_outliers(mod.y.3,"mahalanobis")
+```
+
+#### Effect size (genre)
+```{r}
+diff_ = coefficients(mod.y.3)$worker_id$genre[1]
+x1 = as.matrix(set$points$genre$creative)[,"SVD2"]
+x2 = as.matrix(set$points$genre$argumentative)[,"SVD2"]
+
+cohensd(diff_,x1,x2)
+```
+
+
+# ENA plots
+
+## Mean networks (ownership)
+```{r}
+user_pts = as.matrix(set$points$ownershipMetadata$user)
+api_pts = as.matrix(set$points$ownershipMetadata$api)
+
+user_net = colMeans(as.matrix(set$line.weights$ownershipMetadata$user))
+api_net = colMeans(as.matrix(set$line.weights$ownershipMetadata$api))
+
+plot_user = ena.plot(set, scale.to = "network", title = "User")  %>%
+       #ena.plot.points(points = creat_pts, colors = c("blue"))  %>%
+       ena.plot.group(point = user_pts,
+                      colors =c("blue"), confidence.interval = "none")  %>%
+       ena.plot.network(network = user_net,colors = c("blue") )
+
+
+plot_api = ena.plot(set, scale.to = "network", title = "Api")  %>%
+      # ena.plot.points(points = arg_pts, colors = c("red"))  %>%
+       ena.plot.group(point = api_pts,
+                      colors =c("red"), confidence.interval = "none")  %>%
+       ena.plot.network(network = api_net,colors = c("red") )
+
+plot_user$plot
+plot_api$plot
+
+```
+## Network subtraction (ownership)
+```{r }
+
+net_mult = 3
+
+plot_sub = ena.plot(set, scale.to = "network", title = "API vs User")  %>%
+       ena.plot.group(point = user_pts,
+                      colors =c("blue"), confidence.interval = "box")  %>%
+       ena.plot.group(point = api_pts,
+                      colors =c("red"), confidence.interval = "box") %>% 
+       ena.plot.network(network = (user_net - api_net) * net_mult,colors = c("blue","red") )
+plot_sub$plot
+```
+## Mean networks (genre)
+```{r}
+creat_pts = as.matrix(set$points$genre$creative)
+arg_pts = as.matrix(set$points$genre$argumentative)
+
+creat_net = colMeans(as.matrix(set$line.weights$genre$creative))
+arg_net = colMeans(as.matrix(set$line.weights$genre$argumentative))
+
+plot_cr = ena.plot(set, scale.to = "network", title = "Creative")  %>%
+       #ena.plot.points(points = creat_pts, colors = c("blue"))  %>%
+       ena.plot.group(point = creat_pts,
+                      colors =c("blue"), confidence.interval = "none")  %>%
+       ena.plot.network(network = creat_net,colors = c("blue") )
+
+
+plot_arg = ena.plot(set, scale.to = "network", title = "Argumentative")  %>%
+      # ena.plot.points(points = arg_pts, colors = c("red"))  %>%
+       ena.plot.group(point = arg_pts,
+                      colors =c("red"), confidence.interval = "none")  %>%
+       ena.plot.network(network = arg_net,colors = c("red") )
+
+plot_cr$plot
+plot_arg$plot
+
+```
+
+## Network subtraction (genre)
+```{r }
+
+net_mult = 5
+
+plot_sub = ena.plot(set, scale.to = "network", title = "Creative vs Argumentative")  %>%
+       ena.plot.group(point = creat_pts,
+                      colors =c("blue"), confidence.interval = "box")  %>%
+       ena.plot.group(point = arg_pts,
+                      colors =c("red"), confidence.interval = "box") %>% 
+       ena.plot.network(network = (creat_net - arg_net) * net_mult,colors = c("blue","red") )
+plot_sub$plot
+```
