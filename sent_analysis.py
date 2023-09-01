@@ -17,6 +17,7 @@ import time
 import collections
 from sklearn.metrics.pairwise import linear_kernel
 from spellchecker import SpellChecker
+from datetime import datetime
 
 
 def insert(df: pd.DataFrame, index: int) -> bool:
@@ -242,13 +243,13 @@ def get_index(df: pd.DataFrame, index: int) -> int:
         while cursor > 0:
             for i in range(len(sent_with_index)):
                 if sent_with_index[i][1] <= cursor <= sent_with_index[i][2]:
-                    return sent_with_index[i][3]+1
+                    return sent_with_index[i][3] + 1
             cursor -= 1
     else:
         for i in range(len(sent_with_index)):
             # if df['textDelta'].isnull()[index]:
             if sent_with_index[i][1] <= df['currentCursor'][index] <= sent_with_index[i][2]:
-                return sent_with_index[i][3]+1
+                return sent_with_index[i][3] + 1
         return -1
 
 
@@ -257,7 +258,7 @@ def relocate(df: pd.DataFrame, index: int, sent_pair: list) -> bool:
     if sent_pair[1] == 'None':
         return True
     # case 2: add/transfer a sentence
-    if len(sent_tokenize(df['currentDoc'][index])) > len(sent_tokenize(df['currentDoc'][index-1])) \
+    if len(sent_tokenize(df['currentDoc'][index])) > len(sent_tokenize(df['currentDoc'][index - 1])) \
             and post_text_identifier(df, index):
         return True
 
@@ -270,31 +271,19 @@ def compose(df: pd.DataFrame, index: int) -> bool:
 
 def modify_low(df: pd.DataFrame, index: int, sent_pair: list) -> bool:
     if revise(df, index):
-        if sent_pair[3] >= 0.8:    # sent_pair[2] == 'api' and
-            return True
-        if sent_pair[3] == 100:    # sent_pair[2] == 'api' and
-            return False
-
-
-def modify_high(df: pd.DataFrame, index: int, sent_pair: list) -> bool:
-    if revise(df, index):
-        if sent_pair[3] < 0.8:   # sent_pair[2] == 'api' and
+        if sent_pair[3] >= 0.8:  # sent_pair[2] == 'api' and
             return True
         if sent_pair[3] == 100:  # sent_pair[2] == 'api' and
             return False
 
 
-# def pair_similarity(original_list: list, final_list: list) -> list:
-#     res = []
-#     model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-#     for i in range(len(original_list)):
-#         origin=original_list[i][0]
-#         final=final_list[i][0]
-#         sent_pair = [original_list[i][0], final_list[i][0]]
-#         embeddings = model.encode(sent_pair)
-#         res.append(cosine_similarity(embeddings)[0][1])
-#
-#     return res
+def modify_high(df: pd.DataFrame, index: int, sent_pair: list) -> bool:
+    if revise(df, index):
+        if sent_pair[3] < 0.8:  # sent_pair[2] == 'api' and
+            return True
+        if sent_pair[3] == 100:  # sent_pair[2] == 'api' and
+            return False
+
 
 def pair_similarity(original_list: list, final_list: list) -> list:
     res = []
@@ -354,6 +343,21 @@ def behavioural_code_identifier(df: pd.DataFrame, index: int, original_list: lis
     # 7.Dismiss Suggestion
     if df['eventName'][index] == 'suggestion-close' and df['eventSource'][index] == 'user':
         behaviour_seq.append('dismissSugg')
+    # 8. Reopen suggestion
+    if df['eventName'][index] == 'suggestion-reopen':
+        behaviour_seq.append('reopenSugg')
+
+    if df['eventName'][index] == 'suggestion-hover':
+        behaviour_seq.append('hoverSugg')
+
+    if df['eventName'][index] == 'cursor-forward':
+        behaviour_seq.append('cursorFwd')
+
+    if df['eventName'][index] == 'cursor-backward':
+        behaviour_seq.append("cursorBwd")
+
+    if df['eventName'][index] == 'cursor-select':
+        behaviour_seq.append("cursorSelect")
 
     if df['eventName'][index] == 'suggestion-get' and df['eventName'][index + 1] != 'suggestion-open':
         behaviour_seq.append('dismissSugg')
@@ -409,6 +413,7 @@ def execute(file_name: str, genre: str):
     #         print([original[i], final[i], similarity_list[i]])
 
     cols = ["eventName",
+            "eventTimestamp",
             "currentDoc",
             "eventSource",
             "sentIndex",
@@ -420,14 +425,20 @@ def execute(file_name: str, genre: str):
             "seekSugg",
             "acceptSugg",
             "dismissSugg",
+            "reopenSugg",
             "reviseSugg",
+            "hoverSugg",
             "reviseUser",
+            "cursorFwd",
+            "cursorBwd",
+            "cursorSelect",
             "lowModification",
             "highModification",
             "highTemp",
             "lowTemp"]
     df2 = pd.DataFrame(columns=cols)
-    ops = ['text-insert', 'text-delete', 'suggestion-get']
+    ops = ['text-insert', 'text-delete', 'suggestion-get', 'suggestion-hover', 'suggestion-reopen', 'cursor-forward',
+           'cursor-backward', 'cursor-select']
     for i in range(len(data)):
         # print(i)
         if data['eventName'][i] == 'text-insert' and len(eval(data['textDelta'][i])['ops']) == 2 and 'insert' in \
@@ -443,11 +454,14 @@ def execute(file_name: str, genre: str):
             code_list = behavioural_code_identifier(data, i, original, final, similarity=similarity_list) + [
                 ('lowTemp' if data['currentTemperature'][i] < 0.5 else 'highTemp')]
             # Columns to fill with the same content from the existing dataset (data)
-            given_list_2 = ['eventName', 'currentDoc', 'eventSource', 'sentIndex']
+            given_list_2 = ['eventName', 'currentDoc', 'eventSource', 'eventTimestamp', 'sentIndex']
             # Accessing the values from the last row of the existing dataset (data) for the specified columns
-            values_to_copy = data[given_list_2[:3]].iloc[i].to_dict()
+            values_to_copy = data[given_list_2[:4]].iloc[i].to_dict()
             values_to_copy['currentDoc'] = values_to_copy['currentDoc']  # [len(data['currentDoc'][0]):]
+            values_to_copy['eventTimestamp'] = datetime.fromtimestamp(values_to_copy['eventTimestamp'] / 1000).strftime(
+                "%m/%d/%Y %H:%M:%S:%f")
             values_to_copy['sentIndex'] = get_index(data, i)
+
             # Creating the new row with the specified values and 1 in the given columns
             new_row = {col: values_to_copy[col] if col in given_list_2 else (1 if col in code_list else 0) for col in
                        df2.columns}
@@ -458,23 +472,39 @@ def execute(file_name: str, genre: str):
     df2 = df2[df2.sentIndex != -1]
 
     df2.fillna(0, inplace=True)
+    if genre == 'argumentativeMappingNew':
+        df2.to_csv('./{}/{}.csv'.format(genre, file_name[16:48]), index=False)  # [11:43] [16:48]
 
-    df2.to_csv('./{}/{}.csv'.format(genre, file_name[16:48]), index=False)  # [11:43] [16:48]
+    if genre == 'creativeMappingNew':
+        df2.to_csv('./{}/{}.csv'.format(genre, file_name[11:43]), index=False)  # [11:43] [16:48]
 
 
 def main():
-    # directory = './creative/'   # creative argumentative
-    # files = os.listdir(directory)
-    # files_mapping = os.listdir('./argumentativeMapping/')
-    # index = 0
-    # for file in files:
-    #     if file not in files_mapping:                          # and50<index<100         file not in files_mapping
-    #         print('file: ', file)
-    #         start_time = time.time()
-    #         execute(file_name=directory + file, genre='creativeMapping')   # creativeMapping    argumentativeMapping
-    #         print("--- %s seconds ---" % (time.time() - start_time))
-    #     index += 1
-    execute('a068c.csv', genre='creativeMapping')
+    directory = './argumentative/'  # creative argumentative
+    files = os.listdir(directory)
+    files_mapping_argumentative = os.listdir('./argumentativeMappingNew/')
+    index = 0
+    for file in files:
+        if file not in files_mapping_argumentative:  # and50<index<100         file not in files_mapping
+            print('file: ', file)
+            start_time = time.time()
+            execute(file_name=directory + file,
+                    genre='argumentativeMappingNew')  # creativeMapping    argumentativeMapping
+            print("--- %s seconds ---" % (time.time() - start_time))
+        index += 1
+
+    directory1 = './creative/'
+    files1 = os.listdir(directory1)
+    files_mapping_creative = os.listdir('./creativeMappingNew/')
+    for file in files1:
+        if file not in files_mapping_creative:
+            print('file: ', file)
+            start_time = time.time()
+            execute(file_name=directory1 + file,
+                    genre='creativeMappingNew')  # creativeMapping    argumentativeMapping
+            print("--- %s seconds ---" % (time.time() - start_time))
+
+    # execute('a068c.csv', genre='creativeMapping')
 
 
 if __name__ == '__main__':
